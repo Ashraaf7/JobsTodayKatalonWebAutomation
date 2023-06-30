@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_English</name>
+   <tag></tag>
+   <elementGuidId>db3a1da4-9138-4942-9add-8e1271b298be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='addLanguage']/div/div/div/label/div[2]/div/div[2]/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5eea4c42-93ac-4c0b-b80d-adfcb12dc7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English</value>
+      <webElementGuid>6ecb745f-e3ef-4e94-8714-1482f08a6393</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addLanguage&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>ad77ac07-e6cd-4372-99b0-118e685e8429</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='addLanguage']/div/div/div/label/div[2]/div/div[2]/ul/li[2]</value>
+      <webElementGuid>4426fe52-1163-4da0-bd85-c5d7041d8da3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select language'])[3]/following::li[1]</value>
+      <webElementGuid>a78395a9-b169-4515-ae78-2321e573a031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select language'])[2]/following::li[2]</value>
+      <webElementGuid>bf84acb8-f587-4959-8368-df98ca95b2e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='German'])[2]/preceding::li[1]</value>
+      <webElementGuid>3e70e10b-026a-49d8-86e4-6797ec0241ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Polish'])[2]/preceding::li[2]</value>
+      <webElementGuid>c23ed895-4a31-4940-9d60-07ca4a74cdbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div[2]/div/div/form/div/div/div/label/div[2]/div/div[2]/ul/li[2]</value>
+      <webElementGuid>26e1a838-0261-4743-b611-156167e6caf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'English' or . = 'English')]</value>
+      <webElementGuid>d6ddfd85-fdd4-431e-ab9d-c16dd3d622ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

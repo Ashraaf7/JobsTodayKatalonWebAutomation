@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Salutation_jq-selectbox__trigger-arrow</name>
+   <tag></tag>
+   <elementGuidId>90e02723-6d0b-4679-b9c3-f63e89098602</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-item._xsm > label.label-wrap > div.input-wrap > div.jq-selectbox.jqselect.e-input.c-select > div.jq-selectbox__select > div.jq-selectbox__trigger > div.jq-selectbox__trigger-arrow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;profile_info&quot;]/div[1]/div[1]/section/div/div[1]/div[1]/label/div[2]/div[1]/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a190752-d065-4bc3-9149-6512b367e045</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jq-selectbox__trigger-arrow</value>
+      <webElementGuid>5738c42a-395a-4b7f-b0de-3fbd682e75e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;profile_info&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;e-additional-info&quot;]/section[@class=&quot;e-text-info item&quot;]/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item _xsm&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select&quot;]/div[@class=&quot;jq-selectbox__select&quot;]/div[@class=&quot;jq-selectbox__trigger&quot;]/div[@class=&quot;jq-selectbox__trigger-arrow&quot;]</value>
+      <webElementGuid>4ade27bd-065b-4145-ad3e-1df85c73870a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='profile_info']/div/div/section/div/div/div/label/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>bd02f5c7-b763-4aef-a2e0-db07b4d1150a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/label/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>c6447667-bb78-46a8-a2f8-78e42c38c456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

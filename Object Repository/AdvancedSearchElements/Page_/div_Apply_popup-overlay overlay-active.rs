@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Apply_popup-overlay overlay-active</name>
+   <tag></tag>
+   <elementGuidId>284cfce9-3219-488f-83bd-175beff77aa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.popup-overlay.overlay-active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5226f97d-4566-45de-aa48-d444f9fa5a8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popup-overlay overlay-active</value>
+      <webElementGuid>f6479c96-ddd7-47e4-b373-b22b96855b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;inner--page find-job-page&quot;]/div[@class=&quot;popup-overlay overlay-active&quot;]</value>
+      <webElementGuid>494c9cec-02ae-4493-a8c0-f4c00ea1b09a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]</value>
+      <webElementGuid>fb479e6c-5c61-4642-ad24-8f9fce7e4c4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

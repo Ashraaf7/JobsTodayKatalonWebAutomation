@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_January</name>
+   <tag></tag>
+   <elementGuidId>f9a32b8c-303f-48c7-8965-d0f8fc6d49ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@novalidate=&quot;novalidate&quot;]/div/div[4]/div/div/div/div/div/div/div[2]/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>7cba91a3-ee6d-410f-bb34-17ac625d6f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>January</value>
+      <webElementGuid>dcf64909-b150-443f-8698-f0e3c530cac3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;label-wrap&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>56a77c4c-b9c6-4a8e-bad1-74e402dfbf6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_professional_expirience_form_3488']/div/div[4]/div/div/div/div/div/div/div[2]/ul/li[2]</value>
+      <webElementGuid>20661c09-f0a9-44be-be34-a767d6705227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[3]/following::li[1]</value>
+      <webElementGuid>5b0af5b4-f59c-48d8-8029-3590040c3324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[2]/following::li[2]</value>
+      <webElementGuid>db76118d-c675-4a3a-b934-792d4657cd4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='February'])[4]/preceding::li[1]</value>
+      <webElementGuid>67b6de2c-17a5-46e5-8d35-802edc22e52e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='March'])[4]/preceding::li[2]</value>
+      <webElementGuid>6dd0fd69-1450-466a-a04f-bb2973741e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/ul/li[2]</value>
+      <webElementGuid>8ae6cb77-21a2-485b-8043-abfe7752faa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'January' or . = 'January')]</value>
+      <webElementGuid>707c3c14-ce7d-45ef-8cfd-ecce1569f93a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

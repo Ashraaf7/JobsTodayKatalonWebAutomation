@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select yearfrom_jq-selectbox__trigger</name>
+   <tag></tag>
+   <elementGuidId>c1885736-20e9-4cbb-994a-3f6d7b120a7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@novalidate=&quot;novalidate&quot;]/div/div[4]/div/div/div/div/div/div/div/div[2])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-item > div.input-wrap > div.jq-selectbox.jqselect.e-input.c-select > div.jq-selectbox__select > div.jq-selectbox__trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bc8622a8-8587-4fe8-a6df-69b9e572cad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jq-selectbox__trigger</value>
+      <webElementGuid>c5176465-51e6-4925-9956-70478bef2028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;label-wrap&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select&quot;]/div[@class=&quot;jq-selectbox__select&quot;]/div[@class=&quot;jq-selectbox__trigger&quot;]</value>
+      <webElementGuid>72a96e33-0784-4644-87fb-58d069deb95f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_professional_expirience_form_3488']/div/div[4]/div/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>ab0c92ea-42a9-478e-b15e-7ad53948cacb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[2]/following::div[1]</value>
+      <webElementGuid>f021605d-08c0-4146-8362-56974fcc38c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[3]/preceding::div[2]</value>
+      <webElementGuid>b0141990-7ad0-4213-8671-50753d8b7076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='January'])[5]/preceding::div[2]</value>
+      <webElementGuid>8b21c0ec-e026-46ed-9cff-36d85b2efcb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>9fcd9cc8-9dbf-4843-8f07-ff4c0091ceb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DE</name>
+   <tag></tag>
+   <elementGuidId>7bb7a71a-c8ae-43b7-ab40-45d3b35f7536</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;header&quot;]/div[3]/div[2]/ul/li[3]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.custom-select-trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4f3e2fb7-62c3-4fac-a096-943c69e4e1f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-select-trigger</value>
+      <webElementGuid>149c60b8-eccb-475c-abbf-0e40dc3f237c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DE</value>
+      <webElementGuid>0595797f-ef23-4573-8f12-2ca9c84bdcb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;language-dropdown&quot;]/div[@class=&quot;select-box select-language&quot;]/div[@class=&quot;custom-select-wrapper&quot;]/div[@class=&quot;custom-select-wrapper&quot;]/div[@class=&quot;custom-select&quot;]/span[@class=&quot;custom-select-trigger&quot;]</value>
+      <webElementGuid>de006d8d-3a12-4c24-9c07-83cbe6a44ff3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[3]/div[2]/ul/li[3]/div/div/div/div/span</value>
+      <webElementGuid>e0988105-52cb-4919-b29d-89addf780cd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Anmelden'])[2]/following::span[1]</value>
+      <webElementGuid>eaf5a037-3f3f-4614-8c2a-1f7128e914a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrierung'])[2]/following::span[1]</value>
+      <webElementGuid>f038746c-6005-48ac-b0c0-02028fab493d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[3]/preceding::span[1]</value>
+      <webElementGuid>49eb9c7a-1acd-4e53-893f-1219880eaa08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DE'])[4]/preceding::span[2]</value>
+      <webElementGuid>0b766deb-1fac-47d7-838e-9f3a3508032e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/span</value>
+      <webElementGuid>78acaf8d-7566-41c6-a4ac-080e73639189</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'DE' or . = 'DE')]</value>
+      <webElementGuid>117d3b4d-ada4-4391-b1f3-9d011f54c98d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

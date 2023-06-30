@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create Resume</name>
+   <tag></tag>
+   <elementGuidId>7337b3b6-943a-473d-a587-c8cc5e23b734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;create_resume&quot;]/div[3]/div[1]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#create_resume_btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3aca5d86-1ee9-464b-9581-fdb110404ee3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>create_resume_btn</value>
+      <webElementGuid>5968a307-bc8f-4591-b73c-b2f94fee2356</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-c-modal-number</name>
+      <type>Main</type>
+      <value>19</value>
+      <webElementGuid>efac6ff1-9b6e-45f8-8dd1-6fa34586bada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-ol-btn -ol-btn-primary c-modal__bind</value>
+      <webElementGuid>2d2b3af5-e3df-4c49-a5ca-84b5d457ebdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        Create Resume                                    </value>
+      <webElementGuid>c4832ce1-e856-4ee5-8c6d-c287fb8786bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_resume_btn&quot;)</value>
+      <webElementGuid>9985a9e1-e793-4b96-8407-9648f7e26777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='create_resume_btn']</value>
+      <webElementGuid>ae1cbf77-aa6c-4fec-9b91-c408234c3dcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page_content']/section/div/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>15baa3f8-ac1b-4a22-8991-0b46077226dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View resume'])[3]/following::button[1]</value>
+      <webElementGuid>c9471ab4-95c4-4b21-ab30-bdfcbda4246e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resume3'])[1]/following::button[2]</value>
+      <webElementGuid>85e040dc-b5db-4edb-a259-55e1030764ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::button[1]</value>
+      <webElementGuid>63c90827-6b52-4990-b54e-9d1b8cee413b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[2]</value>
+      <webElementGuid>150f36a8-3106-4071-b391-0c397ddfd163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Resume']/parent::*</value>
+      <webElementGuid>bb2bcb69-e11b-4a64-a16c-197256c2df9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>83964381-8428-4401-b8b3-f01a220d6528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'create_resume_btn' and (text() = '
+                                        Create Resume                                    ' or . = '
+                                        Create Resume                                    ')]</value>
+      <webElementGuid>f1eb119a-8d53-485e-906a-b8feb2c887b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

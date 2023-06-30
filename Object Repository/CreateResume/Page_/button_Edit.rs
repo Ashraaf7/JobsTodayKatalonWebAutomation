@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit</name>
+   <tag></tag>
+   <elementGuidId>9ba52169-4ff5-4539-b6e5-5e561642690e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.-ol-btn-primary.-ol-btn_sm.c-resume__edit-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c264a632-2769-49af-b733-17d4876b8e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>88cf3bd5-c936-4c0a-815e-2114b06d7ef5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-ol-btn-primary -ol-btn_sm c-resume__edit-btn</value>
+      <webElementGuid>a5fdda49-1361-4ae9-a12b-89476532ec1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                Edit                                                            </value>
+      <webElementGuid>d8083379-2c37-46d9-85e5-0be32d91e9f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;profile-info&quot;)/div[@class=&quot;b-resume__section-item b-resume__section-item_m_t_min b-resume__section-item_info&quot;]/div[@class=&quot;b-resume__section-item-inner&quot;]/div[@class=&quot;b-footer-control b-footer-control_last&quot;]/div[@class=&quot;b-footer-control__side b-footer-control__side_first&quot;]/div[@class=&quot;b-footer-control__side-inner&quot;]/div[@class=&quot;b-footer-control__side-inner-item&quot;]/button[@class=&quot;-ol-btn-primary -ol-btn_sm c-resume__edit-btn&quot;]</value>
+      <webElementGuid>6b7c479b-3a5e-4c0a-b812-64a906d03450</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>b6450a18-e397-4122-93bf-6a6c1548b2c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='profile-info']/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>27cfab6f-f4f6-4c96-a298-b3096e8c60be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL INFORMATION'])[1]/following::button[1]</value>
+      <webElementGuid>b7334dcd-ccde-483f-bc2f-f3c52e1ff465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/preceding::button[1]</value>
+      <webElementGuid>e11f2707-14e3-4656-9c4e-9f5aff945f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      <webElementGuid>0c2fe2c5-5d53-43be-a6b5-d7ca58a8dbf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>315a03c7-bb7a-4b8a-9ae2-1317c08fd55c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                                                                Edit                                                            ' or . = '
+                                                                Edit                                                            ')]</value>
+      <webElementGuid>b03df012-ca5f-463e-8ac4-647b9d73d23a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

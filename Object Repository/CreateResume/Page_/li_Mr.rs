@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Mr</name>
+   <tag></tag>
+   <elementGuidId>99039e55-c681-4476-b7f3-dbd58b5f2e14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;profile_info&quot;]/div[1]/div[1]/section/div/div[1]/div[1]/label/div[2]/div[1]/div[2]/ul/li[2]
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>3e2a3f3a-a3d7-4576-bb36-6bfc6f033c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mr.</value>
+      <webElementGuid>e82d6912-7bd9-4e30-b798-3b92edd1094e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;profile_info&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;e-additional-info&quot;]/section[@class=&quot;e-text-info item&quot;]/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item _xsm&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>f108a71a-3b98-4977-8b58-282693ea7c79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='profile_info']/div/div/section/div/div/div/label/div[2]/div/div[2]/ul/li[2]</value>
+      <webElementGuid>dde7a594-2c3f-426f-b336-20180e0eed3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation'])[3]/following::li[1]</value>
+      <webElementGuid>c98e43c7-5b68-4b2b-8339-935a8ca0b671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation'])[2]/following::li[2]</value>
+      <webElementGuid>b924df9d-33a7-493e-beb7-87efc935003d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ms.'])[2]/preceding::li[1]</value>
+      <webElementGuid>66ea3a4f-e9a8-4a36-bc68-49b988fc6da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mrs.'])[2]/preceding::li[2]</value>
+      <webElementGuid>39e04742-a176-460b-8d82-9e0cc357e88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/label/div[2]/div/div[2]/ul/li[2]</value>
+      <webElementGuid>db6a7185-7cdd-4b56-88b1-4e93ab80265f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Mr.' or . = 'Mr.')]</value>
+      <webElementGuid>53b41212-d8e6-4a47-af70-58cfe5dea909</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

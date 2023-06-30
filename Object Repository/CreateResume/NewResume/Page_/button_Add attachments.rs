@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add attachments</name>
+   <tag></tag>
+   <elementGuidId>28b45db2-da3e-4514-97f1-9ef13961faea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='add_attachments']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#add_attachments</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2c72f182-d71d-4f0c-9240-94c627b37d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>736dde55-38e1-42c5-91d9-2291474fe6ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>add_attachments</value>
+      <webElementGuid>d1d820b6-a2f5-4621-b529-6336d805bc5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('#file_error').html('');</value>
+      <webElementGuid>7c5f9e2e-a436-4e4c-b2a0-ef622edfd89e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-ol-btn-primary -ol-btn_sm c-resume__edit-btn</value>
+      <webElementGuid>2647167c-db5e-4731-825b-c906d8c74a80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                Add attachments                                                            </value>
+      <webElementGuid>f1289eff-2d07-44ef-9bea-b27a73edd894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add_attachments&quot;)</value>
+      <webElementGuid>d4b85df5-c1a6-46a0-aff3-113b919d96a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='add_attachments']</value>
+      <webElementGuid>f3c86576-fb94-49d0-99e0-26ffd5844884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='attachments']/div/div/div[2]/div/div/div[2]/button</value>
+      <webElementGuid>03c7b0bb-6a8b-454b-824a-4eb0f71f30ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[8]/following::button[1]</value>
+      <webElementGuid>5837d044-ffcc-4518-9836-16e56d0567ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[2]/preceding::button[1]</value>
+      <webElementGuid>5f2c0458-0af0-4b0c-9aee-69b1ebad009a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allowed file types: .doc, .docx, .pdf, .rtf, .jpg, .png (Maximum 5 MB/attachment)'])[1]/preceding::button[2]</value>
+      <webElementGuid>c2c21dcf-bca3-40a4-b02c-44d905222f40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add attachments']/parent::*</value>
+      <webElementGuid>e308899a-7653-4da5-91d7-130071529061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[8]/div/div/div/div[2]/div/div/div[2]/button</value>
+      <webElementGuid>c836ba85-00a5-4cfd-94af-95a456e3947a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'add_attachments' and (text() = '
+                                                                Add attachments                                                            ' or . = '
+                                                                Add attachments                                                            ')]</value>
+      <webElementGuid>059d2f53-4481-44ac-9454-b9e43e68cd73</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

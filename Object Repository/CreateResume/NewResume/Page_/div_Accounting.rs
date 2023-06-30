@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Accounting</name>
+   <tag></tag>
+   <elementGuidId>3a349bdf-ed3b-432b-89f8-0b007b3cf99e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;set-preferences-industry&quot;]/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ms-res-item.ms-res-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>acc68849-f222-4587-af29-a7a49ef48407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-res-item ms-res-item-active</value>
+      <webElementGuid>479681d3-0eb2-4e52-b365-83006187d127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-json</name>
+      <type>Main</type>
+      <value>{&quot;id&quot;:&quot;Accounting&quot;,&quot;name&quot;:&quot;Accounting&quot;}</value>
+      <webElementGuid>7de78553-f8eb-40a7-b90c-1c6a856c352e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accounting</value>
+      <webElementGuid>1504aa81-e4bb-49b4-a7cc-0327385bf0ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;set-preferences-industry&quot;)/div[@class=&quot;ms-res-ctn dropdown-menu&quot;]/div[@class=&quot;ms-res-item ms-res-item-active&quot;]</value>
+      <webElementGuid>d75182bf-eff4-44f2-b39c-787cb7235025</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='set-preferences-industry']/div[3]/div</value>
+      <webElementGuid>55a230a5-c597-4787-8ad7-b59a9740215c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specify your ideal industries. You can specify up to 3 different industries.'])[1]/following::div[9]</value>
+      <webElementGuid>b72eebf8-5c5c-4f63-b231-d6dc312384c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting/Tax/Legal'])[5]/preceding::div[1]</value>
+      <webElementGuid>dae75c00-705a-4d58-8ed8-064c21640a05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[7]/preceding::div[2]</value>
+      <webElementGuid>3458a966-1166-4552-984f-6a33c22c8eea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div</value>
+      <webElementGuid>82bfbab6-ec2c-41f9-9494-68861a0c9066</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Accounting' or . = 'Accounting')]</value>
+      <webElementGuid>44012e11-9a59-4f33-bd8c-fca6e7e5a73e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

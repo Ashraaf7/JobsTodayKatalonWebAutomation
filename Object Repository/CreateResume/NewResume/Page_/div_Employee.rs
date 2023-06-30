@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Employee</name>
+   <tag></tag>
+   <elementGuidId>fbc64903-c46f-4a9c-9d6d-fb19b792aa74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='set-preferences-position']/div[3]/div)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ms-res-item.ms-res-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a00ea782-f177-4e2a-9f3b-c9eba716ccb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-res-item ms-res-item-active</value>
+      <webElementGuid>0fbe3ceb-9e23-4570-a573-9095790ee4e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-json</name>
+      <type>Main</type>
+      <value>{&quot;id&quot;:&quot;Employee&quot;,&quot;name&quot;:&quot;Employee&quot;}</value>
+      <webElementGuid>9cc2e1ea-7624-4908-a490-f6cbde7ddc88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee</value>
+      <webElementGuid>58b8a6fa-9064-46ee-b189-400c7ee39270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;set-preferences-position&quot;)/div[@class=&quot;ms-res-ctn dropdown-menu&quot;]/div[@class=&quot;ms-res-item ms-res-item-active&quot;]</value>
+      <webElementGuid>9a01c5ee-0bb7-4249-b71b-5836424ed597</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='set-preferences-position']/div[3]/div</value>
+      <webElementGuid>8327cc62-1351-4670-82ea-3a5b3845db4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specify your ideal position. You can specify up to 3 different positions.'])[1]/following::div[9]</value>
+      <webElementGuid>4139bd4f-dba1-4468-9d41-fdf6923b43a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Senior employee'])[7]/preceding::div[1]</value>
+      <webElementGuid>4ac162e6-d831-4128-8230-25c263414aaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manager'])[5]/preceding::div[2]</value>
+      <webElementGuid>0e84e80a-c9ba-4c34-a4ed-33a4e1082b38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div</value>
+      <webElementGuid>0fcc0c24-217d-4ae2-a07f-c60dd0d17239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Employee' or . = 'Employee')]</value>
+      <webElementGuid>649afd2d-4c41-4a6a-859e-c5f9185a1e2f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

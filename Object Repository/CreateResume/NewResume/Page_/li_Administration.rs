@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Administration</name>
+   <tag></tag>
+   <elementGuidId>85e31b8d-848e-4e72-9e22-ad777258606a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@novalidate=&quot;novalidate&quot;]/div[1]/div[2]/div[1]/label/div[2]/div/div[2]/ul/li[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>023d3c1e-b195-4e47-b42a-1f17692159ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Administration</value>
+      <webElementGuid>1254af01-99c9-453a-ad0c-2a6e70333a49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[4]</value>
+      <webElementGuid>069c72c8-4c0b-4c31-b3d6-8b488d90c43f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_professional_expirience_form_3488']/div/div[2]/div/label/div[2]/div/div[2]/ul/li[4]</value>
+      <webElementGuid>0d66b6cd-ed46-4b0e-8384-229ebbe73eed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting/Tax/Legal'])[2]/following::li[1]</value>
+      <webElementGuid>8e267532-2bd1-45e6-a09d-f29fa923c7d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[2]/following::li[2]</value>
+      <webElementGuid>74bae5aa-a3d4-491e-8966-5860222a642f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advertising/Media'])[2]/preceding::li[1]</value>
+      <webElementGuid>e6cfe025-e38e-4e08-8edf-5c92238d09ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agencies/Sponsors'])[2]/preceding::li[2]</value>
+      <webElementGuid>083f3d42-b9a1-4f43-8553-508dd6e22713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[7]/div[2]/div[2]/div/form/div/div[2]/div/label/div[2]/div/div[2]/ul/li[4]</value>
+      <webElementGuid>2adb676a-2da7-416f-9955-ab184a7f39cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Administration' or . = 'Administration')]</value>
+      <webElementGuid>bd71a687-4eca-4b8a-8126-c2c01584095d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

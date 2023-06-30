@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select the year of completion_jq-select_40f40b</name>
+   <tag></tag>
+   <elementGuidId>58ad10ab-49ca-4a75-97a0-15c621ab1c81</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='education_form_add']/div/div/div[2]/label/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#education_form_add > div.e-form-body > div.row-input > div.input-item > label.label-wrap > div.input-wrap > div.jq-selectbox.jqselect.e-input.c-select > div.jq-selectbox__select > div.jq-selectbox__trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b5308d2b-4649-4cc4-a06f-ef8178977380</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jq-selectbox__trigger</value>
+      <webElementGuid>fd11cd4f-e03c-46e4-8bad-26cd99950696</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;education_form_add&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select&quot;]/div[@class=&quot;jq-selectbox__select&quot;]/div[@class=&quot;jq-selectbox__trigger&quot;]</value>
+      <webElementGuid>1978d3ad-b856-4535-b876-49e77f18588b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='education_form_add']/div/div/div[2]/label/div[2]/div/div/div[2]</value>
+      <webElementGuid>af924d79-29d1-4840-acf1-b6a6839ecf32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select the year of completion'])[2]/following::div[1]</value>
+      <webElementGuid>0f113270-2bd3-4080-9cf8-2b4553b6073d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select the year of completion'])[3]/preceding::div[2]</value>
+      <webElementGuid>903a1de4-d522-40e9-9566-40bbdf6b3f6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select the year of completion'])[4]/preceding::div[3]</value>
+      <webElementGuid>4082f8f5-3688-4710-9575-19b476ae7f91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/form/div/div/div[2]/label/div[2]/div/div/div[2]</value>
+      <webElementGuid>53ad3bd6-b116-4032-a4b5-ea918caea704</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

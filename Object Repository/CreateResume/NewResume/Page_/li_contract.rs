@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_contract</name>
+   <tag></tag>
+   <elementGuidId>42444c8d-5ae8-4352-ad9e-22e09c410156</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[2]/section/div/div/div/div/div/div[1]/section[7]/div[2]/div[2]/div/form/div[1]/div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>bd686143-9871-4e7a-b0a1-5ea99d361035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-jqfs-class</name>
+      <type>Main</type>
+      <value>_text_capitalize</value>
+      <webElementGuid>7ddf5375-40da-4562-be09-4b6527266341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_text_capitalize</value>
+      <webElementGuid>245ac508-18bc-46f3-a73e-7ef07c145308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    contract                                </value>
+      <webElementGuid>8ac2d000-bea5-44d7-a4f5-a28e03211072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[@class=&quot;_text_capitalize&quot;]</value>
+      <webElementGuid>1759e7ba-fa14-4ce7-819e-643ec969c447</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_professional_expirience_form_3488']/div/div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
+      <webElementGuid>cdddd71b-560b-4963-b59d-aa3e20973502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='permanent'])[2]/following::li[1]</value>
+      <webElementGuid>545d37d9-72e6-4e0a-8fb2-610102e35cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select employment type'])[3]/following::li[2]</value>
+      <webElementGuid>753e7b02-0fcc-46ff-b2f6-d60ffd9cc9af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='temporary'])[2]/preceding::li[1]</value>
+      <webElementGuid>399d7965-cd0a-45ba-b284-b90742e6bb3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='project'])[2]/preceding::li[2]</value>
+      <webElementGuid>7261372b-ae6c-4fcc-bc15-e5b064b4cfab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
+      <webElementGuid>cf456d5f-6813-4190-830b-db678f02fe93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '
+                                    contract                                ' or . = '
+                                    contract                                ')]</value>
+      <webElementGuid>76017a16-6b9e-45e7-afab-9eb7fef230a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

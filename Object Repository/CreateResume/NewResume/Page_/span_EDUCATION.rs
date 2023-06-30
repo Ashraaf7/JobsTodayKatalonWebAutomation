@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_EDUCATION</name>
+   <tag></tag>
+   <elementGuidId>3bd73545-8235-4d1a-8208-5dbabce25c68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page_content']/section/div/div/div/div/div/div/section[6]/header/div/div/h3/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.b-box-heading.b-box-heading_last.b-box-heading_education > h3.b-box-heading__inner > div.b-info-icon__wrapper > div.b-info-icon__wrapper-item > span.b-box-heading__text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0c19c532-6178-46a7-8867-3af6c336af17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>b-box-heading__text</value>
+      <webElementGuid>9bb5ad6c-1348-4129-bbf7-f37d05c44488</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                  EDUCATION                              </value>
+      <webElementGuid>2004420c-559c-43b5-b224-16103671f2fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page_content&quot;)/section[@class=&quot;b-section b-section_min&quot;]/div[@class=&quot;-ol-container&quot;]/div[@class=&quot;-ol-gap-remover&quot;]/div[@class=&quot;-ol-row&quot;]/div[@class=&quot;-ol-col-12&quot;]/div[@class=&quot;-ol-gap-remover&quot;]/div[@class=&quot;b-resume c-resume&quot;]/section[@class=&quot;b-resume__section b-resume__item&quot;]/header[@class=&quot;b-box-header b-box-header_last&quot;]/div[@class=&quot;b-box-header__item b-box-header__item_first&quot;]/div[@class=&quot;b-box-heading b-box-heading_last b-box-heading_education&quot;]/h3[@class=&quot;b-box-heading__inner&quot;]/div[@class=&quot;b-info-icon__wrapper&quot;]/div[@class=&quot;b-info-icon__wrapper-item&quot;]/span[@class=&quot;b-box-heading__text&quot;]</value>
+      <webElementGuid>003d5ebf-ed13-4589-bfab-59dfe67f165d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page_content']/section/div/div/div/div/div/div/section[6]/header/div/div/h3/div/div/span</value>
+      <webElementGuid>781eee84-2f83-4454-873a-f3a6d3c6558b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[8]/following::span[1]</value>
+      <webElementGuid>6cc6ce59-eaf6-4988-abff-a04e6f6309d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[8]/following::span[1]</value>
+      <webElementGuid>2954e779-015e-4a64-92b8-10afb4862ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add education'])[1]/preceding::span[1]</value>
+      <webElementGuid>42d4632d-3816-4ce1-b531-8e7805272faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='EDUCATION']/parent::*</value>
+      <webElementGuid>829f1249-5504-486a-a899-8e4d2d2c3bf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[6]/header/div/div/h3/div/div/span</value>
+      <webElementGuid>f6b0df84-d517-4a2f-a438-a9f19388fece</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                                  EDUCATION                              ' or . = '
+                                  EDUCATION                              ')]</value>
+      <webElementGuid>259541e0-3697-42a5-80e8-5bf5123e2c3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

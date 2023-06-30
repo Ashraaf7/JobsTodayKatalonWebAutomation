@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Create Resume_e-cross c-modal__close</name>
+   <tag></tag>
+   <elementGuidId>dd6eef23-b84a-4e09-bbf0-26df0c448f61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.e-cross.c-modal__close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page_content']/div[2]/div/div/div[2]/header/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9364fcd0-0e52-4d32-906b-1519d1c8769a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>e-cross c-modal__close</value>
+      <webElementGuid>28c7b5f2-7013-43cc-a41d-25612e8ab4c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page_content&quot;)/div[@class=&quot;m-simple-box c-modal c-modal_active&quot;]/div[@class=&quot;c-modal__inner&quot;]/div[@class=&quot;c-modal__box-wrapper m-simple-box__box-wrapper&quot;]/div[@class=&quot;m-simple-box__box c-modal__box&quot;]/header[@class=&quot;m-simple-box__header&quot;]/div[@class=&quot;e-cross c-modal__close&quot;]</value>
+      <webElementGuid>d5e2528a-9507-4cb1-a7e1-003b68ca8183</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page_content']/div[2]/div/div/div[2]/header/div</value>
+      <webElementGuid>f0c80cf3-d0bd-4b30-ad4e-5d1b5c8589c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/header/div</value>
+      <webElementGuid>b4b129b0-078d-4f3a-a882-589bd9476460</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

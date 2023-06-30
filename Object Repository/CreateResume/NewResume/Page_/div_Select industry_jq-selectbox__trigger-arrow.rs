@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select industry_jq-selectbox__trigger-arrow</name>
+   <tag></tag>
+   <elementGuidId>2dc3e807-fed9-4a66-8749-6bdb47a3af6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@novalidate=&quot;novalidate&quot;]/div[1]/div[2]/div[1]/label/div[2]/div/div[1]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#create_professional_expirience_form_3488 > div.e-form-body > div.row-input > div.input-item > label.label-wrap > div.input-wrap > div.jq-selectbox.jqselect.e-input.c-select > div.jq-selectbox__select > div.jq-selectbox__trigger > div.jq-selectbox__trigger-arrow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3474b5a8-a29f-4f39-9cc7-2279b8aa9f44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jq-selectbox__trigger-arrow</value>
+      <webElementGuid>6df37fae-278f-4360-bfa3-34054c8e6a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select&quot;]/div[@class=&quot;jq-selectbox__select&quot;]/div[@class=&quot;jq-selectbox__trigger&quot;]/div[@class=&quot;jq-selectbox__trigger-arrow&quot;]</value>
+      <webElementGuid>85d9236e-cb9d-4493-a21b-c320d657a605</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='create_professional_expirience_form_3488']/div/div[2]/div/label/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>c2410450-e94a-4504-b03f-844eec3d9934</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[7]/div[2]/div[2]/div/form/div/div[2]/div/label/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>45562894-c76f-49ed-bbee-c04ffc66b157</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

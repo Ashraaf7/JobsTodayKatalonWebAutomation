@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Subscribe</name>
+   <tag></tag>
+   <elementGuidId>8aba689f-0b18-4f47-832e-bbeb8d6a208f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.submit--button > button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='New Vacancies in Your Inbox'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ab4a7440-f824-48b8-a67e-8a9975ef4553</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subscribe</value>
+      <webElementGuid>d75d62f6-7613-46b2-9179-2945d125efc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;index--page&quot;]/footer[@class=&quot;foooter&quot;]/div[@class=&quot;footer-wrapper&quot;]/div[@class=&quot;footer-main&quot;]/div[@class=&quot;news-letter&quot;]/div[@class=&quot;news-letter-section&quot;]/form[@class=&quot;subscribe-form-footer2&quot;]/div[@class=&quot;submit--button&quot;]/button[1]</value>
+      <webElementGuid>7b16d0ff-d704-4660-8c72-b7253706cc66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Vacancies in Your Inbox'])[1]/following::button[1]</value>
+      <webElementGuid>759d9506-6314-49c3-9545-c85c1c1c4a80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GDPR'])[1]/following::button[1]</value>
+      <webElementGuid>e13de347-6ef4-476b-9760-2a810f8d134a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Popular Jobs'])[2]/preceding::button[1]</value>
+      <webElementGuid>7b58e1e0-8a97-4dc4-8fcf-27816878560d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jobs by Industry'])[2]/preceding::button[1]</value>
+      <webElementGuid>a8e5ea50-4baf-446f-a631-779139592d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Subscribe']/parent::*</value>
+      <webElementGuid>5a3571c4-bd0f-4866-819b-06542126aedb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/button</value>
+      <webElementGuid>3a36bbf2-801c-423e-8e7e-9dafedd676fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Subscribe' or . = 'Subscribe')]</value>
+      <webElementGuid>a7318d7b-1a3a-4988-8042-790c5efed660</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
