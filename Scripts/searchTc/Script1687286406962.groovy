@@ -22,6 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
 WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 
 WebUI.setText(findTestObject('Object Repository/searchElements/Page_Jobs Search, Search for a Job - Jobstoday.world/input_Find employees from around the world_keywords'),

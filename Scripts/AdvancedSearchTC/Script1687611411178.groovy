@@ -27,6 +27,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+
 Thread.sleep(3000);
 
 WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
