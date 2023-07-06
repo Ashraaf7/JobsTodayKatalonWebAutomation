@@ -16,24 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
-
 
 WebUI.callTestCase(findTestCase('Test Cases/CandidatLoginTC'),  [:])
 
-WebUI.scrollToPosition(0, 0)
-WebUI.setText(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/input_New Vacancies in Your Inbox_input_email'), 
-    'Automationuser1@mailinator.com')
 
-WebUI.click(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Subscribe'))
+WebUI.click(findTestObject('Object Repository/PostJobCandidate/Page_/img'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/h5_You have successfully subscribed'))
-
-
-WebUI.closeBrowser()
-
+WebUI.click(findTestObject('Object Repository/PostJobCandidate/Page_/span_MY JOB REQUESTS'))

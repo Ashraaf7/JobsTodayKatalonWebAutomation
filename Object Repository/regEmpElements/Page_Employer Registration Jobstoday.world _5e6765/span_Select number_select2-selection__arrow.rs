@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;select2-input_number_of_employee-aw-result-v1eh-1&quot;]</value>
+         <value>(//span[@role='presentation'])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8fc670e6-1c81-45b9-aa6d-27968e1932f2</webElementGuid>
+      <webElementGuid>50cdaf74-ac49-4eb7-9025-73d456a00f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__arrow</value>
-      <webElementGuid>7c6d57f1-8889-42d1-a77f-722448bb359b</webElementGuid>
+      <webElementGuid>7b0031eb-7772-4c74-b42b-46e155e7eb36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>caf781b4-d651-4f10-a320-f0e7a0fec131</webElementGuid>
+      <webElementGuid>569db29f-334d-4d11-baa1-6f0ffac5867d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Employer-information&quot;)/div[@class=&quot;order-detail-inner display--flex flex--wrap&quot;]/div[@class=&quot;order-detail-left&quot;]/div[@class=&quot;order-detail-left-inner&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;order-detail-form&quot;]/div[@class=&quot;form-group display--flex flex--wrap align-item--center&quot;]/div[@class=&quot;form-inner display--flex flex--wrap align-item--center password-input&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--open select2-container--above select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]</value>
-      <webElementGuid>c231b88d-b822-45e0-b982-ac5cef0fbf8a</webElementGuid>
+      <webElementGuid>5be89309-3d8b-4831-92ec-86c1aa584ded</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Employer-information']/div/div/div/div/div[3]/div[7]/div[2]/span/span/span/span[2]</value>
-      <webElementGuid>3a6d5885-6041-4fbb-98d6-19317a7e6c79</webElementGuid>
+      <webElementGuid>97bce97e-ecb1-47d5-a1c8-df41c8073d44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select number'])[2]/following::span[1]</value>
-      <webElementGuid>29a7b701-4b9a-4359-8de8-916e40ccf741</webElementGuid>
+      <webElementGuid>270285b8-cb97-45ea-94a9-4f539fcb5b84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Conditions'])[1]/preceding::span[3]</value>
-      <webElementGuid>24a0f8cd-f6a9-4708-9e6d-eccc8631fc39</webElementGuid>
+      <webElementGuid>3eb461f4-9814-4ba2-8027-278b8b996072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::span[3]</value>
-      <webElementGuid>9e6a6294-6f74-4dd4-b77e-f2fc00132d53</webElementGuid>
+      <webElementGuid>a095d656-f50c-4bb6-9e20-4d62ea22b56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div[2]/span/span/span/span[2]</value>
-      <webElementGuid>7b1e6199-b1c8-448e-afc6-b3265f711c50</webElementGuid>
+      <webElementGuid>0da52065-99d5-4b30-a8ce-c749a78a0b1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

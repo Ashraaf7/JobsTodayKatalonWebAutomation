@@ -6,12 +6,12 @@
    <elementGuidId>9d5bb7a0-651c-4c3f-b67d-360e4b6381d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@novalidate=&quot;novalidate&quot;]/div/div[4]/div[2]/div/div/div[2]/div/div/div[2]/ul/li[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[contains(text(),'2023')])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ab6c6fc3-67ae-4bde-bd29-bd0cf59e6687</webElementGuid>
+      <webElementGuid>db83ab58-6c71-4fb2-80b0-f1eb577d56d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <type>Main</type>
       <value>
                                             2023                                        </value>
-      <webElementGuid>2d3d7891-ca10-4156-84c1-78b9743f5bc3</webElementGuid>
+      <webElementGuid>faea03fa-ecfd-49c3-a3ac-c4549c36761c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;label-wrap&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[2]</value>
-      <webElementGuid>d2673321-d915-4662-bff6-acd0e7e458b3</webElementGuid>
+      <webElementGuid>2add56b1-0f18-4f9f-be6a-e37ef97bce59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='create_professional_expirience_form_3488']/div/div[4]/div[2]/div/div/div[2]/div/div/div[2]/ul/li[2]</value>
-      <webElementGuid>0446ffc6-3675-461d-ad67-3dc3ef6634d1</webElementGuid>
+      <webElementGuid>71157ff1-60eb-4cbe-8a05-ba3fa8aed7ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Year'])[5]/following::li[1]</value>
-      <webElementGuid>22ee3ea1-1c72-4b88-b45c-8fe50c93e4a3</webElementGuid>
+      <webElementGuid>9b128fcb-e24e-43e5-bb91-9756daa49986</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Year'])[4]/following::li[2]</value>
-      <webElementGuid>df8e670f-080b-4284-a6e3-5b2c8f49430b</webElementGuid>
+      <webElementGuid>3c54fd44-5a27-4c96-8dce-f7fdbd593791</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select year'])[2]/preceding::li[94]</value>
-      <webElementGuid>e7d501dc-5242-48f0-b3b7-69e31245a82a</webElementGuid>
+      <webElementGuid>fd3c2e97-9bc7-4465-adea-be74fac361d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='I currently work here'])[1]/preceding::li[94]</value>
-      <webElementGuid>b360bb87-e5e8-4bbf-945e-6e966a24faab</webElementGuid>
+      <webElementGuid>4d132864-4e63-43fe-855c-6abb380e5c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/div[2]/ul/li[2]</value>
-      <webElementGuid>5b0ff967-9829-4a2b-a862-6aa93e8f9234</webElementGuid>
+      <webElementGuid>3978a4a8-2f66-44e0-988a-c189fc591443</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <value>//li[(text() = '
                                             2023                                        ' or . = '
                                             2023                                        ')]</value>
-      <webElementGuid>61cd1fa8-12cd-4896-b0ee-970778e4a950</webElementGuid>
+      <webElementGuid>276fbc6b-f3f6-4fa9-9243-d10895b826d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

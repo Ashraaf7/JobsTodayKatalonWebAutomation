@@ -6,12 +6,12 @@
    <elementGuidId>f9a32b8c-303f-48c7-8965-d0f8fc6d49ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@novalidate=&quot;novalidate&quot;]/div/div[4]/div/div/div/div/div/div/div[2]/ul/li[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[contains(text(),'January')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>7cba91a3-ee6d-410f-bb34-17ac625d6f47</webElementGuid>
+      <webElementGuid>a73799a7-e057-4fe7-89d5-d09b0764e09d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>January</value>
-      <webElementGuid>dcf64909-b150-443f-8698-f0e3c530cac3</webElementGuid>
+      <webElementGuid>b0e31528-49f0-4b6e-9518-b8e52618991b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;label-wrap&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[2]</value>
-      <webElementGuid>56a77c4c-b9c6-4a8e-bad1-74e402dfbf6a</webElementGuid>
+      <webElementGuid>150d3372-2bf6-4e3a-bd27-c0fff1ef8c86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='create_professional_expirience_form_3488']/div/div[4]/div/div/div/div/div/div/div[2]/ul/li[2]</value>
-      <webElementGuid>20661c09-f0a9-44be-be34-a767d6705227</webElementGuid>
+      <webElementGuid>7f8bf200-abd8-48ca-bd16-e1aefd0049f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[3]/following::li[1]</value>
-      <webElementGuid>5b0af5b4-f59c-48d8-8029-3590040c3324</webElementGuid>
+      <webElementGuid>820ca117-09b2-471a-b1de-426ca5e06334</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select month'])[2]/following::li[2]</value>
-      <webElementGuid>db76118d-c675-4a3a-b934-792d4657cd4e</webElementGuid>
+      <webElementGuid>0b6912f0-f820-4d2a-9872-3c97639ea9b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='February'])[4]/preceding::li[1]</value>
-      <webElementGuid>67b6de2c-17a5-46e5-8d35-802edc22e52e</webElementGuid>
+      <webElementGuid>7df30166-0196-4286-9fec-7764c367b3c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='March'])[4]/preceding::li[2]</value>
-      <webElementGuid>6dd0fd69-1450-466a-a04f-bb2973741e0e</webElementGuid>
+      <webElementGuid>625212ce-c69a-4624-ae4d-d45d8d0e97c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div[2]/ul/li[2]</value>
-      <webElementGuid>8ae6cb77-21a2-485b-8043-abfe7752faa4</webElementGuid>
+      <webElementGuid>30936755-3faa-41d3-84cd-58591fb98066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'January' or . = 'January')]</value>
-      <webElementGuid>707c3c14-ce7d-45ef-8cfd-ecce1569f93a</webElementGuid>
+      <webElementGuid>d038a8f4-570e-4100-b2fc-3c0046b2d61f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

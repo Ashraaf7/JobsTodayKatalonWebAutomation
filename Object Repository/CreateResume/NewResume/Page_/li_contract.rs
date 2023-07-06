@@ -6,12 +6,11 @@
    <elementGuidId>42444c8d-5ae8-4352-ad9e-22e09c410156</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[2]/section/div/div/div/div/div/div[1]/section[7]/div[2]/div[2]/div/form/div[1]/div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'permanent')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>bd686143-9871-4e7a-b0a1-5ea99d361035</webElementGuid>
+      <webElementGuid>4951d704-930b-498a-a1b8-308c1c3e7f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>data-jqfs-class</name>
       <type>Main</type>
       <value>_text_capitalize</value>
-      <webElementGuid>7ddf5375-40da-4562-be09-4b6527266341</webElementGuid>
+      <webElementGuid>b7514828-7d68-4abb-8277-4ce8607bc3b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_text_capitalize</value>
-      <webElementGuid>245ac508-18bc-46f3-a73e-7ef07c145308</webElementGuid>
+      <webElementGuid>142b2f5e-5886-457f-8476-c583a72e80d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <type>Main</type>
       <value>
                                     contract                                </value>
-      <webElementGuid>8ac2d000-bea5-44d7-a4f5-a28e03211072</webElementGuid>
+      <webElementGuid>120acee0-f2ee-44e5-a412-30770562fbcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[@class=&quot;_text_capitalize&quot;]</value>
-      <webElementGuid>1759e7ba-fa14-4ce7-819e-643ec969c447</webElementGuid>
+      <webElementGuid>692f2709-6c22-41c2-a2a0-39b940ca45a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='create_professional_expirience_form_3488']/div/div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
-      <webElementGuid>cdddd71b-560b-4963-b59d-aa3e20973502</webElementGuid>
+      <webElementGuid>4eeff3cc-8898-420e-b2d9-5338209d6d03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='permanent'])[2]/following::li[1]</value>
-      <webElementGuid>545d37d9-72e6-4e0a-8fb2-610102e35cbe</webElementGuid>
+      <webElementGuid>5580333f-c47f-4346-84d6-c98f33753862</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select employment type'])[3]/following::li[2]</value>
-      <webElementGuid>753e7b02-0fcc-46ff-b2f6-d60ffd9cc9af</webElementGuid>
+      <webElementGuid>4d14ef0c-0480-41a1-ad79-34f57bf00926</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='temporary'])[2]/preceding::li[1]</value>
-      <webElementGuid>399d7965-cd0a-45ba-b284-b90742e6bb3a</webElementGuid>
+      <webElementGuid>2e62fcd7-9786-4dad-9e17-d570eb797cb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='project'])[2]/preceding::li[2]</value>
-      <webElementGuid>7261372b-ae6c-4fcc-bc15-e5b064b4cfab</webElementGuid>
+      <webElementGuid>3acac985-4b54-4855-82cc-97292c5c17bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/label/div[2]/div/div[2]/ul/li[3]</value>
-      <webElementGuid>cf456d5f-6813-4190-830b-db678f02fe93</webElementGuid>
+      <webElementGuid>75f09c40-b64e-4575-a0ea-5633c7fede8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +112,6 @@
       <value>//li[(text() = '
                                     contract                                ' or . = '
                                     contract                                ')]</value>
-      <webElementGuid>76017a16-6b9e-45e7-afab-9eb7fef230a7</webElementGuid>
+      <webElementGuid>d8e30564-6a60-4585-a013-d57e1855d6bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

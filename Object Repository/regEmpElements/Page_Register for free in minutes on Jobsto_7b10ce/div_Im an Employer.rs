@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Advertise your serviceson Jobstoday.world'])[1]/following::div[5]</value>
+         <value>/html/body/section[2]/div[1]/div/div/div[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>537706de-dcbc-4426-9918-b245c2b4c715</webElementGuid>
+      <webElementGuid>5f853b00-2fc7-4f54-86d6-37434a0848e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>option-inner display--flex flex--wrap</value>
-      <webElementGuid>5af0d205-33bc-467b-a9ca-d76cdb4f14c2</webElementGuid>
+      <webElementGuid>1c7e947b-1b5e-45a9-8642-ee28f588da34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
                                 I’m an Employer
                             
                         </value>
-      <webElementGuid>2eb7ab28-a597-4e4c-93f3-e9ccdccacb6c</webElementGuid>
+      <webElementGuid>5ec33bec-1518-4cfd-a6c6-517606a6197c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;Registration-page&quot;]/section[@class=&quot;register-login&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;register-login-inner&quot;]/div[@class=&quot;display--flex flex--wrap register-option&quot;]/div[@class=&quot;single-option-employe left-side&quot;]/a[1]/div[@class=&quot;option-inner display--flex flex--wrap&quot;]</value>
-      <webElementGuid>5b181886-c479-4b3e-83a6-801a57310f48</webElementGuid>
+      <webElementGuid>de43f542-70e9-4510-9fec-816dedfc852f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Advertise your serviceson Jobstoday.world'])[1]/following::div[5]</value>
-      <webElementGuid>c0aa59a2-0efe-446b-b781-14db7b494ccf</webElementGuid>
+      <webElementGuid>2891e367-0632-4581-b389-2da430971e3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Post Job Request'])[1]/following::div[9]</value>
-      <webElementGuid>19a34673-6c79-4d15-adf8-f1f6fb5ba012</webElementGuid>
+      <webElementGuid>c4609244-9881-42dd-8788-451bd83490c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/div/div/div/div/a/div</value>
-      <webElementGuid>63ba556c-6693-4183-8b91-6a1d2685795d</webElementGuid>
+      <webElementGuid>33afb624-a73e-4f13-b212-9b46ce0ffada</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
                                 I’m an Employer
                             
                         ')]</value>
-      <webElementGuid>018e355c-6356-431f-941f-787995dfa9c8</webElementGuid>
+      <webElementGuid>887be430-0c90-4b34-b901-fd359188f1cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

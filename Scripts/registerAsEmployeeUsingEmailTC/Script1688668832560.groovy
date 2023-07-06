@@ -43,9 +43,16 @@ WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Reg
 
 WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select profile type_select2-selection__arrow'))
 
+WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/Employee'))
+
 WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select industry_select2-selection__arrow'))
 
+WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/industrySelection'))
+
 WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Salutation_select2-selection__arrow'))
+
+WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/MR'))
+
 
 WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_First name_input_firstname'), 
     'Ahmed')
@@ -108,5 +115,5 @@ WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Regis
 WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/button_Register Now'))
 
 Thread.sleep(2000);
-
+WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/", false)
 WebUI.closeBrowser()

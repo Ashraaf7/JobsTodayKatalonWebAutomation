@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>En</name>
+   <name>industrySelection</name>
    <tag></tag>
-   <elementGuidId>2e211170-ddab-4992-8375-c5ecbbe0e10e</elementGuidId>
+   <elementGuidId>8fb902c0-9978-4cd1-b6e6-b572e2e96454</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[@class='select2-results__option'])[1]</value>
+         <value>//li[@class='select2-results__option'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

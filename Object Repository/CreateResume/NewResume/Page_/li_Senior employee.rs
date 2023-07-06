@@ -6,12 +6,12 @@
    <elementGuidId>3fd7dd2f-28a6-4055-bd5c-035832808676</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[2]/section/div/div/div/div/div/div[1]/section[7]/div[2]/div[2]/div/form/div[1]/div[3]/div[1]/label/div[2]/div/div[2]/ul/li[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.jq-selectbox.jqselect.e-input.c-select.dropdown.opened > div.jq-selectbox__dropdown > ul > li:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'Employee')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>4b291957-f808-4df7-bb08-211661fa0b68</webElementGuid>
+      <webElementGuid>388593ef-bbae-4ba2-a76d-810b506e7e26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <type>Main</type>
       <value>
                                 Senior employee                            </value>
-      <webElementGuid>4b013233-06b7-43bb-ba18-29b948877ba1</webElementGuid>
+      <webElementGuid>8fbfe1d9-5378-4019-bf12-9e5206676874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;create_professional_expirience_form_3488&quot;)/div[@class=&quot;e-form-body&quot;]/div[@class=&quot;row-input&quot;]/div[@class=&quot;input-item&quot;]/label[@class=&quot;label-wrap&quot;]/div[@class=&quot;input-wrap error&quot;]/div[@class=&quot;jq-selectbox jqselect e-input c-select dropdown opened&quot;]/div[@class=&quot;jq-selectbox__dropdown&quot;]/ul[1]/li[3]</value>
-      <webElementGuid>49fe5ba0-4845-4ae9-b30f-e33c7d6d8d5a</webElementGuid>
+      <webElementGuid>1f13a9e9-bbf1-4ee7-965d-f4ebd01f8c82</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='create_professional_expirience_form_3488']/div/div[3]/div/label/div[2]/div/div[2]/ul/li[3]</value>
-      <webElementGuid>d4173ffc-f85b-44ca-b5ce-4bf5cd5b551d</webElementGuid>
+      <webElementGuid>93ced666-a20b-4c01-824c-521d5aafc782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[2]/following::li[1]</value>
-      <webElementGuid>c65858c9-2fc0-4b3a-8251-1dcd8ed8dca2</webElementGuid>
+      <webElementGuid>c3996037-ad25-4342-9100-83820a49e415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select position'])[3]/following::li[2]</value>
-      <webElementGuid>57b77a75-0690-4555-8769-57a0883137e7</webElementGuid>
+      <webElementGuid>1576c54e-7116-45fa-98c2-ffb653b62cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manager'])[2]/preceding::li[1]</value>
-      <webElementGuid>a5760b9f-6a84-4356-a7aa-6f49e7606485</webElementGuid>
+      <webElementGuid>b94a3961-963c-4ac2-a2cd-771dd6c32784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[4]/preceding::li[2]</value>
-      <webElementGuid>40ca7903-4aaf-493b-a963-73d34bef6909</webElementGuid>
+      <webElementGuid>27bf1720-045c-4e89-bddf-90026fa0f46a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/form/div/div[3]/div/label/div[2]/div/div[2]/ul/li[3]</value>
-      <webElementGuid>ed11f5e2-1fe1-4c87-8752-a266406daa78</webElementGuid>
+      <webElementGuid>874b79c5-7182-485a-a245-02d2e4598fe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <value>//li[(text() = '
                                 Senior employee                            ' or . = '
                                 Senior employee                            ')]</value>
-      <webElementGuid>0120e82a-4119-4dd0-b19e-796ee5fea7a5</webElementGuid>
+      <webElementGuid>221b3d0f-8fd0-46a3-83ff-5256f61abff5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

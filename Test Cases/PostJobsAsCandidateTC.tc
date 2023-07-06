@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>regEmpTC</name>
+   <name>PostJobsAsCandidateTC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>14973cd4-679b-4348-9f0c-543c10c8e24a</testCaseGuid>
+   <testCaseGuid>cdfbc144-72ad-42ef-ad42-f6e7dc386849</testCaseGuid>
 </TestCaseEntity>

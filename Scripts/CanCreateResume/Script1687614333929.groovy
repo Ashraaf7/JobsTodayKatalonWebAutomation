@@ -23,8 +23,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.Select
 
-
-WebUI.callTestCase(findTestCase('Test Cases/loginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/CandidatLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Upload Resume'))
 
@@ -79,6 +78,7 @@ WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/textarea_Ente
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/button_Save'))
 
 //New  /////////////////////////////////////////////////////////
+def driver = DriverFactory.getWebDriver()
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/Addtional_button_Edit'))
 
@@ -141,7 +141,7 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/eduar
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/bachelors'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Save_1_2'))
-/*
+
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Add professional experience'))
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_Job title_title'), 'QA Engineer')
@@ -184,14 +184,17 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/input
 //WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/label_Enter a brief summary of your tasks  _5b6836'))
 
 Thread.sleep(2000)
-WebUI.sendKeys(findTestObject('Object Repository/CreateResume/NewResume/Page_/brief'),'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+WebElement frame = driver.findElement(By.id("short_description_ifr"));
+driver.switchTo().frame(frame)
 
+WebUI.sendKeys(findTestObject('Object Repository/CreateResume/NewResume/Page_/brief'),'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+driver.switchTo().parentFrame()
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_SaveLast-1'))
 
 //WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Add attachments'))
 
 //WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Upload'))
-*/
+
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_text'), 'Tester')
@@ -232,7 +235,7 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/butto
 
 WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
-def driver = DriverFactory.getWebDriver()
+
 
 driver.switchTo().alert().accept()
 Thread.sleep(3000)
