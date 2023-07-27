@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>d22fc17f-fd7f-410e-97c0-5a58903ac73e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='search-form']/div/div[3]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b5d2bd74-e5b5-4a80-8343-cd8da4136178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/search-white.svg</value>
+      <webElementGuid>10e7f847-dc0c-4187-bb21-10b4604e5532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search-form&quot;)/div[@class=&quot;search_form display--flex flex--wrap align-item--center active-job--serach&quot;]/div[@class=&quot;search--icon&quot;]/button[1]/img[1]</value>
+      <webElementGuid>ba43280e-fb3f-40be-af50-d85062ed3b72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='search-form']/div/div[3]/button/img</value>
+      <webElementGuid>912b7e30-ec78-4db3-91f1-17bf00ecb380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/img</value>
+      <webElementGuid>73280cf0-fbfe-4e92-889d-ddee823e9022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/search-white.svg']</value>
+      <webElementGuid>dbe68e74-fcef-4664-82e8-99698e01ebd6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

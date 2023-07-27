@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>2e529023-8712-4090-8753-2c3b75311b36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.success-image > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>483776a8-6447-403d-824f-f02145626bd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/success-tick.svg</value>
+      <webElementGuid>20169da6-2fdb-4dec-8cd3-ae0d6dd52ee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;inner--page application-submitted-page&quot;]/main[@class=&quot;application-submitted-main main-content&quot;]/section[@class=&quot;purchase-confirmation-section&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;purchase-successful&quot;]/div[@class=&quot;purchase-successful-inner&quot;]/div[@class=&quot;success-image&quot;]/img[1]</value>
+      <webElementGuid>094bfd27-3368-4595-8c8a-534ff13f3a33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/img</value>
+      <webElementGuid>8ddb055b-f506-4925-9a89-d6cf5510cc8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/success-tick.svg']</value>
+      <webElementGuid>d5bcf63e-5bcc-4f9b-891c-43fd7657fbeb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

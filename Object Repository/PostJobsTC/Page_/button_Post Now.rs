@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Post Now</name>
+   <tag></tag>
+   <elementGuidId>b3acb668-9b91-4d49-9728-31d598b275e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-dark.button_unique_post_jobseeker</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>145ca9cd-e5a1-4990-be73-ee3e5a3f168f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-dark button_unique_post_jobseeker</value>
+      <webElementGuid>2eac3ac6-3fc7-42d3-953e-10b7054205dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$(this).parent().find('form').submit();</value>
+      <webElementGuid>e1fc09c5-5e99-4d27-afa5-8f577b3802cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Post Now</value>
+      <webElementGuid>6d749975-e469-45e4-a358-3d1e86d8632e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;jobseeker-service-provider-landing-page pricing--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;js-sp-banner-section&quot;]/div[@class=&quot;js-banner banner-main&quot;]/div[@class=&quot;info-section banner-inner&quot;]/div[@class=&quot;price-section&quot;]/div[@class=&quot;form-group-global btn-section&quot;]/button[@class=&quot;btn-dark button_unique_post_jobseeker&quot;]</value>
+      <webElementGuid>9304a4f5-545e-405d-ad89-c87642c4e998</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
+      <webElementGuid>156adc17-5d31-4d04-943a-efe1786f762d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More info'])[1]/following::button[1]</value>
+      <webElementGuid>60f4adc7-7237-467f-9851-00ee868fd943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$ 0.00'])[1]/following::button[1]</value>
+      <webElementGuid>e5f25e6f-6641-4ad4-8a1a-a19e763b900c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop your email to receive special offers and discounts'])[1]/preceding::button[1]</value>
+      <webElementGuid>c68478e0-c284-4018-89df-2331b800de01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subscribe'])[1]/preceding::button[1]</value>
+      <webElementGuid>828c8b85-8386-478a-8bab-d116de03cdf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Post Now']/parent::*</value>
+      <webElementGuid>828f7a55-fae0-4254-8dbf-7d1e853b4587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>4b2aea28-e58c-4aa6-9c41-f1682f9da0ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Post Now' or . = 'Post Now')]</value>
+      <webElementGuid>37915e80-7a3b-455d-b283-46891f278620</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>32fe7755-7ef6-49ad-9538-2ecf98a0e179</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[3]/div[2]/ul/li/div/div/img[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.display--flex.align-item--center > img:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e05ebcb7-b7eb-46cd-a40d-acc2cb9b9fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/arrow-down-icon-white.svg</value>
+      <webElementGuid>bf4f2c8e-d893-43be-b578-3c46da9ab17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[1]/div[@class=&quot;profile-name-dropdown&quot;]/div[@class=&quot;display--flex align-item--center&quot;]/img[2]</value>
+      <webElementGuid>daaa3971-beab-450f-8d39-211dcfb3d48d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[3]/div[2]/ul/li/div/div/img[2]</value>
+      <webElementGuid>4bcb62ab-9384-42be-a964-d65185044331</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img[2]</value>
+      <webElementGuid>33f67479-5560-4fb3-b9e8-53fe78a1f615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/arrow-down-icon-white.svg']</value>
+      <webElementGuid>67583ce9-2daa-4146-97e7-a0294de4861e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
