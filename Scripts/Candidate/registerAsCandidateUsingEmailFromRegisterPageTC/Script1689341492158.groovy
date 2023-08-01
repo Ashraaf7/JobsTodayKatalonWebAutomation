@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im a Candidate'))
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Email address_input_email'), 
-    'Automationuser1@mailinator.com')
+    'test@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Password_input_password'), 
     'Pass@123')
@@ -75,5 +75,7 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
 Thread.sleep(2000);
 WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/DeleteCandidateAccount'),  [:])
+
 WebUI.closeBrowser()
 

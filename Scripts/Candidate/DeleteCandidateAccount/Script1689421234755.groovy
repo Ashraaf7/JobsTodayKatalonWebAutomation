@@ -39,6 +39,9 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandi
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
 
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/confirmDelete'))
+
+
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
 
 WebUI.closeBrowser()

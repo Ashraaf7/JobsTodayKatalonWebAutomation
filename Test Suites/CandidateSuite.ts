@@ -12,6 +12,27 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2197148e-7541-4891-91f6-b48d897ec5d3</testSuiteGuid>
    <testCaseLink>
+      <guid>4cb4d46f-5c6e-4098-9c58-0729bf95c34a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Candidate/DeleteCandidateAccount</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39465afa-add9-4251-8f01-5ec39dd83d57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Candidate/CandidatLoginTC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7033b9d2-eede-45c9-8c29-c838ebb17826</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Candidate/registerAsCandidateUsingEmailFromJobSeekerPageTC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e595aeb9-5fde-4af0-adc7-b1cbfbaeb677</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -33,20 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>39465afa-add9-4251-8f01-5ec39dd83d57</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/CandidatLoginTC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>55d7e1be-a531-47be-841b-82a4ba38e86e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/ChangePasswordFromProfile</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7c63306d-5408-4c65-8e31-cf8838099fdb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -58,13 +65,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Candidate/ContactUs</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4cb4d46f-5c6e-4098-9c58-0729bf95c34a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/DeleteCandidateAccount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -96,10 +96,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7033b9d2-eede-45c9-8c29-c838ebb17826</guid>
+      <guid>e9d70f1e-5e16-422c-9ce8-8f91cac272d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/registerAsCandidateUsingEmailFromJobSeekerPageTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/SubscibeToEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -107,6 +107,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Candidate/registerAsCandidateUsingEmailFromRegisterPageTC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55d7e1be-a531-47be-841b-82a4ba38e86e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Candidate/ChangePasswordFromProfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,15 @@
+{"testCaseName":"Test Cases/Candidate/ApplyForJobAfterLogin","testCaseId":"Test Cases/Candidate/ApplyForJobAfterLogin","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/ApplyForJobWithoutLogin","testCaseId":"Test Cases/Candidate/ApplyForJobWithoutLogin","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/CanCreateResume","testCaseId":"Test Cases/Candidate/CanCreateResume","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/CandidatLoginTC","testCaseId":"Test Cases/Candidate/CandidatLoginTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/ChangePasswordFromProfile","testCaseId":"Test Cases/Candidate/ChangePasswordFromProfile","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/ContactJobSeeker","testCaseId":"Test Cases/Candidate/ContactJobSeeker","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/ContactUs","testCaseId":"Test Cases/Candidate/ContactUs","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/DeleteCandidateAccount","testCaseId":"Test Cases/Candidate/DeleteCandidateAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/deleteCandidateJobTC","testCaseId":"Test Cases/Candidate/deleteCandidateJobTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/LogoutCandidateTC","testCaseId":"Test Cases/Candidate/LogoutCandidateTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/PostJobsAsCandidateAllTC","testCaseId":"Test Cases/Candidate/PostJobsAsCandidateAllTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/PrintResume","testCaseId":"Test Cases/Candidate/PrintResume","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/registerAsCandidateUsingEmailFromJobSeekerPageTC","testCaseId":"Test Cases/Candidate/registerAsCandidateUsingEmailFromJobSeekerPageTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/registerAsCandidateUsingEmailFromRegisterPageTC","testCaseId":"Test Cases/Candidate/registerAsCandidateUsingEmailFromRegisterPageTC","iterationVariableName":""}
+{"testCaseName":"Test Cases/Candidate/SubscibeToEmail","testCaseId":"Test Cases/Candidate/SubscibeToEmail","iterationVariableName":""}
