@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Candidate\\ApplyForJobAfterLogin\\20230831_180839\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employee\\SearchForAjobUsingKeywordAndLocation\\20230923_231040\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Candidate/ApplyForJobAfterLogin', new TestCaseBinding('Test Cases/Candidate/ApplyForJobAfterLogin',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Employee/SearchForAjobUsingKeywordAndLocation', new TestCaseBinding('Test Cases/Employee/SearchForAjobUsingKeywordAndLocation',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

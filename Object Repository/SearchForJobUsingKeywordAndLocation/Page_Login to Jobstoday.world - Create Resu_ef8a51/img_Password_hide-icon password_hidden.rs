@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Password_hide-icon password_hidden</name>
+   <tag></tag>
+   <elementGuidId>73bd8af8-dba8-4f47-bdc1-aa8edac97194</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.hide-icon.password_hidden</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='candidate-login']/div/div/div/div/div[2]/div/div[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>2a98c252-ea6e-4c6f-97dd-a8d51a2970ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/hide.svg</value>
+      <webElementGuid>20eabdb1-6885-42cc-8625-5e1c74ad8291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hide-icon password_hidden</value>
+      <webElementGuid>bab5376f-e880-4eb1-a56d-632c183375dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;candidate-login&quot;)/div[@class=&quot;order-detail-inner display--flex flex--wrap&quot;]/div[@class=&quot;order-detail-left&quot;]/div[@class=&quot;order-detail-left-inner&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;order-detail-form&quot;]/div[@class=&quot;form-group display--flex flex--wrap align-item--center name-email&quot;]/div[@class=&quot;form-inner display--flex flex--wrap align-item--center password-input&quot;]/img[@class=&quot;hide-icon password_hidden&quot;]</value>
+      <webElementGuid>4d3e7555-7dee-4410-800b-b77b72a3569f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='candidate-login']/div/div/div/div/div[2]/div/div[2]/img</value>
+      <webElementGuid>b5a9e660-e63f-41ba-b727-4b3c9c3f862d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>ac137288-da7e-41d6-9996-01129dc0d672</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/hide.svg']</value>
+      <webElementGuid>1e34dec5-1a51-49d5-931f-c6f584b140ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
