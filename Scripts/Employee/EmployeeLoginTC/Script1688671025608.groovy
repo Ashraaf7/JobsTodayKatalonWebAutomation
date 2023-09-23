@@ -16,23 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+
 WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    'employee@gmail.com')
+    'alicja.gazdao@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
-    'Pass@123')
-
+    'tester3124')
 
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
@@ -41,27 +42,35 @@ def driver = DriverFactory.getWebDriver()
 def a = new Actions(driver)
 
 // Call the sendKeys() method on the Actions instance to simulate keyboard input
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
 
 // a.MoveToElement(_driver.FindElement(By.XPath("//button[@id='btn-card-verify']"))).Build().Perform();
-Thread.sleep(2000);
-char a1 = '\u0030';
-char a2 = '\u0037';
-char a3 = '\u0038';
-char a4 = '\u0039';
+Thread.sleep(2000)
 
-a.sendKeys(   String.valueOf(a1),
-		String.valueOf(a2),
-		String.valueOf(a3),
-		String.valueOf(a4)).build().perform();
+char a1 = '0'
 
-WebUI.sendKeys(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'),String.valueOf(a1 + a2 + a3 + a4))
+char a2 = '7'
+
+char a3 = '8'
+
+char a4 = '9'
+
+a.sendKeys(String.valueOf(a1), String.valueOf(a2), String.valueOf(a3), String.valueOf(a4)).build().perform()
+
+WebUI.sendKeys(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'), 
+    String.valueOf(((a1 + a2) + a3) + a4))
 
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'))
-Thread.sleep(2000);
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/", false)
-//WebUI.closeBrowser()
+
+Thread.sleep(2000)
+
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+
