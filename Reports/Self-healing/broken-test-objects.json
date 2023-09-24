@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CheckPostedJobs/Page_Jobstoday/span_Select",
+      "brokenLocator": "//li[@id\u003d\u0027package_item_403\u0027]/div/form/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jobs Available:\u0027])[3]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CheckPostedJobs/Page_Jobstoday/span_Select_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CheckPostedJobs/Page_/p_Compose your Job position with as many de_a6a97c",
+      "brokenLocator": "//*[@id\u003d\"tinymce\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mceu_9\u0027]/label/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CheckPostedJobs/Page_/p_Compose your Job position with as many de_a6a97c_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CheckPostedJobs/Page_Software Tester job - NAILS AG ALICJA GAZDA/h1_Software Tester job",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Software Tester job\u0027])[1]/following::h1[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Temporary\u0027])[1]/preceding::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }

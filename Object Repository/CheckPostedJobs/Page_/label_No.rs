@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No</name>
+   <tag></tag>
+   <elementGuidId>9a18112b-d617-42aa-8289-3d5daee7e042</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.add-position-information > div.form-group.company-contact-detail > div.custom-checkbox > label:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='myform-p-0']/div/div/div[2]/div[6]/div/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>cc180723-79de-4d20-9eec-1adae845ef63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>radio_button-08</value>
+      <webElementGuid>21cb06b3-33db-48a1-8235-418263ddd213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>5f929e4e-a11b-486b-a0a9-b3d0b007a431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myform-p-0&quot;)/div[@class=&quot;form-tab&quot;]/div[@class=&quot;tab-content current&quot;]/div[@class=&quot;add-position-information&quot;]/div[@class=&quot;form-group company-contact-detail&quot;]/div[@class=&quot;custom-checkbox&quot;]/label[2]</value>
+      <webElementGuid>27d16743-5d12-40be-9f8a-6da424e510bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='myform-p-0']/div/div/div[2]/div[6]/div/label[2]</value>
+      <webElementGuid>90811c40-e4bd-4c47-be5b-8f9952c96fd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[3]/following::label[1]</value>
+      <webElementGuid>f99625c0-0146-411f-ab55-f4e225e8e63f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select this option to ask the candidate for address, phone number, date of birth.'])[1]/following::label[2]</value>
+      <webElementGuid>1b9859dc-894d-44bd-a5e5-ae198aed8b85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select application process'])[1]/preceding::label[1]</value>
+      <webElementGuid>7afc6fc1-36e8-4b9a-9bfe-2c9287baa9bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/label[2]</value>
+      <webElementGuid>a8f39d9e-1924-47c9-8456-86971dda83f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'No' or . = 'No')]</value>
+      <webElementGuid>e4f1c283-a22e-486d-9316-e50bf5472bb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

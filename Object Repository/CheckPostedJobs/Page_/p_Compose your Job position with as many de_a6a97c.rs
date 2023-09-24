@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Compose your Job position with as many de_a6a97c</name>
+   <tag></tag>
+   <elementGuidId>790e56a1-eb1d-4e94-bbce-cda4c939be68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tinymce&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>98d27142-8bba-4687-a5e4-0d59be9c98c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Compose your Job position with as many details as possible.</value>
+      <webElementGuid>fff29367-8bfa-4aa4-97bf-f78ddf51d232</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mceu_9&quot;)/label[1]/p[1]</value>
+      <webElementGuid>b02d8bf9-ab69-4557-a7c0-fd4b51a554c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mceu_9']/label/p</value>
+      <webElementGuid>2af0e5ca-650b-4d5c-95a4-8cce50df427c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paragraph'])[1]/following::p[1]</value>
+      <webElementGuid>6781ec6d-98b0-44df-9332-72036c96846c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsibilities'])[1]/preceding::p[1]</value>
+      <webElementGuid>3d40297e-dd7c-44c7-b2d2-7227a250765a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidate Profile'])[1]/preceding::p[3]</value>
+      <webElementGuid>fceaa6d3-9dac-43a8-a55a-61181100286f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Compose your Job position with as many details as possible.']/parent::*</value>
+      <webElementGuid>332b254a-fd23-48e5-961e-b67111346ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/p</value>
+      <webElementGuid>deaefb09-8efc-4679-9381-d0d1cca64aad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Compose your Job position with as many details as possible.' or . = 'Compose your Job position with as many details as possible.')]</value>
+      <webElementGuid>1a5b8723-2da6-4bcc-9d33-75214eb5e110</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

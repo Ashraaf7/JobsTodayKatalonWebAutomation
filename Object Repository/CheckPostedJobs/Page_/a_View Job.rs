@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Job</name>
+   <tag></tag>
+   <elementGuidId>cdedc014-0a8d-497c-b7f6-aa24f7cbb227</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn_from_viewjob</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;job_21297915&quot;]/td[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7530e5f6-81c5-426d-8cf7-f0d7cb2c8473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/</value>
+      <webElementGuid>1b9cc046-dbad-4d81-91bb-161d6810ed5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn_from_viewjob</value>
+      <webElementGuid>95fc4e86-d665-4596-9353-377317588465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Job</value>
+      <webElementGuid>c705a637-f7c7-4ee5-bc6a-1d30b66d3b86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myform-p-2&quot;)/div[@class=&quot;actions clearfix&quot;]/ul[1]/li[1]/a[@class=&quot;btn_from_viewjob&quot;]</value>
+      <webElementGuid>ae158025-4b4d-41ad-a3d1-99091aa3a293</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='myform-p-2']/div[2]/ul/li/a</value>
+      <webElementGuid>e956b04c-57e8-4910-910b-991576faa90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View Job')]</value>
+      <webElementGuid>795ce000-7fb2-4d18-a207-cf67140be6d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have successfully posted your Job'])[1]/following::a[1]</value>
+      <webElementGuid>421295d4-ab7a-4cbd-8c44-e8fa54252a0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel post'])[2]/following::a[1]</value>
+      <webElementGuid>0651b558-a278-4166-bd8e-885795710a68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post another Job'])[1]/preceding::a[1]</value>
+      <webElementGuid>d24353a1-913a-4b80-86f2-10cc0e0aa4b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to cancel your Job post?'])[1]/preceding::a[1]</value>
+      <webElementGuid>bdf9cf86-73f3-4b73-8e30-90df615b968b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Job']/parent::*</value>
+      <webElementGuid>75880288-8bc9-4a40-87e6-0f6e029de7ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/')]</value>
+      <webElementGuid>6f7037c1-7b2f-43b5-88f6-55c38babf268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[3]/div[2]/ul/li/a</value>
+      <webElementGuid>8e2d08e3-ebd8-4ebb-b1f4-a07522576705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/' and (text() = 'View Job' or . = 'View Job')]</value>
+      <webElementGuid>93be7f34-2766-4ec6-bfcf-ed8492e30ff7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
