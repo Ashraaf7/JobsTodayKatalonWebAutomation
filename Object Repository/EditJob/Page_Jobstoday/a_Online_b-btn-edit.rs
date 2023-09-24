@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Online_b-btn-edit</name>
+   <tag></tag>
+   <elementGuidId>ea88b010-43af-4c1f-9c0e-916a761b051c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/en/jobpost/edit/21297914']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[contains(@class,'b-company-admin-panel-table__cell_last')] /div /div /a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.b-btn-edit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cbc6affd-872d-440d-8df9-bc6328cdde34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/jobpost/edit/21297914</value>
+      <webElementGuid>e19d8d87-a959-4ea4-9f45-279c8c7ef0cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>b-btn-edit</value>
+      <webElementGuid>5b48caa6-1053-417e-acc4-545a1181e7a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;job_21297914&quot;)/td[@class=&quot;b-company-admin-panel-table__cell b-company-admin-panel-table__cell_last&quot;]/div[@class=&quot;b-options-list b-options-list_indent_horiz_sm b-options-list_inside_table&quot;]/div[@class=&quot;b-options-list__item&quot;]/a[@class=&quot;b-btn-edit&quot;]</value>
+      <webElementGuid>cbd27b95-2e8a-4f3f-8245-427493ec2e78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='job_21297914']/td[10]/div/div/a</value>
+      <webElementGuid>65c8fd94-c490-4860-b4c3-3e024db42280</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en/jobpost/edit/21297914')]</value>
+      <webElementGuid>e2837bd9-564b-4ab1-9945-894aa6e9de2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]/div/div/a</value>
+      <webElementGuid>240e4e19-5ba4-4ca2-81e8-50a843b384dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en/jobpost/edit/21297914']</value>
+      <webElementGuid>8fa1196a-4733-4bb3-b405-b39b28402e76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

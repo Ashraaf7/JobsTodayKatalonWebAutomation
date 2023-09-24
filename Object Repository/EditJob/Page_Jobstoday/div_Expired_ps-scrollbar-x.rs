@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Expired_ps-scrollbar-x</name>
+   <tag></tag>
+   <elementGuidId>ed87e8ae-3a0f-4a0c-a331-351ead9d3cac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/nav/div/div[1]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.c-scroll.ps-container_scrollbar_x_fixed_with_nav.ps-container.ps-theme-default.ps-active-x > div.ps-scrollbar-x-rail > div.ps-scrollbar-x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>446fe8c0-4975-40eb-b015-49c4fce964b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-scrollbar-x</value>
+      <webElementGuid>f62b139d-451a-4ee0-8d37-8f6e893aaeca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>87233f9e-352d-470e-97cf-dd82b9c5d48f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page_content&quot;)/div[@class=&quot;l-vertically l-vertically_admin_panel l-vertically_admin_panel_with_scrollbar_x_fixed&quot;]/div[@class=&quot;l-vertically__item l-vertically__item_major&quot;]/section[@class=&quot;b-section b-section_min&quot;]/div[@class=&quot;b-company-admin-panel-table&quot;]/div[@class=&quot;c-scroll ps-container_scrollbar_x_fixed_with_nav ps-container ps-theme-default ps-active-x&quot;]/div[@class=&quot;ps-scrollbar-x-rail&quot;]/div[@class=&quot;ps-scrollbar-x&quot;]</value>
+      <webElementGuid>091a3972-d559-4885-a6fb-59d9b8502ef0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page_content']/div/div/section/div[2]/div/div/div</value>
+      <webElementGuid>61fa5fb8-5646-406b-9061-54ad967a161f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div/div/div</value>
+      <webElementGuid>f3783504-fff3-45cc-96dd-14868c10754f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
