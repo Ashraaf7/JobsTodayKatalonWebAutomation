@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete</name>
+   <tag></tag>
+   <elementGuidId>59c79ef3-d2cb-475f-b727-5c5dda8ee664</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.-ol-btn-danger.deleteJob</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>420c8b47-1439-4a43-af87-3ae41b8a099a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f68f2f81-5bd1-402e-a8d1-ef259b09ee93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-ol-btn-danger deleteJob</value>
+      <webElementGuid>43256e13-9227-4cae-aaf7-a8c8172fa8f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-jobid</name>
+      <type>Main</type>
+      <value>21297916</value>
+      <webElementGuid>4c9380e4-bfec-4b43-91f6-26d5cc79ff66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                Delete                            </value>
+      <webElementGuid>b174bac1-283c-4f51-a999-2a784e930bfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page_content&quot;)/div[@class=&quot;m-simple-box c-modal c-modal_active&quot;]/div[@class=&quot;c-modal__inner&quot;]/div[@class=&quot;c-modal__box-wrapper m-simple-box__box-wrapper&quot;]/div[@class=&quot;m-simple-box__box c-modal__box&quot;]/div[@class=&quot;m-simple-box__body m-simple-box__body_p_vert_lg&quot;]/div[@class=&quot;e-footer&quot;]/div[@class=&quot;item&quot;]/button[@class=&quot;-ol-btn-danger deleteJob&quot;]</value>
+      <webElementGuid>ad271487-836f-4c3b-9ae4-1b66631f02d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>db73663b-9bfe-4916-8e10-8d3eea5fd9eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page_content']/div[2]/div/div/div[2]/div/div[2]/div/button</value>
+      <webElementGuid>20f8c8d5-f68c-4893-83d4-790d275bd9d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/following::button[2]</value>
+      <webElementGuid>51682c6d-06d7-4449-9feb-fdb312b3b936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expired'])[17]/following::button[5]</value>
+      <webElementGuid>ba17496a-2b35-457c-a81f-353c7203ac4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>28fda337-272e-4843-bdc9-9e15186a7566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::button[2]</value>
+      <webElementGuid>e725f241-3bc9-41f6-a796-e41bf6d274ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>e9cc97d7-4c6c-4585-a4dd-e75dd2786038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>2e012570-c0e9-430a-a1c8-272d6270a19f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                                Delete                            ' or . = '
+                                Delete                            ')]</value>
+      <webElementGuid>50beed70-3faa-4be5-9dde-60f0afa6f50e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

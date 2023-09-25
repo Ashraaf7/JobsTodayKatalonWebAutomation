@@ -18,41 +18,34 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
-
+import org.openqa.selenium.JavascriptExecutor
 
 WebUI.callTestCase(findTestCase('Employee/EmployeeLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
 
 // Create an instance of the Actions class
 def a = new Actions(driver)
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobstoday/div_Expired_ps-scrollbar-x'))
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/span_My Jobs'))
 
 TestObject settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
 WebUI.click(settings)
 for(int i in 1..17) {
-         a.sendKeys(Keys.ARROW_RIGHT).build().perform();
-      }
+		 a.sendKeys(Keys.ARROW_RIGHT).build().perform();
+	  }
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobstoday/a_Online_b-btn-edit'))
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind'))
 
-WebUI.setText(findTestObject('Object Repository/EditJob/Page_/input_Job title_job_title'), 'Job title new test after edit')
+// cannot click on the button as the confirmation message didn't appear 
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_/a_Next'))
+TestObject J = findTestObject('Object Repository/DeleteJob/Page_Jobstoday/a_Software Tester job')
+String jobName = WebUI.getText(J)
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_/section_b-loader         position fixed    _921d21'))
+WebUI.verifyElementNotInViewport(J, 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_/input_RA-AT-2022-09-0014_privacy'))
 
-WebUI.click(findTestObject('Object Repository/EditJob/Page_/button_Publish Now'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/EditJob/Page_/h3_You have successfully posted your Job'))
-
-WebUI.click(findTestObject('Object Repository/EditJob/Page_/a_View Job'))
-
-String newTitle = WebUI.getText(findTestObject('Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit'))
-
-WebUI.verifyMatch("Job title new test after edit", newTitle, false)

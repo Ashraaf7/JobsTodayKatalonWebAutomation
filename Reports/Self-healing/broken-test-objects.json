@@ -29,6 +29,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteJob/Page_Jobstoday/span_My Jobs",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Dashboard\u0027])[3]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteJob/Page_Jobstoday/span_My Jobs_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind",
+      "brokenLocator": "//button[@onclick\u003d\"$(\u0027.deleteJob\u0027).attr(\u0027data-jobid\u0027, 21297916)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[10]/div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind_position.png"
     }
   ]
 }

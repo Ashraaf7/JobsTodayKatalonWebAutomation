@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Online_b-btn-delete c-modal__bind</name>
+   <tag></tag>
+   <elementGuidId>9a429862-91f6-4fb4-9084-045aa285d92c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[contains(@class,'b-company-admin-panel-table__cell_last')] /div /div/button)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.b-btn-delete.c-modal__bind</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b889996a-1640-44fc-9641-d1678ddfecc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>8e94f6d1-fe2a-4ceb-a008-43acfb865125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('.deleteJob').attr('data-jobid', 21297916)</value>
+      <webElementGuid>687bf63b-3045-4734-add0-beab9cbacb35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-c-modal-number</name>
+      <type>Main</type>
+      <value>17</value>
+      <webElementGuid>ef5d72ce-d152-4255-afe5-67bd61d1d27c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>b-btn-delete c-modal__bind</value>
+      <webElementGuid>99424019-3e10-4ce9-bfe3-7e9d41bc0726</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;job_21297916&quot;)/td[@class=&quot;b-company-admin-panel-table__cell b-company-admin-panel-table__cell_last&quot;]/div[@class=&quot;b-options-list b-options-list_indent_horiz_sm b-options-list_inside_table&quot;]/div[@class=&quot;b-options-list__item b-options-list__item_last&quot;]/button[@class=&quot;b-btn-delete c-modal__bind&quot;]</value>
+      <webElementGuid>1b4ba59b-58d4-49a3-a223-58db71c68787</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick=&quot;$('.deleteJob').attr('data-jobid', 21297916)&quot;]</value>
+      <webElementGuid>96281e3e-8804-4f5e-a8b9-79d57fbbab70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='job_21297916']/td[10]/div/div[2]/button</value>
+      <webElementGuid>ba4f07a5-48ed-447a-a561-3a519ee1a626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]/div/div[2]/button</value>
+      <webElementGuid>611387a4-f9bd-4424-b785-178f46cc4f7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@href = '#']</value>
+      <webElementGuid>42d62bfe-d005-4f4a-bce1-61c702e63df4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

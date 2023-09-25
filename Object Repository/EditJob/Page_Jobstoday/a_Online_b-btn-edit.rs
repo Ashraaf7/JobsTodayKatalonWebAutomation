@@ -6,12 +6,12 @@
    <elementGuidId>ea88b010-43af-4c1f-9c0e-916a761b051c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/en/jobpost/edit/21297914']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td[contains(@class,'b-company-admin-panel-table__cell_last')] /div /div /a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/en/jobpost/edit/21297914']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cbc6affd-872d-440d-8df9-bc6328cdde34</webElementGuid>
+      <webElementGuid>67823ce0-5380-4f75-963b-8ca34f86dc24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/en/jobpost/edit/21297914</value>
-      <webElementGuid>e19d8d87-a959-4ea4-9f45-279c8c7ef0cd</webElementGuid>
+      <webElementGuid>bbd1ba4f-e91f-4f4a-b80c-a2de56888458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>b-btn-edit</value>
-      <webElementGuid>5b48caa6-1053-417e-acc4-545a1181e7a2</webElementGuid>
+      <webElementGuid>2ad90fb4-8b08-4071-8b53-38f4478524ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;job_21297914&quot;)/td[@class=&quot;b-company-admin-panel-table__cell b-company-admin-panel-table__cell_last&quot;]/div[@class=&quot;b-options-list b-options-list_indent_horiz_sm b-options-list_inside_table&quot;]/div[@class=&quot;b-options-list__item&quot;]/a[@class=&quot;b-btn-edit&quot;]</value>
-      <webElementGuid>cbd27b95-2e8a-4f3f-8245-427493ec2e78</webElementGuid>
+      <webElementGuid>f6da729b-fe0f-458d-b0f8-028dc2ca6eeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='job_21297914']/td[10]/div/div/a</value>
-      <webElementGuid>65c8fd94-c490-4860-b4c3-3e024db42280</webElementGuid>
+      <webElementGuid>efd11e47-490e-4244-9937-dbc17a179660</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/en/jobpost/edit/21297914')]</value>
-      <webElementGuid>e2837bd9-564b-4ab1-9945-894aa6e9de2a</webElementGuid>
+      <webElementGuid>6d0b9a10-1d68-429f-8791-c105486734a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[10]/div/div/a</value>
-      <webElementGuid>240e4e19-5ba4-4ca2-81e8-50a843b384dc</webElementGuid>
+      <webElementGuid>51cb64a8-aa65-40c0-99dc-3225b3e4fcc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/en/jobpost/edit/21297914']</value>
-      <webElementGuid>8fa1196a-4733-4bb3-b405-b39b28402e76</webElementGuid>
+      <webElementGuid>d6569c90-b45f-4d4a-9612-0de401566686</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
