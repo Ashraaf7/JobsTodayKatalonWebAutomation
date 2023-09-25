@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/a_For employers",
+      "brokenLocator": "//header[@id\u003d\u0027header\u0027]/div[3]/div/ul/li[3]/div/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027For employers\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/a_For employers_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Accept All Cookies_onetrust-close-bt_a4e8e4",
+      "brokenLocator": "//div[@id\u003d\u0027onetrust-close-btn-container\u0027]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/iframe_Message box_a-ub6pr7n6as4h",
+      "brokenLocator": "//iframe[@name\u003d\u0027a-ub6pr7n6as4h\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027g-recaptcha\u0027]/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/iframe_Message box_a-ub6pr7n6as4h_idRelative.png"
     }
   ]
 }

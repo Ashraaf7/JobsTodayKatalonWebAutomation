@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Got it</name>
+   <tag></tag>
+   <elementGuidId>97eff702-c6e2-4d8c-99b1-522ad30e47e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contactus_model']/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.contactus-popup-inner > div.popup--content > div.content--inner.text--center > a.gotit-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>afce99b4-b462-44c3-bc6c-dad7af5f8a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#close-modal</value>
+      <webElementGuid>4471ac80-7a4c-426d-b89d-4ed4952579b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>modal:close</value>
+      <webElementGuid>afb5d57a-fcaf-448c-833e-4863f92e9603</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gotit-button</value>
+      <webElementGuid>9766bfd9-2d39-4a2f-a17c-e74ccd9c7a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Got it</value>
+      <webElementGuid>05f2075d-8c82-437a-ac1b-0501f06e0b15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contactus_model&quot;)/div[@class=&quot;contactus-popup-inner&quot;]/div[@class=&quot;popup--content&quot;]/div[@class=&quot;content--inner text--center&quot;]/a[@class=&quot;gotit-button&quot;]</value>
+      <webElementGuid>6d4dc1b1-2f81-4ab6-a2c5-bbdff98ec502</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contactus_model']/div/div/div/a</value>
+      <webElementGuid>fa6a028a-3c39-4aae-8079-8a7f9d5195bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Got it')])[3]</value>
+      <webElementGuid>8d10ab74-602d-46a5-85af-28ff1739514c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thanks for getting in contact'])[1]/following::a[1]</value>
+      <webElementGuid>196d0637-d16a-446e-8cac-2afa5c7d4435</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Privacy [`dialog closed`]'])[1]/following::a[1]</value>
+      <webElementGuid>a5c8ce7c-dd62-476f-9392-15bb076a87aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::a[1]</value>
+      <webElementGuid>2ce9a4ea-c2ef-4c72-a4d2-dcddb29a0389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#close-modal')]</value>
+      <webElementGuid>22869e09-99f2-4b97-a40e-e5e829aea2a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/a</value>
+      <webElementGuid>079d1bd2-610b-4917-acb9-ac7ea363abb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#close-modal' and (text() = 'Got it' or . = 'Got it')]</value>
+      <webElementGuid>aa6244cb-29c9-45b8-bfd9-5dfc37d11f5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
