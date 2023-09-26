@@ -78,4 +78,4 @@ Contributions are welcome! If you'd like to enhance this test automation framewo
 
 ## Copyright  
 
- a project copyright is for [Ahmed Ashraf](https://github.com/Ashraaf7) License. 
+ a project copyright is for [Ahmed Ashraf](https://github.com/Ashraaf7)  
