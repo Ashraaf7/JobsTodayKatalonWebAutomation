@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CheckPostedJobs</name>
+   <name>EditJob(NotCompleted)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a3cdfe87-d9c0-4c49-92db-2560fb2ee6f2</testCaseGuid>
+   <testCaseGuid>3388ac59-2964-4e93-8628-ccad88ae8b8d</testCaseGuid>
 </TestCaseEntity>
