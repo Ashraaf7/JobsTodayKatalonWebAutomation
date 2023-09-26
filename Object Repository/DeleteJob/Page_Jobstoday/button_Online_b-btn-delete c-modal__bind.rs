@@ -6,12 +6,12 @@
    <elementGuidId>9a429862-91f6-4fb4-9084-045aa285d92c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//td[contains(@class,'b-company-admin-panel-table__cell_last')] /div /div/button)[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.b-btn-delete.c-modal__bind</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[contains(@class,'b-company-admin-panel-table__cell_last')] /div /div[2] /button)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b889996a-1640-44fc-9641-d1678ddfecc9</webElementGuid>
+      <webElementGuid>f61cccf9-445f-484e-8937-d86351e6b064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>8e94f6d1-fe2a-4ceb-a008-43acfb865125</webElementGuid>
+      <webElementGuid>74a1709a-7266-4227-8e55-732c90739623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$('.deleteJob').attr('data-jobid', 21297916)</value>
-      <webElementGuid>687bf63b-3045-4734-add0-beab9cbacb35</webElementGuid>
+      <webElementGuid>d0ae6e3a-b19e-4373-b20a-0767f8c0887e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-c-modal-number</name>
       <type>Main</type>
       <value>17</value>
-      <webElementGuid>ef5d72ce-d152-4255-afe5-67bd61d1d27c</webElementGuid>
+      <webElementGuid>b520b521-24b9-49e6-99e5-798d5ad23595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>b-btn-delete c-modal__bind</value>
-      <webElementGuid>99424019-3e10-4ce9-bfe3-7e9d41bc0726</webElementGuid>
+      <webElementGuid>a6d4dced-95d4-463b-a9ba-e6cec7f60944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;job_21297916&quot;)/td[@class=&quot;b-company-admin-panel-table__cell b-company-admin-panel-table__cell_last&quot;]/div[@class=&quot;b-options-list b-options-list_indent_horiz_sm b-options-list_inside_table&quot;]/div[@class=&quot;b-options-list__item b-options-list__item_last&quot;]/button[@class=&quot;b-btn-delete c-modal__bind&quot;]</value>
-      <webElementGuid>1b4ba59b-58d4-49a3-a223-58db71c68787</webElementGuid>
+      <webElementGuid>c6f91b0e-e02f-40c8-84bd-88be77a4f2fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;$('.deleteJob').attr('data-jobid', 21297916)&quot;]</value>
-      <webElementGuid>96281e3e-8804-4f5e-a8b9-79d57fbbab70</webElementGuid>
+      <webElementGuid>146de75f-1d3b-4f9e-ab8e-655e9f7350cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='job_21297916']/td[10]/div/div[2]/button</value>
-      <webElementGuid>ba4f07a5-48ed-447a-a561-3a519ee1a626</webElementGuid>
+      <webElementGuid>3fa0f1bf-3349-4be9-8a22-07c98d4e57a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[10]/div/div[2]/button</value>
-      <webElementGuid>611387a4-f9bd-4424-b785-178f46cc4f7a</webElementGuid>
+      <webElementGuid>f8cce4d5-7c0a-47e1-a9b7-f7c29599aade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@href = '#']</value>
-      <webElementGuid>42d62bfe-d005-4f4a-bce1-61c702e63df4</webElementGuid>
+      <webElementGuid>6c4c8299-fd88-4378-b2fa-8e41000cf6ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

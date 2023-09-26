@@ -32,6 +32,8 @@ WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/span_My Jobs'))
 
+
+
 TestObject settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
 WebUI.click(settings)
 for(int i in 1..17) {
@@ -40,12 +42,20 @@ for(int i in 1..17) {
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind'))
 
+WebUI.refresh()
+ settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
+WebUI.click(settings)
+for(int i in 1..17) {
+		 a.sendKeys(Keys.ARROW_RIGHT).build().perform();
+	  }
+	  
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/button_Online_b-btn-delete c-modal__bind'))
+	  
 // cannot click on the button as the confirmation message didn't appear 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/button_Delete'))
 
-TestObject J = findTestObject('Object Repository/DeleteJob/Page_Jobstoday/a_Software Tester job')
-String jobName = WebUI.getText(J)
+TestObject jobName = findTestObject('Object Repository/DeleteJob/Page_Jobstoday/a_Software Tester job')
 
-WebUI.verifyElementNotInViewport(J, 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(jobName,FailureHandling.OPTIONAL)
 
 

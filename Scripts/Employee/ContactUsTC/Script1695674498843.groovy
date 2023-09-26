@@ -26,16 +26,16 @@ WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Full name_input_name'), 
     'tester')
 
-//WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/div_Full name                              _a26a08'))
+//WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/div_Full name_a26a08'))
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Email address_input_email'), 
-    'alicja.gazdao@gmail.com')
+    'ahmed@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Company name_input_company'), 
     'company')
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Phone number_input_phone'), 
-    '0122222222')
+    '+2011461')
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/textarea_Message box_input_message'), 
     'message')
@@ -73,6 +73,8 @@ a.sendKeys(String.valueOf(a1), String.valueOf(a2), String.valueOf(a3), String.va
 WebUI.sendKeys(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'),
 	String.valueOf(((a1 + a2) + a3) + a4))
 
+WebUI.sendKeys(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'),
+	String.valueOf(((a1 + a2) + a3) + a4))
 WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'))
 
 String ConfirmMessage = WebUI.getText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/h5_Thanks for getting in contact'))
