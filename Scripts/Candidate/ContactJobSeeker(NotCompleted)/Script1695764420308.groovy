@@ -49,7 +49,7 @@ for(String s : handels)
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/button_Message'))
 
-WebUI.setText(findTestObject('Object Repository/ContactJobSeeker/Page_/textarea_Contact inquiry_input_inquiry'), 'test ')
+WebUI.setText(findTestObject('Object Repository/ContactJobSeeker/Page_/textarea_Contact inquiry_input_inquiry'), 'test')
 
 WebUI.setText(findTestObject('Object Repository/ContactJobSeeker/Page_/input_First name_input_firstname'), 'ahmed')
 

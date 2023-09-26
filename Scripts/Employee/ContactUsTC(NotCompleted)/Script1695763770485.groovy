@@ -46,35 +46,25 @@ def driver = DriverFactory.getWebDriver()
 // Create an instance of the Actions class
 def a = new Actions(driver)
 
-// Call the sendKeys() method on the Actions instance to simulate keyboard input
-a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(Keys.TAB).build().perform();
+a.sendKeys(Keys.TAB).build().perform();
+a.sendKeys(Keys.TAB).build().perform();
+a.sendKeys(Keys.TAB).build().perform();
 
-a.sendKeys(Keys.TAB).build().perform()
+Thread.sleep(2000);
+char a1 = '\u0030';
+char a2 = '\u0037';
+char a3 = '\u0038';
+char a4 = '\u0039';
 
-a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(String.valueOf(a1),
+		String.valueOf(a2),
+		String.valueOf(a3),
+		String.valueOf(a4)).build().perform();
 
-a.sendKeys(Keys.TAB).build().perform()
+WebUI.sendKeys(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'),String.valueOf(a1 + a2 + a3 + a4))
 
-a.sendKeys(Keys.TAB).build().perform()
 
-// a.MoveToElement(_driver.FindElement(By.XPath("//button[@id='btn-card-verify']"))).Build().Perform();
-Thread.sleep(2000)
-
-char a1 = '0'
-
-char a2 = '7'
-
-char a3 = '8'
-
-char a4 = '9'
-
-a.sendKeys(String.valueOf(a1), String.valueOf(a2), String.valueOf(a3), String.valueOf(a4)).build().perform()
-
-WebUI.sendKeys(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'),
-	String.valueOf(((a1 + a2) + a3) + a4))
-
-WebUI.sendKeys(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'),
-	String.valueOf(((a1 + a2) + a3) + a4))
 WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/button_Send'))
 
 String ConfirmMessage = WebUI.getText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/h5_Thanks for getting in contact'))

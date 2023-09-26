@@ -44,7 +44,7 @@ WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/inp
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ChangePasswordElements/Page_/h3_You have successfully saved your changes'))
+r
 
 WebUI.closeBrowser()
 

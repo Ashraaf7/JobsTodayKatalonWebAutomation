@@ -22,6 +22,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+//WebUI.navigateToUrl(GlobalVariable.Staging)
+
 
 WebUI.maximizeWindow()
 
