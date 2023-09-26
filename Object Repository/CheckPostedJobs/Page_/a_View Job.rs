@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;job_21297915&quot;]/td[4]/div</value>
+         <value>(//tbody /tr /td[4])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7530e5f6-81c5-426d-8cf7-f0d7cb2c8473</webElementGuid>
+      <webElementGuid>ea3b5293-2177-4984-a7a3-89dfda3fe5f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/</value>
-      <webElementGuid>1b9cc046-dbad-4d81-91bb-161d6810ed5e</webElementGuid>
+      <webElementGuid>6981bddd-ff6a-4a6e-9402-ed4fbd5e2752</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn_from_viewjob</value>
-      <webElementGuid>95fc4e86-d665-4596-9353-377317588465</webElementGuid>
+      <webElementGuid>2dedd491-bee4-42d5-95e5-ce079047c2a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View Job</value>
-      <webElementGuid>c705a637-f7c7-4ee5-bc6a-1d30b66d3b86</webElementGuid>
+      <webElementGuid>d98e2ae2-2b67-4aad-a892-1b876a81a1df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;myform-p-2&quot;)/div[@class=&quot;actions clearfix&quot;]/ul[1]/li[1]/a[@class=&quot;btn_from_viewjob&quot;]</value>
-      <webElementGuid>ae158025-4b4d-41ad-a3d1-99091aa3a293</webElementGuid>
+      <webElementGuid>85cf120d-e9aa-48a0-8273-d05cd3208d80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='myform-p-2']/div[2]/ul/li/a</value>
-      <webElementGuid>e956b04c-57e8-4910-910b-991576faa90f</webElementGuid>
+      <webElementGuid>353c847b-1efc-46e8-9fa8-102263079d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'View Job')]</value>
-      <webElementGuid>795ce000-7fb2-4d18-a207-cf67140be6d6</webElementGuid>
+      <webElementGuid>338af3d3-7bb6-405e-a86c-53225e8e8717</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You have successfully posted your Job'])[1]/following::a[1]</value>
-      <webElementGuid>421295d4-ab7a-4cbd-8c44-e8fa54252a0b</webElementGuid>
+      <webElementGuid>e8be6000-844b-493b-a855-7bd93ea31b5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel post'])[2]/following::a[1]</value>
-      <webElementGuid>0651b558-a278-4166-bd8e-885795710a68</webElementGuid>
+      <webElementGuid>7a2aab8c-6de9-498a-a140-576e84d1e831</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Post another Job'])[1]/preceding::a[1]</value>
-      <webElementGuid>d24353a1-913a-4b80-86f2-10cc0e0aa4b9</webElementGuid>
+      <webElementGuid>b2f1e216-4379-42a9-a434-648469982561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to cancel your Job post?'])[1]/preceding::a[1]</value>
-      <webElementGuid>bdf9cf86-73f3-4b73-8e30-90df615b968b</webElementGuid>
+      <webElementGuid>74179e12-463d-4e21-90a0-bb8872b06193</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='View Job']/parent::*</value>
-      <webElementGuid>75880288-8bc9-4a40-87e6-0f6e029de7ac</webElementGuid>
+      <webElementGuid>85acf8ea-94ce-4bb8-801e-725903642ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/')]</value>
-      <webElementGuid>6f7037c1-7b2f-43b5-88f6-55c38babf268</webElementGuid>
+      <webElementGuid>5ec04490-6321-4ec5-ab27-c8039aea3f60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[3]/div[2]/ul/li/a</value>
-      <webElementGuid>8e2d08e3-ebd8-4ebb-b1f4-a07522576705</webElementGuid>
+      <webElementGuid>ca3199cd-fb17-4b81-87ce-617b9948eb7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/en/job/advertising/software-tester-job-city-of-manila/8c8bc8fd0e50ad66d8145c16e4df5137/' and (text() = 'View Job' or . = 'View Job')]</value>
-      <webElementGuid>93be7f34-2766-4ec6-bfcf-ed8492e30ff7</webElementGuid>
+      <webElementGuid>70905844-99a7-418e-b405-01dd56dfe2b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

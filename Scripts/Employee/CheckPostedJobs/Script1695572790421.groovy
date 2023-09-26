@@ -70,6 +70,9 @@ WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/button_Publi
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CheckPostedJobs/Page_/h3_You have successfully posted your Job'))
 
+
+//Job is not appeared in My Jobs
+
 //WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 //WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
