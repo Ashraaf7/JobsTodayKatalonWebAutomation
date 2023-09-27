@@ -29,6 +29,26 @@ public class GlobalVariable {
      */
     public static Object Password
      
+    /**
+     * <p></p>
+     */
+    public static Object JobSeekerProductonEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object EmployeeEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object EmployerEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object EmployerPassword
+     
 
     static {
         try {
@@ -40,6 +60,10 @@ public class GlobalVariable {
             Production = selectedVariables['Production']
             CandidateStagingEmail = selectedVariables['CandidateStagingEmail']
             Password = selectedVariables['Password']
+            JobSeekerProductonEmail = selectedVariables['JobSeekerProductonEmail']
+            EmployeeEmail = selectedVariables['EmployeeEmail']
+            EmployerEmail = selectedVariables['EmployerEmail']
+            EmployerPassword = selectedVariables['EmployerPassword']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -24,4 +24,24 @@
       <initValue>'Pass@123'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jobseeker@gmail.com'</initValue>
+      <name>JobSeekerProductonEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee@gmail.com'</initValue>
+      <name>EmployeeEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'alicja.gazdao@gmail.com'</initValue>
+      <name>EmployerEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tester3124'</initValue>
+      <name>EmployerPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

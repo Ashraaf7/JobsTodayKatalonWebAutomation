@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ContactUs</name>
+   <name>SendMailUsingOutlook</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>02ff0f61-ae88-4527-a01f-b506dd1aa996</testCaseGuid>
+   <testCaseGuid>d2ea608f-7bb8-41b7-9939-0c17f6428c4b</testCaseGuid>
 </TestCaseEntity>

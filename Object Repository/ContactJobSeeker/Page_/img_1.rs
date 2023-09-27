@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>e03b76f1-8df1-491e-9cb1-c488ddaffd10</webElementGuid>
+      <webElementGuid>fbddf747-8d30-49a0-8adc-860af1139e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/user.svg</value>
-      <webElementGuid>59c580e0-0216-4b07-8faa-b87ef65dfb25</webElementGuid>
+      <webElementGuid>33005cee-d648-462f-8dc5-d9a42aaa78e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;user-login&quot;]/a[1]/img[1]</value>
-      <webElementGuid>104e76f0-f1df-4c6c-8e33-ab9e1f734f4b</webElementGuid>
+      <webElementGuid>f9374521-d2d3-49bd-98ea-91d983472726</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>e72bf912-702b-4f47-a3db-e162439933d7</webElementGuid>
+      <webElementGuid>ea971c9c-8192-4c31-8bdb-9d9d657e6081</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>22e5385b-b4e7-4b30-a77e-037f642092cc</webElementGuid>
+      <webElementGuid>1a25965a-b570-433d-afc8-6afd7da6fdcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/user.svg']</value>
-      <webElementGuid>b0fe2268-6a79-4e85-be26-802e363fd30a</webElementGuid>
+      <webElementGuid>5b8e9879-e51f-467f-b84c-d79274ce7f78</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
