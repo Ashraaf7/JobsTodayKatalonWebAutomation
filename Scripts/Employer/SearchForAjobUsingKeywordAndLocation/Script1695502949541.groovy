@@ -16,24 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
 
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
+WebUI.callTestCase(findTestCase('Employer/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobs'))
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_keywords'), 'tester')
 
-WebUI.scrollToPosition(0, 0)
-WebUI.setText(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/input_New Vacancies in Your Inbox_input_email'), 
-    GlobalVariable.JobSeekerProductonEmail)
+WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_location'), 'Amsterdam, Nederland')
 
-WebUI.click(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Subscribe'))
+WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/img'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/h5_You have successfully subscribed'))
+String JobLabel = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/a_Tester'))
 
+String Location = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/span_Amsterdam, Nederland'))
+
+WebUI.verifyMatch(JobLabel, 'Tester', false)
+
+WebUI.verifyMatch(Location, 'Amsterdam, Nederland', false)
 
 WebUI.closeBrowser()
-

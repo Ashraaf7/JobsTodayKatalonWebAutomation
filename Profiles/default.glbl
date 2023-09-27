@@ -32,16 +32,21 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'employee@gmail.com'</initValue>
-      <name>EmployeeEmail</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'alicja.gazdao@gmail.com'</initValue>
       <name>EmployerEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'alicja.gazdao@gmail.com'</initValue>
+      <name>EmployerCompanyEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'tester3124'</initValue>
-      <name>EmployerPassword</name>
+      <name>EmployerCompanyPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'new@gmail.com'</initValue>
+      <name>flagEmailForRegister</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

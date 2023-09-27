@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.navigateToUrl(GlobalVariable.Production)
 
 WebUI.maximizeWindow()
 
@@ -33,9 +33,9 @@ WebUI.scrollToPosition(595, 1490)
 
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_Register Now'))
 
-WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Email address_input_email'), 'jobseeker@gmail.com')
+WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Email address_input_email'), GlobalVariable.flagEmailForRegister)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Password_input_password'), 'r98I3Krbh9FyLvOoVhuYpw==')
+WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Password_input_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/span_Password_hide-show-btn1'))
 
@@ -92,5 +92,25 @@ WebUI.scrollToPosition(573, 885)
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_Publish'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/JobSeekerRegElements/Page_/h5_Your purchase was successful'))
+
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SETTINGS'))
+
+WebUI.scrollToPosition(600,1268)
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
+
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
+
+Thread.sleep(3000)
+
+
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+
 
 WebUI.closeBrowser()

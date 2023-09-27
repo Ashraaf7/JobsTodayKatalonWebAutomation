@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.navigateToUrl(GlobalVariable.Production)
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
@@ -34,10 +34,10 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im a Candidate'))
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Email address_input_email'), 
-    'test@gmail.com')
+    GlobalVariable.flagEmailForRegister)
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Password_input_password'), 
-    'Pass@123')
+    GlobalVariable.Password)
 
 //WebUI.switchToFrame(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/frame'), 30)
 
@@ -75,7 +75,23 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
 Thread.sleep(2000);
 WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/DeleteCandidateAccount'),  [:])
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SETTINGS'))
+
+WebUI.scrollToPosition(600,1268)
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
+
+
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
+
+Thread.sleep(3000)
+
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
 
 WebUI.closeBrowser()
 

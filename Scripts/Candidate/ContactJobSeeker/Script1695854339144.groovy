@@ -39,7 +39,7 @@ String JobSeekerEmail = WebUI.getText(findTestObject('Object Repository/ContactJ
 
 // Specify the email address and password for your Outlook account
 String username = "ahmed03ashr@outlook.com"
-String password = "ashraf12345" // Replace with your Outlook account password
+String password = "" // Replace with your Outlook account password
 
 // Specify the recipient email address
 String recipient = JobSeekerEmail

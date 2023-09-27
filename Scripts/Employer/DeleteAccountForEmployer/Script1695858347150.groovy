@@ -16,24 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
 
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl(GlobalVariable.Production)
+WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-WebUI.scrollToPosition(0, 0)
-WebUI.setText(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/input_New Vacancies in Your Inbox_input_email'), 
-    GlobalVariable.JobSeekerProductonEmail)
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))
 
-WebUI.click(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Subscribe'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/h5_You have successfully subscribed'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/DeleteButton'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/ConfirmDeleteButton'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete'))
+WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.Password)
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))
 
 
 WebUI.closeBrowser()
-
