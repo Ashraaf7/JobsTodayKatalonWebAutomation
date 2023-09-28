@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employer\\ContactUsTC(NotCompleted)\\20230928_144343\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Candidate\\verifyThatEachJobseekerHasDifferentEmail\\20230928_203220\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Employer/ContactUsTC(NotCompleted)', new TestCaseBinding('Test Cases/Employer/ContactUsTC(NotCompleted)',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Candidate/verifyThatEachJobseekerHasDifferentEmail', new TestCaseBinding('Test Cases/Candidate/verifyThatEachJobseekerHasDifferentEmail',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyThatEachJobseekerHasDifferentEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db08e974-31cd-469a-85cb-05d7aaabeb82</testCaseGuid>
+</TestCaseEntity>
