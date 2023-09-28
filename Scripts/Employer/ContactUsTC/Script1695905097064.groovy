@@ -72,4 +72,4 @@ String ConfirmMessage = WebUI.getText(findTestObject('Object Repository/ContactU
 WebUI.verifyMatch(ConfirmMessage, 'Thanks for getting in contact', false)
 WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/a_Got it'))
 
-
+WebUI.closeBrowser()
