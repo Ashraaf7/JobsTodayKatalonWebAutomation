@@ -79,6 +79,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/iframe_Message box_a-ub6pr7n6as4h_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Job title new test after edit\u0027])[1]/following::h1[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h1",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit_position.png"
     }
   ]
 }

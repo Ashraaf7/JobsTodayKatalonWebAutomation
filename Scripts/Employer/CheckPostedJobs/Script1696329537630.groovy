@@ -16,14 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select as Select
 
-String jobTitle = 'Post Job one'
+String jobTitle = 'Post Job Title'
+
 WebUI.callTestCase(findTestCase('Employer/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+
 def driver = DriverFactory.getWebDriver()
+
 WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
@@ -35,22 +38,28 @@ WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/spa
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Describe in few words the most imp_0f1197'), 
     'Company description Company description Company description Company description v Company description Company description Company test')
 
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Job title_job_title'), jobTitle) 
+WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Job title_job_title'), jobTitle)
 
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Enter a short Job description, it _305c38'), 
     'Company description Company description Company description Company description v Company description Company description Company test')
 
 TestObject jobDescription = findTestObject('Object Repository/CheckPostedJobs/Page_/p_Compose your Job position with as many de_a6a97c')
 
-WebElement frame = driver.findElement(By.id("job_description_ifr"));
+WebElement frame = driver.findElement(By.id('job_description_ifr'))
+
 driver.switchTo().frame(frame)
-WebUI.sendKeys(jobDescription,'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+
+WebUI.sendKeys(jobDescription, 'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+
 driver.switchTo().parentFrame()
 
 By G = By.xpath('//*[@id="select_industry"]')
-WebElement Industry= driver.findElement(G)
+
+WebElement Industry = driver.findElement(G)
+
 Select dropDown = new Select(Industry)
-dropDown.selectByVisibleText("Accounting")
+
+dropDown.selectByVisibleText('Accounting')
 
 WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/span_Select employment type'))
 
@@ -58,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/type'))
 
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_City  Country_location'), 'Cairo, Egypt')
 
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Reference_Reference'), 'Company description Company description Company description Company description v Company description')
+WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Reference_Reference'), 'Company description')
 
 WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/label_No'))
 
@@ -70,14 +79,14 @@ WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/button_Publi
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CheckPostedJobs/Page_/h3_You have successfully posted your Job'))
 
-
 //Job is not appeared in My Jobs
+WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
-//WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
 
-//WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
+TestObject jobName = findTestObject('Object Repository/CheckPostedJobs/Page_/a_View Job')
 
-//TestObject jobName = findTestObject('Object Repository/CheckPostedJobs/Page_/a_View Job')
+String jobNameTxt = WebUI.getText(jobName)
 
-//String jobNameTxt = WebUI.getText(jobName)
-//WebUI.verifyMatch(jobTitle, jobNameTxt, false)
+WebUI.verifyMatch(jobTitle, jobNameTxt, false)
+

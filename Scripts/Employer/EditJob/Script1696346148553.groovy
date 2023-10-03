@@ -19,17 +19,14 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
 
+String newTitle = 'Job title new after edit'
 
-WebUI.callTestCase(findTestCase('Employer/CheckPostedJobs(NotCompleted)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/CheckPostedJobs'), [:], FailureHandling.STOP_ON_FAILURE)
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
 
 // Create an instance of the Actions class
 def a = new Actions(driver)
-
-WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-
-WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobstoday/div_Expired_ps-scrollbar-x'))
 
 TestObject settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
 WebUI.click(settings)
@@ -39,7 +36,7 @@ for(int i in 1..17) {
 
 WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobstoday/a_Online_b-btn-edit'))
 
-WebUI.setText(findTestObject('Object Repository/EditJob/Page_/input_Job title_job_title'), 'Job title new test after edit')
+WebUI.setText(findTestObject('Object Repository/EditJob/Page_/input_Job title_job_title'), newTitle)
 
 WebUI.click(findTestObject('Object Repository/EditJob/Page_/a_Next'))
 
@@ -53,6 +50,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/EditJob/Page_/h3_Yo
 
 WebUI.click(findTestObject('Object Repository/EditJob/Page_/a_View Job'))
 
-String newTitle = WebUI.getText(findTestObject('Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit'))
+String JobTitle = WebUI.getText(findTestObject('Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit'))
 
-WebUI.verifyMatch("Job title new test after edit", newTitle, false)
+WebUI.verifyMatch(newTitle, JobTitle, false)

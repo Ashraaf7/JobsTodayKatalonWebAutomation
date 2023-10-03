@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset[@id='myform-p-0']/div/div/div[2]/div[6]/div/label[2]</value>
+         <value>//*[@id=&quot;myform-p-0&quot;]/div[1]/div/div[2]/div[6]/div/label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>cc180723-79de-4d20-9eec-1adae845ef63</webElementGuid>
+      <webElementGuid>cf43fb12-7576-405b-bc77-b868da500b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>radio_button-08</value>
-      <webElementGuid>21cb06b3-33db-48a1-8235-418263ddd213</webElementGuid>
+      <webElementGuid>4bc6192d-6364-4394-8415-34301f024cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>5f929e4e-a11b-486b-a0a9-b3d0b007a431</webElementGuid>
+      <webElementGuid>177315f6-7b1c-4706-ac6d-ebb46d1d0b5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;myform-p-0&quot;)/div[@class=&quot;form-tab&quot;]/div[@class=&quot;tab-content current&quot;]/div[@class=&quot;add-position-information&quot;]/div[@class=&quot;form-group company-contact-detail&quot;]/div[@class=&quot;custom-checkbox&quot;]/label[2]</value>
-      <webElementGuid>27d16743-5d12-40be-9f8a-6da424e510bc</webElementGuid>
+      <webElementGuid>8dd80040-2eab-45e6-bb70-436cecd6075d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='myform-p-0']/div/div/div[2]/div[6]/div/label[2]</value>
-      <webElementGuid>90811c40-e4bd-4c47-be5b-8f9952c96fd1</webElementGuid>
+      <webElementGuid>e6660744-5205-4987-8cac-a0a5bdff7cbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[3]/following::label[1]</value>
-      <webElementGuid>f99625c0-0146-411f-ab55-f4e225e8e63f</webElementGuid>
+      <webElementGuid>476f1088-eb2b-472f-b6b7-b5c96788878b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select this option to ask the candidate for address, phone number, date of birth.'])[1]/following::label[2]</value>
-      <webElementGuid>1b9859dc-894d-44bd-a5e5-ae198aed8b85</webElementGuid>
+      <webElementGuid>5acc8c82-dfe7-4b24-9b65-6c7b28da3200</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select application process'])[1]/preceding::label[1]</value>
-      <webElementGuid>7afc6fc1-36e8-4b9a-9bfe-2c9287baa9bc</webElementGuid>
+      <webElementGuid>e70e88cc-d021-4cc1-af89-e3e2e4112834</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/label[2]</value>
-      <webElementGuid>a8f39d9e-1924-47c9-8456-86971dda83f7</webElementGuid>
+      <webElementGuid>2c3a9b8d-4e55-4cc8-8816-1b2c290bab1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'No' or . = 'No')]</value>
-      <webElementGuid>e4f1c283-a22e-486d-9316-e50bf5472bb6</webElementGuid>
+      <webElementGuid>fff710c7-8716-477b-a597-8ab97ff3a398</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

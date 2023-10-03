@@ -54,6 +54,13 @@ public class GlobalVariable {
      */
     public static Object flagEmailForRegister
      
+    /**
+     * <p></p>
+     */
+    public static Object newPassword
+	
+	
+     
 
     static {
         try {
@@ -70,6 +77,7 @@ public class GlobalVariable {
             EmployerCompanyEmail = selectedVariables['EmployerCompanyEmail']
             EmployerCompanyPassword = selectedVariables['EmployerCompanyPassword']
             flagEmailForRegister = selectedVariables['flagEmailForRegister']
+            newPassword = selectedVariables['newPassword']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

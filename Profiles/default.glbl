@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Pass@123'</initValue>
+      <initValue>'test1234'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'new@gmail.com'</initValue>
+      <initValue>'new1@gmail.com'</initValue>
       <name>flagEmailForRegister</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test1234'</initValue>
+      <name>newPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
