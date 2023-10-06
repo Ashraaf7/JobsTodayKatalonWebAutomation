@@ -89,6 +89,86 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/span_Salutation",
+      "brokenLocator": "//*[@id\u003d\"select2-input_title-3a-container\"]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027form-checkout\u0027]/div/div/div/div/div[3]/div[2]/div/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_/span_Salutation_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/span_Select profile type",
+      "brokenLocator": "//*[@id\u003d\"select2-input_profile_type-5f-result-2ujo-RA\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027form-checkout\u0027]/div/div/div/div/div[3]/div[6]/div/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_/span_Select profile type_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/span_Select industry",
+      "brokenLocator": "//*[@id\u003d\"select2-industry-result-xyvp-514\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027select2-industry-container\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_/span_Select industry_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/span_Select number",
+      "brokenLocator": "//*[@id\u003d\"select2-input_number_of_employee-4h-result-jgad-5\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027form-checkout\u0027]/div/div/div/div/div[3]/div[7]/div[2]/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_/span_Select number_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/span_Select communication language",
+      "brokenLocator": "//*[@id\u003d\"select2-input_communication_language-be-result-mawi-en\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027form-checkout\u0027]/div/div/div/div/div[3]/div[7]/div/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_/span_Select communication language_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_/h5_Your purchase was successful",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Purchase confirmation\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PL\u0027])[3]/following::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_Jobstoday/h3_Starter",
+      "brokenLocator": "//li[@id\u003d\u0027package_item_409\u0027]/div/div/h3",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Order package\u0027])[1]/following::h3[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_Jobstoday/h3_Starter_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuySingleJobAndRegister/Page_Jobstoday/p_Single Job",
+      "brokenLocator": "//*[@id\u003d\"package_item_411\"]/div/div[1]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Starter\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_Jobstoday/p_Single Job_neighbor.png"
     }
   ]
 }

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Starter</name>
+   <tag></tag>
+   <elementGuidId>fda4e49c-bf15-4d6e-a1db-b1bbc266504f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='package_item_409']/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.b-package-box__heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>2f409106-be96-4b91-9846-fbd5674d2676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>b-package-box__heading</value>
+      <webElementGuid>ed640443-4875-463e-8c42-c6ac841ce3f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                    Starter                                                </value>
+      <webElementGuid>b3744d7a-f8f3-4a98-9bb3-cd90510e0b7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;package_item_409&quot;)/div[@class=&quot;b-package-box&quot;]/div[@class=&quot;b-package-box__header b-package-box__item_first&quot;]/h3[@class=&quot;b-package-box__heading&quot;]</value>
+      <webElementGuid>29fce545-0a02-4db6-8b73-9fbbd5af021e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='package_item_409']/div/div/h3</value>
+      <webElementGuid>b2d1ca94-1677-4439-8b50-3dc5eafd3bb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order package'])[1]/following::h3[1]</value>
+      <webElementGuid>d28f9532-2be2-437f-9262-7c937af66ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PACKAGES'])[1]/following::h3[1]</value>
+      <webElementGuid>23eb6515-eb78-429b-bba5-f0944027e3fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Package ID:'])[1]/preceding::h3[1]</value>
+      <webElementGuid>01c53a52-fc21-4dbe-91a3-4ffce51a2b24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ST2023-066539821'])[1]/preceding::h3[1]</value>
+      <webElementGuid>388c2945-cd6c-4783-9831-1555f77af0fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Starter']/parent::*</value>
+      <webElementGuid>8750ea3e-1b5d-4845-8da9-e1573bf8ccdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>6266a926-0f23-4ff2-a44b-561886ad1240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = '
+                                                    Starter                                                ' or . = '
+                                                    Starter                                                ')]</value>
+      <webElementGuid>ebb0dba0-6b01-4a10-9bef-3f650ab39ba7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

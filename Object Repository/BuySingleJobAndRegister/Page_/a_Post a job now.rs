@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Post a job now</name>
+   <tag></tag>
+   <elementGuidId>d9a03a60-bdc1-47b8-8c16-7261849f08b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.button-priamry</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>77cd1705-586a-4e2c-9c5d-e8ecad5ae63c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>15397285-eb00-423a-951d-e4318d93758b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$(this).parent().find('form').submit();</value>
+      <webElementGuid>4938cf78-0e83-4fc6-ac19-f110ec1dd699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn button-priamry</value>
+      <webElementGuid>2bde26cd-b266-4877-a699-c98e233ee510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Post a job now</value>
+      <webElementGuid>760cccc5-6a2d-4c5a-8fe1-74d62863973f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;checkout--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;purchase-confirmation-section&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;purchase-successful&quot;]/div[@class=&quot;purchase-successful-inner&quot;]/div[@class=&quot;login-button&quot;]/a[@class=&quot;btn button-priamry&quot;]</value>
+      <webElementGuid>36ae6faa-7fd6-421a-bdc9-3993629f332a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
+      <webElementGuid>b93529f6-a733-4ff1-9a0d-2c42b85f32e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Post a job now')]</value>
+      <webElementGuid>b7330ac2-b538-44a1-8fb7-d156d381acca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your purchase was successful'])[1]/following::a[1]</value>
+      <webElementGuid>9239cdc6-cacc-46fd-946b-686ed2db708a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase confirmation'])[1]/following::a[1]</value>
+      <webElementGuid>3d8f2baa-cc1f-47da-b92a-e08422371399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Administration Panel'])[1]/preceding::a[1]</value>
+      <webElementGuid>4535e120-a8b0-4ff5-a6c6-c2c3febb6963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Hiring'])[1]/preceding::a[2]</value>
+      <webElementGuid>4c86e887-17a3-4f7f-9470-74d521e25d38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Post a job now']/parent::*</value>
+      <webElementGuid>5030f1f2-28b1-48ce-877e-1b6ee48d868d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:;')]</value>
+      <webElementGuid>95294e51-a8dc-4a63-a588-85f664995aae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>6bfa171d-c111-41aa-9615-b7ee1d5645f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = 'Post a job now' or . = 'Post a job now')]</value>
+      <webElementGuid>0ce74646-b45c-4d36-8ba4-262d83f40b3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

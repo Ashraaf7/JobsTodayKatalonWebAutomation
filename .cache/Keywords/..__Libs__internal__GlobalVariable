@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "A95EB496B7929C4DD87A2D325A0D2E77",
+  "keywordFileContentHash": "0BEE0AA67FACFBB7D3AB9408D8FE5C34",
   "keywordClasses": [
     {
       "name": "internal.GlobalVariable",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
