@@ -34,11 +34,16 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/li_Text Jo
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Yes'))
 
 WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/textarea_Describe in few words the most imp_0f1197'), 
-    'Company description Company description Company description Company description v Company description Company description Company test')
+    'Company description Company description Company description Company ')
+
 
 WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_Job title_job_title'), jobTitle)
 
-TestObject jobDescription = findTestObject('Object Repository/PostTextSingleJob/Page_/textarea_Enter a short Job description, it _305c38')
+
+WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/ShortJobdescription'),
+	'Company description Company description Company description ')
+
+TestObject jobDescription = findTestObject('Object Repository/PostTextSingleJob/Page_/Jobdescription')
 
 WebElement frame = driver.findElement(By.id('job_description_ifr'))
 
@@ -65,7 +70,6 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_Yes'
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_No'))
 
-WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_Reference_Reference'), 'Company Reference')
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Next'))
 

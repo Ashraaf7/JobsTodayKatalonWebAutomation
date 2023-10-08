@@ -6,12 +6,12 @@
    <elementGuidId>06865adb-d239-49bd-b78c-757516c702cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select2-input_number_of_employee-g0-container&quot;]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select2-input_number_of_employee-hy-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-select2-id='13']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>543e81c7-4e59-4442-a00c-3b4a060347c7</webElementGuid>
+      <webElementGuid>dac9c86e-e2d0-4099-a9e4-112cb3817c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>ee18b4b0-b284-4073-a0af-b6f85c0d8bf3</webElementGuid>
+      <webElementGuid>278a9e11-53e8-4e18-957c-cf481dbdcf4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select2-input_number_of_employee-hy-container</value>
-      <webElementGuid>f87d5d95-1a77-4c43-92f7-5956753d963e</webElementGuid>
+      <webElementGuid>56eb80d3-9e89-4542-8e74-a8c4c6ae21c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>bb7d7718-cf6e-45ee-8a45-11a9971aa431</webElementGuid>
+      <webElementGuid>154db10e-0903-42ac-ba5a-1d6f806feeaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ebb5bc4f-87ef-4989-9c76-e948a46c44bf</webElementGuid>
+      <webElementGuid>6c1b5fc7-f2b2-4860-9c9c-513993fef701</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select number</value>
-      <webElementGuid>5d45bee0-5b51-4f6c-bfcb-56b0e512bf09</webElementGuid>
+      <webElementGuid>d7f36f61-74ef-4aea-bc01-a8f14ab86062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-input_number_of_employee-hy-container&quot;)</value>
-      <webElementGuid>4713418b-86be-4da9-88c2-12cc9a98573e</webElementGuid>
+      <webElementGuid>ce0a068b-5b28-45ed-a1b0-f797da64e51f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='select2-input_number_of_employee-hy-container']</value>
-      <webElementGuid>a5ca4938-f973-4036-85b6-0e0523b1f04b</webElementGuid>
+      <webElementGuid>448968dc-330f-4abe-beb4-9f462ad696d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form-checkout']/div/div/div/div/div[3]/div[7]/div[2]/span/span/span/span</value>
-      <webElementGuid>2f1c48f0-c525-4b55-af19-0af0ac14b744</webElementGuid>
+      <webElementGuid>f34e29da-ab29-4379-b9aa-71ab80d35ad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select communication language'])[2]/following::span[7]</value>
-      <webElementGuid>0870c687-2b86-4557-a0de-6c71b5200c36</webElementGuid>
+      <webElementGuid>296aa927-2ae6-440c-9bfb-c4bf9a1b7c4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration Error'])[1]/preceding::span[5]</value>
-      <webElementGuid>26b67263-27b1-4ba1-b64f-cfb42bc867a8</webElementGuid>
+      <webElementGuid>96468461-3a57-4fe2-a2ed-4ada32d66c38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span/span/span/span</value>
-      <webElementGuid>4fb80f27-1032-40ad-a00b-391c16482bbf</webElementGuid>
+      <webElementGuid>b2649cb0-bb5b-4bd5-ada4-7e1f54749e7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'select2-input_number_of_employee-hy-container' and (text() = 'Select number' or . = 'Select number')]</value>
-      <webElementGuid>f7be30e9-825e-48d8-b033-469a77bea544</webElementGuid>
+      <webElementGuid>33db308c-861b-4443-8929-9edff743c12e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

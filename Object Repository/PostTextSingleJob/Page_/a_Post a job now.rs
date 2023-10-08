@@ -6,12 +6,12 @@
    <elementGuidId>fd21e25b-ae8c-4010-b9ea-08d8db8cd25d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;package_item_419&quot;]/div/form/button/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.button-priamry</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='b-package-box__btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>828d89ed-4f03-45d0-a03a-d704c4f59c9f</webElementGuid>
+      <webElementGuid>45c39a63-cb5d-4144-8218-edf0587a6e96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>a75b58fe-6d78-4887-9329-771e5265f71f</webElementGuid>
+      <webElementGuid>a385171f-3e07-4d2f-ba0c-deee2c27a734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$(this).parent().find('form').submit();</value>
-      <webElementGuid>abed183b-d41a-46e6-beaf-121301e97624</webElementGuid>
+      <webElementGuid>9631a2a6-23de-430c-a5a7-6fbd9538d917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn button-priamry</value>
-      <webElementGuid>df92692b-cfb7-4956-b831-dcb2d9784450</webElementGuid>
+      <webElementGuid>e6b6ccfa-873b-456b-9f71-25b2277fe447</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Post a job now</value>
-      <webElementGuid>f08f0269-aa4c-4ba2-b88c-511cd71162d4</webElementGuid>
+      <webElementGuid>8d0d0c4e-6805-4d7f-82c1-abb8b0da1776</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;checkout--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;purchase-confirmation-section&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;purchase-successful&quot;]/div[@class=&quot;purchase-successful-inner&quot;]/div[@class=&quot;login-button&quot;]/a[@class=&quot;btn button-priamry&quot;]</value>
-      <webElementGuid>dc768368-b981-46b3-b929-ecff6b3a962b</webElementGuid>
+      <webElementGuid>d7c645fb-6b4c-4dfc-b63d-ed897750dc95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
-      <webElementGuid>3e8c2a40-ba16-48af-aaa0-900494874227</webElementGuid>
+      <webElementGuid>092b1b8d-f437-46e9-a420-bc9e146bf006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Post a job now')]</value>
-      <webElementGuid>85a0b221-5adb-4345-8dd2-a44c084c0bf7</webElementGuid>
+      <webElementGuid>40991098-9c7f-4c86-b6aa-26cbff6a81bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your purchase was successful'])[1]/following::a[1]</value>
-      <webElementGuid>b70532bd-f56d-4ab4-abad-3aa174a83011</webElementGuid>
+      <webElementGuid>ad6b8026-3ab2-486a-abf0-74058c596a50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase confirmation'])[1]/following::a[1]</value>
-      <webElementGuid>ae1d2d67-dc07-4dfe-912a-8b2b7b1d6579</webElementGuid>
+      <webElementGuid>614a3e76-ec72-4a86-a14a-0c22e8fd9ce4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Administration Panel'])[1]/preceding::a[1]</value>
-      <webElementGuid>58244707-de6d-4a5b-8538-8111a746911b</webElementGuid>
+      <webElementGuid>0c299a20-4e85-432e-900c-aec4a40f7213</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Hiring'])[1]/preceding::a[2]</value>
-      <webElementGuid>89414456-7cfa-4d1b-96ab-730af51c591a</webElementGuid>
+      <webElementGuid>31ece70d-2f92-4a38-b2d3-c57c792b19b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Post a job now']/parent::*</value>
-      <webElementGuid>b5c6236d-8d52-42bb-b781-7c379e78f62f</webElementGuid>
+      <webElementGuid>e190015f-d23c-4735-83f6-9e5f26cdc54f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:;')]</value>
-      <webElementGuid>14278e3e-4f03-4c93-a6b0-ec4c952d21e4</webElementGuid>
+      <webElementGuid>2b37167e-9256-4b40-9c83-959bf8056aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>9236f485-947e-4df6-bfe2-d815f2384a47</webElementGuid>
+      <webElementGuid>6c1a3068-530e-475c-b906-83cb1dabde56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:;' and (text() = 'Post a job now' or . = 'Post a job now')]</value>
-      <webElementGuid>ae8f7274-751b-44a6-9500-d03086204feb</webElementGuid>
+      <webElementGuid>5af87d1e-38ee-4c75-a1f2-5451fc9065a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

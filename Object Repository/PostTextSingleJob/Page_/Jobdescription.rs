@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Enter a short Job description, it _305c38</name>
+   <name>Jobdescription</name>
    <tag></tag>
    <elementGuidId>046de036-7bdc-414c-94c0-917fe0649970</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;tinymce&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#short_description</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tinymce&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

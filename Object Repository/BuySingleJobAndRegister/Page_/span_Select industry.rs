@@ -6,12 +6,12 @@
    <elementGuidId>7465576b-3853-4b78-807a-a908b74e8ffb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select2-industry-container&quot;]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.select2-selection__placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-select2-id='1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a2af7c28-cc42-4463-8805-bf2aa051b5df</webElementGuid>
+      <webElementGuid>93bf5b39-766a-4350-afc2-4034503031e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__placeholder</value>
-      <webElementGuid>5f207ca2-510a-4280-846f-ea7b339398fd</webElementGuid>
+      <webElementGuid>dd3461ae-bbd8-41d1-ba82-a6af2c906d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select industry</value>
-      <webElementGuid>fbee9649-ddb7-4e3a-853c-332c05c21abf</webElementGuid>
+      <webElementGuid>d632b4f0-f120-43be-8302-b1e4809e0bd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-industry-container&quot;)/span[@class=&quot;select2-selection__placeholder&quot;]</value>
-      <webElementGuid>83244b77-a4c4-407e-8a3e-960ca95302af</webElementGuid>
+      <webElementGuid>66fe8f7a-8e43-4cd9-abe2-feda5db70f44</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='select2-industry-container']/span</value>
-      <webElementGuid>724dfe83-6d4f-4f09-aee2-f1e71abf6b2a</webElementGuid>
+      <webElementGuid>1706561b-c9a6-4808-b855-d3b7402d266f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recruitment Agency'])[2]/following::span[8]</value>
-      <webElementGuid>b90920f3-995c-48a9-82f7-7242f2d565c6</webElementGuid>
+      <webElementGuid>d9e2d3b3-2b4d-47eb-800f-e0fb05a1210c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select communication language'])[2]/preceding::span[5]</value>
-      <webElementGuid>eddb1005-70f2-4e0b-b1dd-d4eadd317cc9</webElementGuid>
+      <webElementGuid>114bc6ce-af1d-4302-a678-0408e5713003</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Select industry']/parent::*</value>
-      <webElementGuid>04ba119a-5c47-450a-9531-32870d700eaa</webElementGuid>
+      <webElementGuid>797e9bc1-3d5a-435f-8c29-0a0cff6033be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div/span/span/span/span/span</value>
-      <webElementGuid>b324a7a7-6283-473e-b4b8-bbbba851bd59</webElementGuid>
+      <webElementGuid>441facd0-e250-4b52-b092-4ed85850a169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Select industry' or . = 'Select industry')]</value>
-      <webElementGuid>26fd9589-f97b-42ca-a66d-70ecd22dbf51</webElementGuid>
+      <webElementGuid>3e23e6e8-4495-4c93-8580-fee9c1225a8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

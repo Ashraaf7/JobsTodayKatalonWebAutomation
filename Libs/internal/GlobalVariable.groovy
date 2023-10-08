@@ -58,6 +58,7 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object newPassword
+     
 
     static {
         try {

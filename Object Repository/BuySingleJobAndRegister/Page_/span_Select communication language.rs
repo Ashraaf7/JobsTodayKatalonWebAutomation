@@ -6,12 +6,12 @@
    <elementGuidId>b7191bf7-facb-4c11-99a1-100b757209f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select2-input_communication_language-cb-container&quot;]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select2-input_communication_language-mj-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-select2-id='10']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cded32b6-5685-4d0a-afa8-06cfc5069c59</webElementGuid>
+      <webElementGuid>28849379-1b9f-4436-a69b-bbde8f97e13d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>237709c4-04b6-4a6e-bb1f-8be9ffed78c0</webElementGuid>
+      <webElementGuid>1991d41a-fc35-4118-ba3a-0f51ee25aaae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select2-input_communication_language-mj-container</value>
-      <webElementGuid>efedf415-a0da-4055-a250-202f61e1b452</webElementGuid>
+      <webElementGuid>503de726-6212-40cd-8467-c2b93e65b370</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>eb38a337-37ee-47e7-9df9-42748a7de2d6</webElementGuid>
+      <webElementGuid>e654474c-6077-4060-954a-c007553160e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e5ecc45c-8f75-48d2-87cc-ce672136533d</webElementGuid>
+      <webElementGuid>1dbe3047-225a-4185-b154-e18e307c8031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select communication language</value>
-      <webElementGuid>1cb90811-ff98-4717-b86b-c9d3cf2b7e6c</webElementGuid>
+      <webElementGuid>45c56f65-7b4d-4698-8e6a-d01ebdda5fe5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-input_communication_language-mj-container&quot;)</value>
-      <webElementGuid>16f77742-5de0-4d99-bb29-6463d325646b</webElementGuid>
+      <webElementGuid>cfe4a022-ab36-42cc-99fd-dd6f7166a558</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='select2-input_communication_language-mj-container']</value>
-      <webElementGuid>f2883c21-e18a-4a14-b8cf-adc03da80838</webElementGuid>
+      <webElementGuid>6e4149ce-3be5-4cd0-9656-379faa328ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form-checkout']/div/div/div/div/div[3]/div[7]/div/span/span/span/span</value>
-      <webElementGuid>60a1755a-2e0a-48c4-a55e-1f1f83234b5d</webElementGuid>
+      <webElementGuid>57aae447-5ac2-4919-a708-e2d00b6844ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[2]/following::span[8]</value>
-      <webElementGuid>ebe66fee-00a1-414c-870e-3fd45f969a0e</webElementGuid>
+      <webElementGuid>3e50d150-15cb-403c-9608-de885d61f33f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/span/span/span/span</value>
-      <webElementGuid>0b311bbf-d7bd-4660-adeb-349cb24fbd1c</webElementGuid>
+      <webElementGuid>ab3db474-ad99-4f8c-b814-b583917a5237</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'select2-input_communication_language-mj-container' and (text() = 'Select communication language' or . = 'Select communication language')]</value>
-      <webElementGuid>5122f5b7-2200-48c4-bd80-1b00610b3522</webElementGuid>
+      <webElementGuid>4654c026-80b0-40cc-91cb-088d14dcbcb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

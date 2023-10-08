@@ -6,12 +6,12 @@
    <elementGuidId>391a7409-fd40-4fca-afca-4e9babd0d57f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select2-input_profile_type-jv-container&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select2-input_profile_type-76-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-select2-id='7']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2b38ded0-30ae-4529-bcd7-88b745439a05</webElementGuid>
+      <webElementGuid>52d3bde0-3591-4ff0-a34c-ad0a161598d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>5224fd5a-eed3-4fb8-941f-5acaec3d318d</webElementGuid>
+      <webElementGuid>29121038-d6f3-46a8-a1ef-b93d2a099d12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select2-input_profile_type-76-container</value>
-      <webElementGuid>f0d81a69-a227-4d80-82d6-307b1f8a2015</webElementGuid>
+      <webElementGuid>98bbd12a-3138-4a30-a770-35a8812683f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>cac6654f-7200-4412-b185-2fbb8005d054</webElementGuid>
+      <webElementGuid>4fd3a1ae-e4f6-49b3-87db-7a4533d1f8ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a6c3cf2c-ba90-40b7-853f-621179da43a9</webElementGuid>
+      <webElementGuid>3dab6324-9de4-4fe6-8e6f-611b988c08bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select profile type</value>
-      <webElementGuid>ced517a0-9470-485e-ab32-ff75fa2dac40</webElementGuid>
+      <webElementGuid>546eeaa0-2104-4bbd-8be4-b1dc17ca8a91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-input_profile_type-76-container&quot;)</value>
-      <webElementGuid>41f0f13a-6dee-469e-907e-796bce099cd5</webElementGuid>
+      <webElementGuid>5292b5a7-af35-4c4c-ac2a-4857c46543f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='select2-input_profile_type-76-container']</value>
-      <webElementGuid>62da56e4-9437-442e-a793-5c7ac967e936</webElementGuid>
+      <webElementGuid>19db99e6-666c-4e90-83cd-f81ed7fe9385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form-checkout']/div/div/div/div/div[3]/div[6]/div/span/span/span/span</value>
-      <webElementGuid>b400cd47-c492-4dac-b6fa-384ca6a77c4e</webElementGuid>
+      <webElementGuid>7d770fa5-5416-4cb1-873d-3c6989cc213c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number'])[1]/following::span[5]</value>
-      <webElementGuid>314f0888-904a-42ff-a5f3-992c7e53e00b</webElementGuid>
+      <webElementGuid>9af5d261-5bcd-4b64-b4a6-8b89883ce82c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/span/span/span/span</value>
-      <webElementGuid>a31ec6c9-b21f-47fe-9cfb-e987acb1914f</webElementGuid>
+      <webElementGuid>c3d4c55c-eb84-4879-b51b-75992ca9eedf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'select2-input_profile_type-76-container' and (text() = 'Select profile type' or . = 'Select profile type')]</value>
-      <webElementGuid>8442c3f4-1fab-49a8-9230-767f04f983e0</webElementGuid>
+      <webElementGuid>c2803a08-9c15-4011-b9d3-4d2e65868fd4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

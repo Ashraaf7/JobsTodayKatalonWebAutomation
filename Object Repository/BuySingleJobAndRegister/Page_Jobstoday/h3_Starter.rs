@@ -6,12 +6,12 @@
    <elementGuidId>fda4e49c-bf15-4d6e-a1db-b1bbc266504f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='package_item_409']/div/div/h3</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h3.b-package-box__heading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div /ul /li /div /div /h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>2f409106-be96-4b91-9846-fbd5674d2676</webElementGuid>
+      <webElementGuid>f35ad9f8-c5c4-4267-ad59-e1e4386d5392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>b-package-box__heading</value>
-      <webElementGuid>ed640443-4875-463e-8c42-c6ac841ce3f4</webElementGuid>
+      <webElementGuid>535672c6-edc7-4598-86bf-fdd454f2b485</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>
                                                     Starter                                                </value>
-      <webElementGuid>b3744d7a-f8f3-4a98-9bb3-cd90510e0b7d</webElementGuid>
+      <webElementGuid>69ba970f-c9b3-41af-811b-5d152b3cd19f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;package_item_409&quot;)/div[@class=&quot;b-package-box&quot;]/div[@class=&quot;b-package-box__header b-package-box__item_first&quot;]/h3[@class=&quot;b-package-box__heading&quot;]</value>
-      <webElementGuid>29fce545-0a02-4db6-8b73-9fbbd5af021e</webElementGuid>
+      <webElementGuid>c19efbc9-d4e3-404c-86ac-47f85f6dd757</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='package_item_409']/div/div/h3</value>
-      <webElementGuid>b2d1ca94-1677-4439-8b50-3dc5eafd3bb3</webElementGuid>
+      <webElementGuid>0a1d28f4-015c-48c9-8dc9-bb056d5988b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order package'])[1]/following::h3[1]</value>
-      <webElementGuid>d28f9532-2be2-437f-9262-7c937af66ee9</webElementGuid>
+      <webElementGuid>8b23188e-203a-4e19-a8a3-1ecdbf2b0303</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PACKAGES'])[1]/following::h3[1]</value>
-      <webElementGuid>23eb6515-eb78-429b-bba5-f0944027e3fc</webElementGuid>
+      <webElementGuid>24be92f1-2ef9-446b-9706-9b853fc5b74c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Package ID:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>01c53a52-fc21-4dbe-91a3-4ffce51a2b24</webElementGuid>
+      <webElementGuid>c1693811-e2d0-4a4d-93ab-66ccd8ae2f17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ST2023-066539821'])[1]/preceding::h3[1]</value>
-      <webElementGuid>388c2945-cd6c-4783-9831-1555f77af0fa</webElementGuid>
+      <webElementGuid>bfabb395-2f0d-4d71-8e6f-98c4d1911ea4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Starter']/parent::*</value>
-      <webElementGuid>8750ea3e-1b5d-4845-8da9-e1573bf8ccdb</webElementGuid>
+      <webElementGuid>b5660297-d329-4ae5-ae08-77557be32cd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>6266a926-0f23-4ff2-a44b-561886ad1240</webElementGuid>
+      <webElementGuid>207c8e06-f497-464c-8dfa-27968f1c0d29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <value>//h3[(text() = '
                                                     Starter                                                ' or . = '
                                                     Starter                                                ')]</value>
-      <webElementGuid>ebb0dba0-6b01-4a10-9bef-3f650ab39ba7</webElementGuid>
+      <webElementGuid>67e9e8e5-0656-4b0c-8bf4-b9b6e0b450f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

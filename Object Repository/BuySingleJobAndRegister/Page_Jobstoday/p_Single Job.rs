@@ -6,12 +6,12 @@
    <elementGuidId>ab22247e-edec-4c0e-82e7-d9595995094a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;package_item_411&quot;]/div/div[1]/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.b-package-box__subheading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div /ul /li /div /div /p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>14be24a0-f268-4c03-b970-844ea06fb347</webElementGuid>
+      <webElementGuid>0fd39bf7-6a62-4a4b-a648-04ff7db15630</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>b-package-box__subheading</value>
-      <webElementGuid>6d671b51-0710-445c-ad6e-4a6fcad2650d</webElementGuid>
+      <webElementGuid>7bdc8872-b07d-4045-a479-a6fb0733aa11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>
                                                     Single Job                                                                                                    </value>
-      <webElementGuid>99abb7e4-7403-483e-bf03-9b1691b023e5</webElementGuid>
+      <webElementGuid>d01fb5dd-d1ad-4646-b24a-9e923bccab78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;package_item_409&quot;)/div[@class=&quot;b-package-box&quot;]/div[@class=&quot;b-package-box__header b-package-box__item_first&quot;]/p[@class=&quot;b-package-box__subheading&quot;]</value>
-      <webElementGuid>be926146-0f02-4d85-a09e-8f7add724ece</webElementGuid>
+      <webElementGuid>671535dc-262a-4d28-bf40-1a35b853f95b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='package_item_409']/div/div/p</value>
-      <webElementGuid>b165471a-73a4-403c-821a-8ba29a1571b9</webElementGuid>
+      <webElementGuid>88d2ff29-30d5-40db-8a04-a8425a16c386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Starter'])[1]/following::p[1]</value>
-      <webElementGuid>62070d87-d2f6-42ee-acb5-0e6d6cc0e538</webElementGuid>
+      <webElementGuid>a4d00588-9bf0-45c4-bd90-15e120b3c1fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order package'])[1]/following::p[1]</value>
-      <webElementGuid>ca1148c3-0cee-41c5-bf0a-1dcc345cce71</webElementGuid>
+      <webElementGuid>96946622-6a29-4d89-a8cd-b8f4bf28d4dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Package ID:'])[1]/preceding::p[1]</value>
-      <webElementGuid>b3472936-3053-462e-8fd3-ca43b4675901</webElementGuid>
+      <webElementGuid>cf6f7b59-de0c-4439-9ef9-ce42c3480ca3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ST2023-066539821'])[1]/preceding::p[1]</value>
-      <webElementGuid>96735a33-9719-4300-8678-827e4751a3af</webElementGuid>
+      <webElementGuid>d0e5c86a-3e52-4c84-9682-b6a73e5c7f18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Single Job']/parent::*</value>
-      <webElementGuid>cf17e220-8bf0-4c5e-baee-9a6428ba28c2</webElementGuid>
+      <webElementGuid>d87b4359-ac98-4778-9a14-842fb8d14e9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div/div/p</value>
-      <webElementGuid>60b7cbbe-855f-4a25-877b-584837eb8433</webElementGuid>
+      <webElementGuid>2d429594-5503-4919-86be-a718a25a1db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <value>//p[(text() = '
                                                     Single Job                                                                                                    ' or . = '
                                                     Single Job                                                                                                    ')]</value>
-      <webElementGuid>dffe2f8a-afae-425d-b393-ec5aef8d0e01</webElementGuid>
+      <webElementGuid>b233216b-eced-4231-b992-238690945423</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
