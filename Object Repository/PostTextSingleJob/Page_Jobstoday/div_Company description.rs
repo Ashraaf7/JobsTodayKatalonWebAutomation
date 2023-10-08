@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Company description</name>
+   <tag></tag>
+   <elementGuidId>bbdc7f2f-ab43-42a9-b410-ffc45ae48f44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody /tr /td[4])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f1427919-d447-4b85-bd2e-5b6fbdc42b22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>b-company-admin-panel-table__data-text</value>
+      <webElementGuid>6fcef217-66a2-4589-bdea-384c8a1b030b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company description </value>
+      <webElementGuid>68afa2ef-f7b7-4a39-9315-342f4c355ab4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;job_21297935&quot;)/td[@class=&quot;b-company-admin-panel-table__cell&quot;]/div[@class=&quot;b-company-admin-panel-table__data-text&quot;]</value>
+      <webElementGuid>852e458a-3b72-45ed-83e8-b38fc0e26ac2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='job_21297935']/td[3]/div</value>
+      <webElementGuid>4648fb47-90e0-41e2-83ca-ad6d8e64ff13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='b1316b4e372b341af4c236fa1e3e5169'])[1]/following::div[1]</value>
+      <webElementGuid>1b37c8a0-7af5-411f-8bdf-969ab23dba96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[4]/following::div[3]</value>
+      <webElementGuid>0075c7a2-8e4b-4181-84a1-24c123d01a86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company description'])[2]/preceding::div[1]</value>
+      <webElementGuid>b4541943-2330-4d4e-8e61-0ad6b8cb3cce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online'])[3]/preceding::div[2]</value>
+      <webElementGuid>3dfbaa0b-0ede-4875-837e-c68342be2b56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Company description']/parent::*</value>
+      <webElementGuid>57dc7cc3-5a72-41e2-9709-63f0271d5f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div</value>
+      <webElementGuid>3968cdda-81de-49a5-97b6-ca9e1119af4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Company description ' or . = 'Company description ')]</value>
+      <webElementGuid>c16ff101-9df1-4faf-b6db-1c20f963718a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
