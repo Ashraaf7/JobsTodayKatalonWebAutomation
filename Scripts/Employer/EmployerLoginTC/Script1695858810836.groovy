@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Se
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    GlobalVariable.flagEmailForRegister)
+    GlobalVariable.EmailToRegister)
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
     GlobalVariable.Password)

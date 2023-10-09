@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'newtestemail298@gmail.com'</initValue>
+      <initValue>'newtestem298@gmail.com'</initValue>
       <name>EmailToRegister</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

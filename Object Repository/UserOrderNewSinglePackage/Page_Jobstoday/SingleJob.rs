@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PackageName</name>
+   <name>SingleJob</name>
    <tag></tag>
-   <elementGuidId>bc30053a-3a05-40c6-bb5d-94079755686d</elementGuidId>
+   <elementGuidId>6d81bd51-7f8e-4fac-a948-94e416cbca49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class ='pricing-card-inner']/h2)[1]</value>
+         <value>//a[contains(text(),'Single Job')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

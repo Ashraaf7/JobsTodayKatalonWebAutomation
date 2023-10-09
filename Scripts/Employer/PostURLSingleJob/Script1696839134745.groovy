@@ -22,7 +22,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
 
 String jobTitle = 'URL Job Title'
-
+String jobURL = 'https://www.jobstoday.world/en/'
 WebUI.callTestCase(findTestCase('Employer/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/li_URL Job 
 WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/a_Yes'))
 
 WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Enter a valid URL that users will be _5ba390'), 
-    'https://www.jobstoday.world/en/jobpost/')
+    jobURL)
 
 WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Job title_job_title'), jobTitle)
 
@@ -66,5 +66,12 @@ WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/img'))
 
 WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/span_My Jobs'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url'))
+WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url'))
+
+WebUI.switchToWindowIndex(1)
+
+String openedURL = WebUI.getUrl()
+
+WebUI.verifyMatch(openedURL, jobURL, false)
+
 
