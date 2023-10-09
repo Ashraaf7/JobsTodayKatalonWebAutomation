@@ -54,4 +54,9 @@
       <initValue>'test1234'</initValue>
       <name>newPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'newtestemail298@gmail.com'</initValue>
+      <name>EmailToRegister</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

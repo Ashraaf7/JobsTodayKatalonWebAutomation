@@ -70,7 +70,6 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_Yes'
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_No'))
 
-
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Next'))
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/input_HH-AT-2023-10-0004_privacy'))

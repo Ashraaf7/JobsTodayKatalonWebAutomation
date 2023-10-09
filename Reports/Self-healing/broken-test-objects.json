@@ -169,6 +169,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/BuySingleJobAndRegister/Page_Jobstoday/p_Single Job_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url",
+      "brokenLocator": "//tr[@id\u003d\u0027job_21297937\u0027]/td[4]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Settings\u0027])[4]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url_neighbor.png"
     }
   ]
 }

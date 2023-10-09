@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PLACE YOUR ORDER</name>
+   <tag></tag>
+   <elementGuidId>15aa2107-6c7e-49ce-b7c0-51ef24885e81</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-card-verify']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-card-verify</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>77700887-aaee-46a6-8cb2-4c1d36fb10dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>79ad2ca9-a63f-4181-b0d8-7fa999c00310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-card-verify</value>
+      <webElementGuid>e6d580cf-f1b6-4413-88fe-58f7f5baeb54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-accept button-priamry confirm-button-blue</value>
+      <webElementGuid>83111286-f002-4e0d-93ba-51f6dedfa3f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-text-loading</name>
+      <type>Main</type>
+      <value>LOADING</value>
+      <webElementGuid>ae50c565-db79-40e2-b5f6-913609369923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                                                    PLACE YOUR ORDER                                                                                            </value>
+      <webElementGuid>3eac01b0-86d9-405e-b9fe-2abcd7a4b326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn-card-verify&quot;)</value>
+      <webElementGuid>d914bcb6-fa17-428c-9f6b-93ded931afb2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn-card-verify']</value>
+      <webElementGuid>e497b590-1ac2-4bd4-b32f-e9980171b9f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form-checkout']/div/div/div/div[2]/div[4]/div/button</value>
+      <webElementGuid>4d1c16f3-ee3e-43c3-9a64-e4c74ac2e829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel order'])[1]/following::button[1]</value>
+      <webElementGuid>aaee4e8a-89be-45c3-9015-99ab0e751bff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Error'])[1]/following::button[1]</value>
+      <webElementGuid>6125ec3c-cc25-44a6-9204-26c782b21e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order summary'])[1]/preceding::button[1]</value>
+      <webElementGuid>01f88d0d-0e23-47a0-b129-a31e69a4bddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/preceding::button[1]</value>
+      <webElementGuid>9d1c4f89-07ab-4f3a-afa7-d1ba922d65f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PLACE YOUR ORDER']/parent::*</value>
+      <webElementGuid>80b05c25-78ed-404b-868e-0a68672ee828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>b30f7351-1e4c-4f78-8217-f8c61065fae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'btn-card-verify' and (text() = '
+                                                                                                    PLACE YOUR ORDER                                                                                            ' or . = '
+                                                                                                    PLACE YOUR ORDER                                                                                            ')]</value>
+      <webElementGuid>38cfce35-b23d-46ab-bc62-70dfb819a61f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

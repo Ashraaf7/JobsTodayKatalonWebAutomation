@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Yes</name>
+   <tag></tag>
+   <elementGuidId>48d3f6e1-3a72-4bc1-a42c-75ba5d26b6a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='change--job']/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#change--job > div.success-login > div.confirm-button > a.button.button-yes.button-priamry</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c18eca3b-876e-4561-b97a-26097921d90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>f3f1b3ed-0f99-4cde-943b-78b6b6e3b188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button-yes button-priamry</value>
+      <webElementGuid>594961eb-43e2-4693-bc06-c4e4c151bf4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes</value>
+      <webElementGuid>defe7482-ef09-41f1-a14b-bce08bae2c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;change--job&quot;)/div[@class=&quot;success-login&quot;]/div[@class=&quot;confirm-button&quot;]/a[@class=&quot;button button-yes button-priamry&quot;]</value>
+      <webElementGuid>17fcd22f-bd40-422b-81ca-009a865fadfb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='change--job']/div/div[2]/a</value>
+      <webElementGuid>95e479b3-ea0f-43a2-bef2-dadb2d1b814b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Yes')])[2]</value>
+      <webElementGuid>834ec308-057c-4bc3-9313-2f49099b7378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you really want to change the Job type?'])[1]/following::a[1]</value>
+      <webElementGuid>14627943-27da-4cec-8615-d462c034bf12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm My Choices'])[1]/following::a[2]</value>
+      <webElementGuid>c256e7dc-a356-428e-9a64-e529a3293546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/preceding::a[1]</value>
+      <webElementGuid>f987fb8d-4c65-4b8e-976c-05fc26277836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::a[2]</value>
+      <webElementGuid>9fa322f8-532d-4083-ac34-1f3d0af2fe94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[7]</value>
+      <webElementGuid>483765eb-cd6f-4b90-8962-c624e078502a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div[2]/a</value>
+      <webElementGuid>2214c98d-985f-4b61-9d9e-5ece395e9bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = 'Yes' or . = 'Yes')]</value>
+      <webElementGuid>df3ed7b8-a94b-425e-bd61-ea46eb1bab22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

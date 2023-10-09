@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_URL Job Posting</name>
+   <tag></tag>
+   <elementGuidId>071300ea-47b8-4666-8209-c7ccb549b972</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='myform-p-0']/div/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.tab-link.url-tab-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>d8234828-4ae3-4109-9392-aa4149070163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab-link url-tab-link</value>
+      <webElementGuid>fc9de741-3724-4e8d-98ad-b9f05ef500ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tab</name>
+      <type>Main</type>
+      <value>job-url</value>
+      <webElementGuid>b437a96a-c7fa-48cd-b5be-3f27c4b7e02b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-jobtype</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>c5924563-8284-4613-bcdf-ac6282a60b7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>URL Job Posting                                                </value>
+      <webElementGuid>3386515b-78dc-4127-9758-462f4c076519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myform-p-0&quot;)/div[@class=&quot;form-tab&quot;]/ul[@class=&quot;tabs&quot;]/li[@class=&quot;tab-link url-tab-link&quot;]</value>
+      <webElementGuid>fb5aad2b-288a-4ebc-9940-00bc7131d285</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='myform-p-0']/div/ul/li[2]</value>
+      <webElementGuid>692388de-31af-47f3-b60d-071aa8b83acf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Job Posting'])[1]/following::li[1]</value>
+      <webElementGuid>747e13a5-b02b-4049-81b4-c840a7fc402a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Step 1 of 2'])[1]/following::li[2]</value>
+      <webElementGuid>b14257c3-9930-457c-9443-ac9ec22c6136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add your Job details'])[1]/preceding::li[1]</value>
+      <webElementGuid>c633da08-7126-41b2-bd3a-528887d20428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload company logo'])[1]/preceding::li[1]</value>
+      <webElementGuid>0075cd74-0256-421e-9713-6eb47ee080bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='URL Job Posting']/parent::*</value>
+      <webElementGuid>1a02d7f9-74fb-4d9a-a308-e370196567c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div/ul/li[2]</value>
+      <webElementGuid>b283c87d-6ef2-462f-b20b-3668aeddf4ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'URL Job Posting                                                ' or . = 'URL Job Posting                                                ')]</value>
+      <webElementGuid>a73ad06d-64f6-46c5-8100-ea0811cb7931</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

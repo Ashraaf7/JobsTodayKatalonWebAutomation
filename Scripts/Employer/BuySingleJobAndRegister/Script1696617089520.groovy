@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.navigateToUrl(GlobalVariable.Production)
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
@@ -34,7 +34,7 @@ String PackageName = WebUI.getText(findTestObject('Object Repository/BuySingleJo
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'))
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), 'new7401@gmail.com')
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), GlobalVariable.EmailToRegister)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Password_input_password'), GlobalVariable.Password)
 

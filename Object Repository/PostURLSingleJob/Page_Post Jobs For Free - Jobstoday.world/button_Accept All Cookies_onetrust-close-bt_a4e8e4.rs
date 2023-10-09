@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Accept All Cookies_onetrust-close-bt_a4e8e4</name>
+   <tag></tag>
+   <elementGuidId>d339bd27-c905-4dde-8472-49dd8ab71d93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='onetrust-close-btn-container']/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.onetrust-close-btn-handler.onetrust-close-btn-ui.banner-close-button.ot-close-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1714d6fc-81bf-492b-89b2-b149417c1e47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon</value>
+      <webElementGuid>40f92d1d-b220-431e-afce-0f70ab5e4dab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>fe70b919-9266-424a-bf84-ff89a611269c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;onetrust-close-btn-container&quot;)/button[@class=&quot;onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon&quot;]</value>
+      <webElementGuid>b2e2d150-53ea-4574-a91a-04a4c584b144</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='onetrust-close-btn-container']/button</value>
+      <webElementGuid>b4ced3af-a5d5-4f16-9c00-6a2dcda40203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/button</value>
+      <webElementGuid>f89f8b6f-f58c-42c6-8742-9d2445d6db96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
