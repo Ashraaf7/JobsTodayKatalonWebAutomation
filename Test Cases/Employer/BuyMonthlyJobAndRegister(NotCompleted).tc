@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>BuyMonthlyJobAndRegister</name>
+   <name>BuyMonthlyJobAndRegister(NotCompleted)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b21ef227-0bc7-45f0-be48-aa5af0dff664</testCaseGuid>

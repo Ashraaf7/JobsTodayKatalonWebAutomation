@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Monthly</name>
+   <tag></tag>
+   <elementGuidId>5924cc96-6e42-43f6-bc3f-d4d45b10cc50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.select-tab-inner.display--flex.align-item--center.justify-content--center > li:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Monthly')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d1b401c6-b51d-4457-9b26-a61734ab30b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>1abbef16-b751-4729-9da7-e83dda7f2b56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monthly</value>
+      <webElementGuid>1af9c6cf-e98f-4bd3-a67f-81d9fbbc40fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;pricing--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;pricing-section&quot;]/div[@class=&quot;page-wrapper-fulid&quot;]/div[@class=&quot;pricing-table-list&quot;]/div[@class=&quot;select-tab&quot;]/ul[@class=&quot;select-tab-inner display--flex align-item--center justify-content--center&quot;]/li[2]/a[1]</value>
+      <webElementGuid>66750057-d276-4a2d-8497-d4dacad8490b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Monthly')]</value>
+      <webElementGuid>25091489-1e1d-488e-ab1b-30074cec18e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Single Job'])[1]/following::a[1]</value>
+      <webElementGuid>e58f2208-e820-4201-9144-69f615cad003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='With 100% Application Guarantee'])[1]/following::a[2]</value>
+      <webElementGuid>0fc9aba8-4299-43b0-b76e-5a7241c11d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Starter'])[1]/preceding::a[1]</value>
+      <webElementGuid>65cfb210-8cda-48c0-b419-c301df9fd3cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$ 0'])[1]/preceding::a[1]</value>
+      <webElementGuid>e8590255-08a2-462f-90b0-302441bc3cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monthly']/parent::*</value>
+      <webElementGuid>b9a30cea-4f2f-4c39-ae7d-eead36991a35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:;')])[3]</value>
+      <webElementGuid>2f4b34e3-2ad0-4268-816f-df9b01bfe00b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div/ul/li[2]/a</value>
+      <webElementGuid>d5418c1b-23e9-463b-b701-c869687abde8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;' and (text() = 'Monthly' or . = 'Monthly')]</value>
+      <webElementGuid>26e9d3dd-3a4a-446c-bb7b-5f64bc140953</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
