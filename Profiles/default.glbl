@@ -59,4 +59,9 @@
       <initValue>'employee22@gmail.com'</initValue>
       <name>EmailToRegister</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'emailupdated12@gmail.com'</initValue>
+      <name>UpdatedEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

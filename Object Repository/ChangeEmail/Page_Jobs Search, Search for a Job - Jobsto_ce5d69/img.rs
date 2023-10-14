@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>57e07f3f-1ba6-4254-aa0f-1e76a7f84c0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.user-login > a > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>2a5c7efb-0f39-40bd-9244-9cf758426e7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/user.svg</value>
+      <webElementGuid>df984eb3-5cae-45a9-9f97-6c582666edea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;user-login&quot;]/a[1]/img[1]</value>
+      <webElementGuid>2d2fd1dc-52f8-4ac9-822e-cad3daacfbb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
+      <webElementGuid>5f04542e-d1df-47ba-a4c0-120bc64215f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/ul/li/a/img</value>
+      <webElementGuid>28b7568b-8017-4418-ad5e-c5fb9ced40e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/user.svg']</value>
+      <webElementGuid>646a807d-0070-499a-9540-41f1b6533b30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

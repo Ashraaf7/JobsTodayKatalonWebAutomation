@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Login</name>
+   <tag></tag>
+   <elementGuidId>c7879eee-0844-461d-b331-854a856e4e19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-card-verify']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-card-verify</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0f196985-c689-4749-adb2-e7e046eaede6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>60e873de-9493-4352-b394-da6136f5de49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-card-verify</value>
+      <webElementGuid>f71fbbd5-43fe-4acf-a9f1-bc78cf99b6cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-accept button-priamry</value>
+      <webElementGuid>7f8e4572-963f-4ce6-9a07-cd2b373b7d34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                    Login                                                </value>
+      <webElementGuid>4a31cefe-f738-4fa9-b61a-f48f096e505c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn-card-verify&quot;)</value>
+      <webElementGuid>e5a6e308-bd40-4203-a8d6-c6134fc97b86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn-card-verify']</value>
+      <webElementGuid>2b2fe90e-5187-4a75-a882-4c96bce5eade</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='candidate-login']/div/div/div/div/div[4]/div/button</value>
+      <webElementGuid>7c973656-9411-4d70-8ae2-58eaa4af310b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password *'])[1]/following::button[1]</value>
+      <webElementGuid>e5974132-2ea9-4970-ae1c-6fe61ef37536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]</value>
+      <webElementGuid>d1251f38-b0fd-429a-8178-1b516e8a41f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login failed'])[1]/preceding::button[1]</value>
+      <webElementGuid>8074cecc-88a2-4a10-8bb1-8f24c59054a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>1ddb6952-523a-436f-8522-16859a9596a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'btn-card-verify' and (text() = '
+                                                    Login                                                ' or . = '
+                                                    Login                                                ')]</value>
+      <webElementGuid>ede21e0a-c48b-4fa2-b2d5-6c06ceb6195e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

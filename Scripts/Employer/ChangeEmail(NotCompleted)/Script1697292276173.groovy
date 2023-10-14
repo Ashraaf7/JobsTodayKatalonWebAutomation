@@ -21,29 +21,21 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Employer/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/span_Settings'))
+WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/span_Settings'))
 
-WebUI.click(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/button_Change password'))
+WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/button_Change account email'))
 
-WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/input_Change password_current_password'), 
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_Current email address_currentEmail'), GlobalVariable.EmailToRegister)
+
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_New email address_newEmail'), GlobalVariable.UpdatedEmail)
+
+WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/button_Save'))
+
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
+    GlobalVariable.UpdatedEmail)
+
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
     GlobalVariable.Password)
-
-WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/input_Enter valid password_new_password'), 
-    GlobalVariable.newPassword)
-
-WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/input_Enter valid password_confirm_password'), 
-    GlobalVariable.newPassword)
-
-WebUI.click(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/ChangePassword/Page_Login to Jobstoday.world - Create Resu_ef8a51/h2_Login now to Jobstoday.world'))
-
-// Login with the new password 
-WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    GlobalVariable.EmailToRegister)
-
-WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
-    GlobalVariable.newPassword)
 
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
@@ -74,8 +66,8 @@ char a4 = '9'
 
 a.sendKeys(String.valueOf(a1), String.valueOf(a2), String.valueOf(a3), String.valueOf(a4)).build().perform()
 
-WebUI.sendKeys(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'), 
-    String.valueOf(((a1 + a2) + a3) + a4))
+WebUI.sendKeys(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'),
+	String.valueOf(((a1 + a2) + a3) + a4))
 
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'))
 
@@ -91,3 +83,4 @@ WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/ConfirmDelet
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete'))
 WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.newPassword)
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))
+
