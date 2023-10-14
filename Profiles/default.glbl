@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test1234'</initValue>
+      <initValue>'test123456'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'employee@gmail.com'</initValue>
+      <initValue>'employeeemail1@gmail.com'</initValue>
       <name>EmployerEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test1234'</initValue>
+      <initValue>'Pass@1234567'</initValue>
       <name>newPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'newtestem298@gmail.com'</initValue>
+      <initValue>'employee22@gmail.com'</initValue>
       <name>EmailToRegister</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

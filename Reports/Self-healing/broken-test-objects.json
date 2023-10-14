@@ -179,6 +179,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompleteProfileAdminPanel/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img",
+      "brokenLocator": "//*[@id\u003d\"select-profile-picture-direct\"]/label/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027header\u0027]/div[3]/div[2]/ul/li/a/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompleteProfileAdminPanel/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img_idRelative.png"
     }
   ]
 }

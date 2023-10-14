@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChangePassword(NotCompleted)</name>
+   <name>PostTextJobMonthly</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>05fc4e66-457c-41ce-8cee-3558cf7d0c14</testCaseGuid>
+   <testCaseGuid>a3ad3a4c-73ab-4e3f-8909-4ba901a17204</testCaseGuid>
 </TestCaseEntity>

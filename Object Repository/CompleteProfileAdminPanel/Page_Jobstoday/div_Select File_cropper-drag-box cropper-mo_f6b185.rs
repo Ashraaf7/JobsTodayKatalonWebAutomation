@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select File_cropper-drag-box cropper-mo_f6b185</name>
+   <tag></tag>
+   <elementGuidId>6d43c988-d857-4f0d-ba60-ccb61c0c7fba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='select-picture-modal']/div[2]/div/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cropper-drag-box.cropper-modal.cropper-crop</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>98a554a6-6560-4f73-a3a6-f156b79ea5ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cropper-drag-box cropper-modal cropper-crop</value>
+      <webElementGuid>809ecaca-8000-4019-84ce-72004a9fdfe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select-picture-modal&quot;)/div[@class=&quot;crop-area-main&quot;]/div[@class=&quot;crop-area&quot;]/div[@class=&quot;image-crop-section&quot;]/div[@class=&quot;cropper-container cropper-bg&quot;]/div[@class=&quot;cropper-drag-box cropper-modal cropper-crop&quot;]</value>
+      <webElementGuid>767dfc2a-3434-4ec5-ad13-2ed4b07430d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='select-picture-modal']/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>5745f5d6-6382-4399-a8b4-b96b24663349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>021f3924-ebad-4177-bb17-9a3beb60ad52</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
