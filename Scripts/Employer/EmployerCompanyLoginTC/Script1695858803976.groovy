@@ -55,7 +55,6 @@ a.sendKeys(Keys.TAB).build().perform()
 
 a.sendKeys(Keys.TAB).build().perform()
 
-// a.MoveToElement(_driver.FindElement(By.XPath("//button[@id='btn-card-verify']"))).Build().Perform();
 Thread.sleep(2000)
 
 char a1 = '0'
