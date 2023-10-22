@@ -20,10 +20,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
+import org.apache.commons.lang3.RandomStringUtils
+import org.apache.commons.lang3.RandomStringUtils
+// Generate a random email address
 
-String jobTitle = 'Post Job Title'
+def jobTitle = "Test Job When Logged in " + RandomStringUtils.randomAlphanumeric(2)
 
-WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -36,12 +40,12 @@ WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/spa
 WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_Select'))
 
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Describe in few words the most imp_0f1197'), 
-    'Company description Company description Company description Company description v Company description Company description Company test')
+    'Company description Company description Company description Company')
 
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Job title_job_title'), jobTitle)
 
 WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Enter a short Job description, it _305c38'), 
-    'Company description Company description Company description Company description v Company description Company description Company test')
+    'Company description Company description Company description Company')
 
 TestObject jobDescription = findTestObject('Object Repository/CheckPostedJobs/Page_/p_Compose your Job position with as many de_a6a97c')
 

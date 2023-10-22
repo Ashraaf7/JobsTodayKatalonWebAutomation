@@ -21,7 +21,7 @@ import org.openqa.selenium.interactions.Actions
 
 String newTitle = 'Job title new after edit'
 
-WebUI.callTestCase(findTestCase('Employer/CheckPostedJobs'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/CheckPostedJobs'), [:], FailureHandling.STOP_ON_FAILURE)
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
 

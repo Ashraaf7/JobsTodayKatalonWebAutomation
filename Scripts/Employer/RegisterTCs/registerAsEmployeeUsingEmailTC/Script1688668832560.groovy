@@ -27,8 +27,9 @@ import org.apache.commons.lang3.RandomStringUtils
 	WebUI.navigateToUrl(GlobalVariable.Production)
 	WebUI.maximizeWindow()
 	
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
-	
+
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
 	
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im an Employer'))
