@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employer\\PostURLSingleJob\\20231022_235940\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employer\\DeleteAccountForEmployer\\20231023_002648\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Employer/PostURLSingleJob', new TestCaseBinding('Test Cases/Employer/PostURLSingleJob',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Employer/DeleteAccountForEmployer', new TestCaseBinding('Test Cases/Employer/DeleteAccountForEmployer',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -17,12 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.Production)
-WebUI.maximizeWindow()
-
-//WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+WebUI.callTestCase(findTestCase('Employer/RegisterTCs/registerAsEmployeeUsingEmailTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))
@@ -35,3 +30,4 @@ WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteBu
 
 
 WebUI.closeBrowser()
+
