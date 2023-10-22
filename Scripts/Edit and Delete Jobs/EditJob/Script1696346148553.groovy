@@ -16,12 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.interactions.Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.interactions.Actions as Actions
+
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
 String newTitle = 'Job title new after edit'
 
-WebUI.callTestCase(findTestCase('Employer/PackagesTCs/CheckPostedJobs'), [:], FailureHandling.STOP_ON_FAILURE)
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()
 
@@ -29,10 +30,12 @@ def driver = DriverFactory.getWebDriver()
 def a = new Actions(driver)
 
 TestObject settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
+
 WebUI.click(settings)
-for(int i in 1..17) {
-         a.sendKeys(Keys.ARROW_RIGHT).build().perform();
-      }
+
+for (int i : (1..17)) {
+    a.sendKeys(Keys.ARROW_RIGHT).build().perform()
+}
 
 WebUI.click(findTestObject('Object Repository/EditJob/Page_Jobstoday/a_Online_b-btn-edit'))
 
@@ -53,3 +56,4 @@ WebUI.click(findTestObject('Object Repository/EditJob/Page_/a_View Job'))
 String JobTitle = WebUI.getText(findTestObject('Object Repository/EditJob/Page_Job title new test after edit - NAILS _02945b/h1_Job title new test after edit'))
 
 WebUI.verifyMatch(newTitle, JobTitle, false)
+

@@ -8,3 +8,6 @@ BuySingleJobAndRegister
 PostSingleJobText
 PostSingleJobURL
 DeleteAccount
+-------
+EditJob
+DeleteJob
