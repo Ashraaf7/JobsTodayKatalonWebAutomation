@@ -26,7 +26,6 @@ WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Full name_input_name'), 
     'tester')
 
-//WebUI.click(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/div_Full name_a26a08'))
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Email address_input_email'), 
     'ahmed@gmail.com')
