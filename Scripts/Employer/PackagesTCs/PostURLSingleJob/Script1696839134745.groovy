@@ -20,10 +20,10 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
-
-String jobTitle = 'URL Job Title'
+import org.apache.commons.lang3.RandomStringUtils
+import org.apache.commons.lang3.RandomStringUtils
 String jobURL = 'https://www.jobstoday.world/en/'
-WebUI.callTestCase(findTestCase('Employer/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -36,10 +36,13 @@ WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/a_Yes'))
 WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Enter a valid URL that users will be _5ba390'), 
     jobURL)
 
+// Generate a random email address
+def jobTitle = "Test Job " + RandomStringUtils.randomAlphanumeric(2)
+
 WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Job title_job_title'), jobTitle)
 
 WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/textarea_Enter a short Job description, it _305c38'), 
-    'Short Job description Short Job description Short Job description')
+    'Company description Company description Company description')
 
 By G = By.xpath('//*[@id="select_industry"]')
  

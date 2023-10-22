@@ -5,3 +5,5 @@ logout
 contact us 
 orderSingleJobWhenLoggedIn
 BuySingleJobAndRegister
+PostSingleJobText
+PostSingleJobURL

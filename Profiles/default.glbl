@@ -46,18 +46,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'new8@gmail.com'</initValue>
-      <name>flagEmailForRegister</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Pass@1234567'</initValue>
       <name>newPassword</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'employee22@gmail.com'</initValue>
-      <name>EmailToRegister</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

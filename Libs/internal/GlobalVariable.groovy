@@ -52,17 +52,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object flagEmailForRegister
-     
-    /**
-     * <p></p>
-     */
     public static Object newPassword
-     
-    /**
-     * <p></p>
-     */
-    public static Object EmailToRegister
      
     /**
      * <p></p>
@@ -84,9 +74,7 @@ public class GlobalVariable {
             EmployerEmail = selectedVariables['EmployerEmail']
             EmployerCompanyEmail = selectedVariables['EmployerCompanyEmail']
             EmployerCompanyPassword = selectedVariables['EmployerCompanyPassword']
-            flagEmailForRegister = selectedVariables['flagEmailForRegister']
             newPassword = selectedVariables['newPassword']
-            EmailToRegister = selectedVariables['EmailToRegister']
             UpdatedEmail = selectedVariables['UpdatedEmail']
             
         } catch (Exception e) {
