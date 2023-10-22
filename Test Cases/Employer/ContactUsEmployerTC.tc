@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ContactUsTC</name>
+   <name>ContactUsEmployerTC</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7c9cf32-adbe-4d29-b89d-45f492408c30</testCaseGuid>
