@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.Select as Select
 
 String jobTitle = 'Post Job Title'
 
-WebUI.callTestCase(findTestCase('Employer/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
 

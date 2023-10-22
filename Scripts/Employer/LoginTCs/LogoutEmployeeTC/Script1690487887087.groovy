@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Test Cases/Employer/EmployerLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/Employer/LoginTCs/EmployerLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))

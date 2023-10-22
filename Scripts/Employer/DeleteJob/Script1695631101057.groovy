@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.JavascriptExecutor
 
-WebUI.callTestCase(findTestCase('Employer/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerCompanyLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Get the driver instance
 def driver = DriverFactory.getWebDriver()

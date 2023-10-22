@@ -1,0 +1,7 @@
+Employee TCs:
+register 
+login 
+logout
+contact us 
+orderSingleJobWhenLoggedIn
+BuySingleJobAndRegister

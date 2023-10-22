@@ -16,13 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import org.apache.commons.lang3.RandomStringUtils
+import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Production)
 WebUI.maximizeWindow()
 
-//WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/Pricing'))
 
@@ -34,7 +35,10 @@ String PackageName = WebUI.getText(findTestObject('Object Repository/BuySingleJo
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'))
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), GlobalVariable.EmailToRegister)
+// Generate a random email address
+def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), randomEmail)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Password_input_password'), GlobalVariable.Password)
 
