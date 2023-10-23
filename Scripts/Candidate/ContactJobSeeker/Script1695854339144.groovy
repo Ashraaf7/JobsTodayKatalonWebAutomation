@@ -31,7 +31,7 @@ import javax.activation.FileDataSource
 import javax.mail.*
 import javax.mail.internet.*
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'), [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))

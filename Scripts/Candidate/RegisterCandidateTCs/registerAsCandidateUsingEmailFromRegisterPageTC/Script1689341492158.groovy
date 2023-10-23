@@ -22,19 +22,24 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.server.handler.SendKeys
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
-
+import com.kms.katalon.core.annotation.Keyword
+import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.Production)
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
+	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im a Candidate'))
 
+// Generate a random email address
+def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Email address_input_email'), 
-    GlobalVariable.flagEmailForRegister)
+    randomEmail)
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Password_input_password'), 
     GlobalVariable.Password)

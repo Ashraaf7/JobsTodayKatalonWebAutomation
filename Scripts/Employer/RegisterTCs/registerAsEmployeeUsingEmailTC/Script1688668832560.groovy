@@ -20,7 +20,6 @@ import org.openqa.selenium.interactions.Actions
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.annotation.Keyword
 import org.apache.commons.lang3.RandomStringUtils
-import org.apache.commons.lang3.RandomStringUtils
 
 	WebUI.openBrowser('')
 	

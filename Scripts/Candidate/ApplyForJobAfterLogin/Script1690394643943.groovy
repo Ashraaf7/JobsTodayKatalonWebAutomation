@@ -24,7 +24,7 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'), [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/job/accounting/test--cairo/c35fad609924fa5a0b6a370392b979d0/')
 

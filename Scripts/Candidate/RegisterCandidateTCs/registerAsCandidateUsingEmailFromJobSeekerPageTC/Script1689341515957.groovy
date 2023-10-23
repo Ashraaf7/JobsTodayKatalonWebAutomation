@@ -18,22 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
+import com.kms.katalon.core.annotation.Keyword
+import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Production)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
+	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobseekers'))
 
 WebUI.scrollToPosition(595, 1490)
 
+// Generate a random email address
+def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_Register Now'))
 
-WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Email address_input_email'), GlobalVariable.flagEmailForRegister)
+WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Email address_input_email'), randomEmail)
 
 WebUI.setText(findTestObject('Object Repository/JobSeekerRegElements/Page_/input_Password_input_password'), GlobalVariable.Password)
 
@@ -93,7 +98,6 @@ WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/JobSeekerRegElements/Page_/h5_Your purchase was successful'))
 
-
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
@@ -104,13 +108,10 @@ WebUI.scrollToPosition(600,1268)
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
 
-
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
 
 Thread.sleep(3000)
 
-
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
-
 
 WebUI.closeBrowser()

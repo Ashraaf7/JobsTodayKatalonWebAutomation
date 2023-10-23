@@ -11,3 +11,8 @@ DeleteAccount
 -------
 EditJob
 DeleteJob
+-------------------------------------------------
+Candidate TCs:
+registerAsCandidateUsingEmailFromJobSeekerPageTC
+registerAsCandidateUsingEmailFromRegisterPageTC
+CandidatLoginTC

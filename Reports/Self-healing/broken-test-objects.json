@@ -199,6 +199,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/CheckPostedJobs/Page_Jobstoday/span_Select_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PostJobsTC/Page_/button_Publish",
+      "brokenLocator": "//button[@id\u003d\u0027btn-card-verify\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Product\u0027])[2]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PostJobsTC/Page_/button_Publish_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/JobSeekerRegElements/Page_/h5_Your purchase was successful",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Purchase confirmation\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PL\u0027])[3]/following::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

@@ -24,7 +24,7 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.Select
 
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
 WebUI.scrollToPosition(0, 0)
 WebUI.setText(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/input_New Vacancies in Your Inbox_input_email'), 

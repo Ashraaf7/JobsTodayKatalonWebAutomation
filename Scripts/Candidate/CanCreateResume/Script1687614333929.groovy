@@ -29,7 +29,7 @@ import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
 import java.awt.event.KeyEvent
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Upload Resume'))
 

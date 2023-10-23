@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/Logout/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 

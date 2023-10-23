@@ -22,14 +22,14 @@
       <guid>39465afa-add9-4251-8f01-5ec39dd83d57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/CandidatLoginTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7033b9d2-eede-45c9-8c29-c838ebb17826</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/registerAsCandidateUsingEmailFromJobSeekerPageTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromJobSeekerPageTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -106,7 +106,7 @@
       <guid>2f43de32-f590-4774-81d4-54130c9b16e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/registerAsCandidateUsingEmailFromRegisterPageTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -23,7 +23,7 @@ import org.openqa.selenium.remote.server.handler.SendKeys
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/CandidatLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
