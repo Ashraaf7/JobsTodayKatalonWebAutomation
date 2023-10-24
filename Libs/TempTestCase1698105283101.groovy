@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employer\\CheckPostedJobs\\20231023_000941\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\elost\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employer\\Edit and Delete Jobs\\EditJob\\20231024_015443\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Employer/CheckPostedJobs', new TestCaseBinding('Test Cases/Employer/CheckPostedJobs',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Employer/Edit and Delete Jobs/EditJob', new TestCaseBinding('Test Cases/Employer/Edit and Delete Jobs/EditJob',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//td /div /a)[1]</value>
+         <value>//h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>4274945d-726a-4ec2-b3cf-f5e3cffda353</webElementGuid>
+      <webElementGuid>8868bf8a-d7ff-4ce6-ab4c-da9a76878fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Job title new test after edit</value>
-      <webElementGuid>ffb8413b-6770-41a0-ae87-09b326c3565e</webElementGuid>
+      <webElementGuid>21eb93f6-2484-41d0-865c-e8994e78e4e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;inner--page viewjob-page&quot;]/section[@class=&quot;view-job-content&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;view-job-content-inner&quot;]/div[@class=&quot;job-detail-head&quot;]/div[@class=&quot;job-details-head-inner&quot;]/div[@class=&quot;job-title display--flex flex--wrap&quot;]/h1[1]</value>
-      <webElementGuid>8bbfc792-64a2-41ec-aee9-ff5dcc6d14dc</webElementGuid>
+      <webElementGuid>7a302d38-5460-4b6f-9545-20a8c9b0bd29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job title new test after edit'])[1]/following::h1[1]</value>
-      <webElementGuid>1e57d3b8-9981-4c84-9bff-780c4ba7eb46</webElementGuid>
+      <webElementGuid>b1e707b1-743d-40a7-afc7-3916d4bef485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Airline'])[1]/following::h1[1]</value>
-      <webElementGuid>ecb81329-8f9a-40b2-94aa-4a4aa2715e6f</webElementGuid>
+      <webElementGuid>f703be94-f385-4cec-90e6-226a9e3ed527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='City &amp; Country'])[1]/preceding::h1[1]</value>
-      <webElementGuid>66530df9-c4f7-4f6f-ba27-c13ee8f8a204</webElementGuid>
+      <webElementGuid>9c42b559-00c4-4e5a-9590-21c2cd10a123</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Temporary'])[1]/preceding::h1[1]</value>
-      <webElementGuid>099eedc9-067a-4aae-ab1e-28024fb42449</webElementGuid>
+      <webElementGuid>7da6133c-e7d4-49c4-8d9c-2e0f4b81b184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>0347a8fe-fd34-4e82-9608-a23ca20f953d</webElementGuid>
+      <webElementGuid>8d96a798-6e53-4da5-a646-2d11d3c45c03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Job title new test after edit' or . = 'Job title new test after edit')]</value>
-      <webElementGuid>0284ac22-791e-4ced-a059-09b90f8f8cb5</webElementGuid>
+      <webElementGuid>4157efbe-46c0-4ebf-842d-beb479df7f8b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

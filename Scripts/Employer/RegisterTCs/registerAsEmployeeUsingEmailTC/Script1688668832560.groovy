@@ -35,6 +35,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	
 	// Generate a random email address
 	def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+	GlobalVariable.flagEmail = randomEmail
 	
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Email Address_input_email'),
 		randomEmail)

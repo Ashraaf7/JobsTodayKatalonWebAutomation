@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/RegisterTCs/registerAsEmployeeUsingEmailTC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePassword/Page_Jobstoday/span_Settings'))
 
@@ -40,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/ChangePassword/Page
 
 // Login with the new password 
 WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    GlobalVariable.EmailToRegister)
+    GlobalVariable.flagEmail)
 
 WebUI.setText(findTestObject('Object Repository/ChangePassword/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
     GlobalVariable.newPassword)
@@ -83,11 +84,4 @@ Thread.sleep(2000)
 
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
 
-WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))
 
-WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/DeleteButton'))
-WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/ConfirmDeleteButton'))
-WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete'))
-WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.newPassword)
-WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))

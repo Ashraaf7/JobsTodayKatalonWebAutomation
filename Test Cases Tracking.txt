@@ -8,9 +8,9 @@ BuySingleJobAndRegister
 PostSingleJobText
 PostSingleJobURL
 DeleteAccount
--------
 EditJob
 DeleteJob
+ChangePassword
 -------------------------------------------------
 Candidate TCs:
 registerAsCandidateUsingEmailFromJobSeekerPageTC

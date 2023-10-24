@@ -54,4 +54,9 @@
       <initValue>'emailupdated12@gmail.com'</initValue>
       <name>UpdatedEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>flagEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
