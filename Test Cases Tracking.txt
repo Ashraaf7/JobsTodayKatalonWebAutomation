@@ -16,3 +16,4 @@ Candidate TCs:
 registerAsCandidateUsingEmailFromJobSeekerPageTC
 registerAsCandidateUsingEmailFromRegisterPageTC
 CandidatLoginTC
+ApplyOnjobWithoutLogin

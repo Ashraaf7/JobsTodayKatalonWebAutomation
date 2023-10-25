@@ -8,7 +8,8 @@ import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.Clipboard as Clipboard
 import java.awt.datatransfer.StringSelection as StringSelection
 import java.awt.event.KeyEvent as KeyEvent
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -58,9 +59,11 @@ WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_/workvisa')
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_No_privacy'))
 
-String path = '\\Attachments\\CV.png'
 
-//sWebUI.uploadFile(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'), path)
+
+String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
+
+String path = projectDirectory + '\\' + 'Attachments\\CV.png'
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'))
 
