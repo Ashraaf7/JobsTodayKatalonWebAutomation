@@ -24,13 +24,18 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.jobstoday.world/en/job/accounting/test--cairo/c35fad609924fa5a0b6a370392b979d0/')
+WebUI.switchToWindowIndex(0)
 
-WebUI.maximizeWindow()
+Thread.sleep(3000)
 
-WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
+
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+
+WebUI.navigateToUrl(GlobalVariable.jobURL)
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/a_Apply'))
 
@@ -49,9 +54,13 @@ WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manage
 WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/textarea_Cover letter  Brief description ab_6b68b0'), 
     'Test')
 
+WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_/workvisa'))
+
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_No_privacy'))
 
-String path = 'E:\\Projects\\JobsTodayKatalonWebAutomation\\Attachments\\CV.png'
+String path = '\\Attachments\\CV.png'
+
+//sWebUI.uploadFile(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'), path)
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'))
 
@@ -115,7 +124,8 @@ WebUI.sendKeys(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manag
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/button_Send Application'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ApplyWithoutLogin/Page_/img'))
 
-WebUI.closeBrowser()
+String Message = WebUI.getText(findTestObject('Object Repository/ApplyWithoutLogin/Page_/img'))
+WebUI.verifyMatch(Message, "We wish you success in your application", false)
+
 

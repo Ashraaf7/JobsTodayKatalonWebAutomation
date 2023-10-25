@@ -59,4 +59,14 @@
       <initValue>''</initValue>
       <name>flagEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CandidateEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>jobURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

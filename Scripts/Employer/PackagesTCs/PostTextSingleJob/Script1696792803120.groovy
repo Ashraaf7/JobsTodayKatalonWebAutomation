@@ -37,6 +37,7 @@ WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/textarea
 
 // Generate a random email address
 def jobTitle = "Test Job " + RandomStringUtils.randomAlphanumeric(2) 
+GlobalVariable.jobURL = jobTitle
 
 WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_Job title_job_title'), jobTitle)
 
@@ -84,6 +85,11 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/s
 TestObject jobName = findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/div_Company description')
 
 String jobNameTxt = WebUI.getText(jobName)
-
 WebUI.verifyMatch(jobTitle, jobNameTxt, false)
+
+WebUI.click(jobName)
+WebUI.switchToWindowIndex(1)
+String openedURL = WebUI.getUrl()
+GlobalVariable.jobURL = openedURL
+
 

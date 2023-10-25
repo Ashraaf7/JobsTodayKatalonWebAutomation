@@ -6,12 +6,12 @@
    <elementGuidId>2e529023-8712-4090-8753-2c3b75311b36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.success-image > img</value>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;box-information&quot;]/h5</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/img</value>
+         <key>CSS</key>
+         <value>div.success-image > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>483776a8-6447-403d-824f-f02145626bd0</webElementGuid>
+      <webElementGuid>dadc58bf-7f5e-4f83-a0f2-65f8016bc3f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/success-tick.svg</value>
-      <webElementGuid>20169da6-2fdb-4dec-8cd3-ae0d6dd52ee8</webElementGuid>
+      <webElementGuid>862efbd8-151c-4f08-af8e-c5ae776bdda2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;inner--page application-submitted-page&quot;]/main[@class=&quot;application-submitted-main main-content&quot;]/section[@class=&quot;purchase-confirmation-section&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;purchase-successful&quot;]/div[@class=&quot;purchase-successful-inner&quot;]/div[@class=&quot;success-image&quot;]/img[1]</value>
-      <webElementGuid>094bfd27-3368-4595-8c8a-534ff13f3a33</webElementGuid>
+      <webElementGuid>8def878d-a9a0-4b94-8078-5f1cea616d9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/img</value>
-      <webElementGuid>8ddb055b-f506-4925-9a89-d6cf5510cc8d</webElementGuid>
+      <webElementGuid>e1d65763-c0d3-4af3-8da5-fb3ace9d0632</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/success-tick.svg']</value>
-      <webElementGuid>d5bcf63e-5bcc-4f9b-891c-43fd7657fbeb</webElementGuid>
+      <webElementGuid>b0156aaa-f2e5-4cc9-8020-5b7640e8531d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

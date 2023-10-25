@@ -37,6 +37,7 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for 
 
 // Generate a random email address
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+GlobalVariable.CandidateEmail = randomEmail
 
 WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Email address_input_email'), 
     randomEmail)
