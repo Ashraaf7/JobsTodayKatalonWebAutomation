@@ -28,7 +28,9 @@ import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
 import java.awt.event.KeyEvent
-
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Upload Resume'))
@@ -199,8 +201,9 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/butto
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Add attachments'))
 
+String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
 
-String path = 'E:\\Projects\\JobsTodayKatalonWebAutomation\\Attachments\\CV.png'
+String path = projectDirectory + '\\' + 'Attachments\\CV.png'
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Upload'))
 Robot robot = new Robot()
 
@@ -262,8 +265,6 @@ WebUI.scrollToPosition(0, 0)
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
 
 
-driver.switchTo().alert().accept()
+//driver.switchTo().alert().accept()
 Thread.sleep(3000)
 WebUI.verifyElementVisible(findTestObject('Object Repository/CreateResume/Page_/a_Testing'))
-
-WebUI.closeBrowser()

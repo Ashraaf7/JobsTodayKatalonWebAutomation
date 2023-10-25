@@ -1,4 +1,15 @@
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.Clipboard as Clipboard
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -11,24 +22,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import java.awt.Robot as Robot
-import java.awt.Toolkit as Toolkit
-import java.awt.datatransfer.Clipboard as Clipboard
-import java.awt.datatransfer.StringSelection as StringSelection
-import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.jobstoday.world/en/job/accounting/test--cairo/c35fad609924fa5a0b6a370392b979d0/')
+WebUI.switchToWindowIndex(0)
 
-WebUI.maximizeWindow()
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
+
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+
+WebUI.navigateToUrl(GlobalVariable.jobURL)
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/a_Apply'))
 
@@ -47,9 +55,13 @@ WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manage
 WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/textarea_Cover letter  Brief description ab_6b68b0'), 
     'Test')
 
+WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_/workvisa'))
+
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_No_privacy'))
 
-String path = 'E:\\Projects\\JobsTodayKatalonWebAutomation\\Attachments\\CV.png'
+String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
+
+String path = projectDirectory + '\\' + 'Attachments\\CV.png'
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'))
 
@@ -113,7 +125,8 @@ WebUI.sendKeys(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manag
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/button_Send Application'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ApplyWithoutLogin/Page_/img'))
 
-WebUI.closeBrowser()
+String Message = WebUI.getText(findTestObject('Object Repository/ApplyWithoutLogin/Page_/img'))
+WebUI.verifyMatch(Message, "We wish you success in your application", false)
+
 

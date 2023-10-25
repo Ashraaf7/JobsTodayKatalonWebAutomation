@@ -17,3 +17,4 @@ registerAsCandidateUsingEmailFromJobSeekerPageTC
 registerAsCandidateUsingEmailFromRegisterPageTC
 CandidatLoginTC
 ApplyOnjobWithoutLogin
+ApplyforjobAfterLogin

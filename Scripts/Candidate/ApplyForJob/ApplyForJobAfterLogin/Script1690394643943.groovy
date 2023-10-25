@@ -1,15 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import java.awt.Robot as Robot
-import java.awt.Toolkit as Toolkit
-import java.awt.datatransfer.Clipboard as Clipboard
-import java.awt.datatransfer.StringSelection as StringSelection
-import java.awt.event.KeyEvent as KeyEvent
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -22,21 +11,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.Clipboard as Clipboard
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowIndex(0)
-
-Thread.sleep(3000)
-
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
-
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
 WebUI.navigateToUrl(GlobalVariable.jobURL)
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/a_Apply'))
 
@@ -59,11 +54,9 @@ WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_/workvisa')
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_No_privacy'))
 
+String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
 
-
-String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
-
-String path = projectDirectory + '\\' + 'Attachments\\CV.png'
+String path = (projectDirectory + '\\') + 'Attachments\\CV.png'
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/div_Attachments_upload-photos-box'))
 
@@ -127,8 +120,5 @@ WebUI.sendKeys(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manag
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/button_Send Application'))
 
-
 String Message = WebUI.getText(findTestObject('Object Repository/ApplyWithoutLogin/Page_/img'))
 WebUI.verifyMatch(Message, "We wish you success in your application", false)
-
-

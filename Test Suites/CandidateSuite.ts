@@ -36,14 +36,14 @@
       <guid>e595aeb9-5fde-4af0-adc7-b1cbfbaeb677</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/ApplyForJobAfterLogin</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/ApplyForJobAfterLogin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>60588852-712b-4cd0-9e39-30f31e1248f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/ApplyForJobWithoutLogin</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/ApplyForJobWithoutLogin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
