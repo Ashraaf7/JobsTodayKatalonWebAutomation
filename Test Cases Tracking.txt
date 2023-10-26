@@ -25,6 +25,7 @@ Candidate TCs:
 6. ContactJobSeeker
 7. DeleteCandidateAccount
 8. LogoutCandidateTC
+9. ChangePasswordFromProfile
 
 General TCs:
 ============

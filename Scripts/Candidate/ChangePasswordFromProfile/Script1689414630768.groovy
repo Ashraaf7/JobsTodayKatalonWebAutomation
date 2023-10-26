@@ -34,16 +34,15 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SET
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/button_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_Current password_input_current_password'), 
-    'Pass@123')
+    GlobalVariable.Password)
 
-WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_New password_input_new_password'), 'Pass@123')
+WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_New password_input_new_password'), 
+	GlobalVariable.newPassword)
 
 WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_Repeat new password_input_confirm_password'), 
-    'Pass@123')
+    GlobalVariable.newPassword)
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/button_Save'))
-
-r
 
 WebUI.closeBrowser()
 

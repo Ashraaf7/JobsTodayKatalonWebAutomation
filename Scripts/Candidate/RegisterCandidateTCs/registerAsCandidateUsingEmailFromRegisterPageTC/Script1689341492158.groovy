@@ -81,24 +81,3 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
 Thread.sleep(2000);
 WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
-
-/*WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SETTINGS'))
-
-WebUI.scrollToPosition(600,1268)
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
-
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
-
-Thread.sleep(3000)
-
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
-
-WebUI.closeBrowser()
-
-*/
