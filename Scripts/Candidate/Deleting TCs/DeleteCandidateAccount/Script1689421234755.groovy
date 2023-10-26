@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButto
 Thread.sleep(3000)
 
 String pageURL = WebUI.getUrl()
-//WebUI.click(findTestObject('Object Repository/ChangePasswordElements/confirmDelete'))
+
 WebUI.verifyMatch(pageURL, 'https://www.jobstoday.world/en/login/', false)
 
 WebUI.closeBrowser()

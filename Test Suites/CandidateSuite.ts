@@ -15,7 +15,7 @@
       <guid>4cb4d46f-5c6e-4098-9c58-0729bf95c34a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/DeleteCandidateAccount</testCaseId>
+      <testCaseId>Test Cases/Candidate/Deleting TCs/DeleteCandidateAccount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
