@@ -45,6 +45,7 @@ WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/in
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Password_input_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Salutation'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/Salutation'))
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_First name_input_firstname'), 'New')
@@ -63,15 +64,19 @@ WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/in
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Phone number_input_phone_number'), '0123456789')
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Select profile type'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/type'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Select industry'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/industry'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Select number'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/number'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Select communication language'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/language'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/button_PLACE YOUR ORDER'))

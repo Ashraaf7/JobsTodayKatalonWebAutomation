@@ -35,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Yes'))
 WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/textarea_Describe in few words the most imp_0f1197'), 
     'Company description Company description Company description Company ')
 
-// Generate a random email address
+// Generate a random name
 def jobTitle = "Test Job " + RandomStringUtils.randomAlphanumeric(2) 
-GlobalVariable.jobURL = jobTitle
+GlobalVariable.jobTitle = jobTitle
 
 WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_Job title_job_title'), jobTitle)
 
@@ -64,9 +64,10 @@ By G = By.xpath('//*[@id="select_industry"]')
  dropDown.selectByVisibleText('Accounting')
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/span_Select employment type'))
+Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/type'))
 
-WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_City  Country_location'), 'Cairo, Egypt')
+WebUI.setText(findTestObject('Object Repository/PostTextSingleJob/Page_/input_City  Country_location'), GlobalVariable.location)
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_Yes'))
 

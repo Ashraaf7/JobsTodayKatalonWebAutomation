@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobs'))
 
-WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_keywords'), 'tester')
+WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_keywords'), 'Test Job')
 
-WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_location'), 'Amsterdam, Nederland')
+WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_location'), GlobalVariable.location)
 
 WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/img'))
 
@@ -31,8 +31,9 @@ String JobLabel = WebUI.getText(findTestObject('Object Repository/SearchForJobUs
 
 String Location = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/span_Amsterdam, Nederland'))
 
-WebUI.verifyMatch(JobLabel, 'Tester', false)
+WebUI.verifyMatch(JobLabel, GlobalVariable.jobTitle, false)
 
-WebUI.verifyMatch(Location, 'Amsterdam, Nederland', false)
+WebUI.verifyMatch(Location, GlobalVariable.location, false)
 
 WebUI.closeBrowser()
+

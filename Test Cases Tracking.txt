@@ -1,21 +1,34 @@
 Employee TCs:
-register 
-login 
-logout
-contact us 
-orderSingleJobWhenLoggedIn
-BuySingleJobAndRegister
-PostSingleJobText
-PostSingleJobURL
-DeleteAccount
-EditJob
-DeleteJob
-ChangePassword
--------------------------------------------------
+==============
+1. contact us 
+2. orderSingleJobWhenLoggedIn
+3. BuySingleJobAndRegister
+4. PostSingleJobText
+5. PostSingleJobURL
+6. DeleteAccount
+7. EditJob
+8. DeleteJob
+9. ChangePassword
+10. SearchForAjobUsingKeywordAndLocation
+11. register 
+12. login 
+13. logout
+
+
 Candidate TCs:
-registerAsCandidateUsingEmailFromJobSeekerPageTC
-registerAsCandidateUsingEmailFromRegisterPageTC
-CandidatLoginTC
-ApplyOnjobWithoutLogin
-ApplyforjobAfterLogin
-ContactJobSeeker
+==============
+1. registerAsCandidateUsingEmailFromJobSeekerPageTC
+2. registerAsCandidateUsingEmailFromRegisterPageTC
+3. CandidatLoginTC
+4. ApplyOnjobWithoutLogin
+5. ApplyforjobAfterLogin
+6. ContactJobSeeker
+
+General TCs:
+============
+1. AdvancedSearchTC
+2. checkLanguage
+3. ResetPassword - Not Completed 
+4. searchTc
+5. sendEmailwithStatus
+6. 

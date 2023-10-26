@@ -74,6 +74,16 @@ public class GlobalVariable {
      */
     public static Object jobURL
      
+    /**
+     * <p></p>
+     */
+    public static Object location
+     
+    /**
+     * <p></p>
+     */
+    public static Object jobTitle
+     
 
     static {
         try {
@@ -94,6 +104,8 @@ public class GlobalVariable {
             flagEmail = selectedVariables['flagEmail']
             CandidateEmail = selectedVariables['CandidateEmail']
             jobURL = selectedVariables['jobURL']
+            location = selectedVariables['location']
+            jobTitle = selectedVariables['jobTitle']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

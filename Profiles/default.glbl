@@ -69,4 +69,14 @@
       <initValue>''</initValue>
       <name>jobURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cairo, Egypt'</initValue>
+      <name>location</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>jobTitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
