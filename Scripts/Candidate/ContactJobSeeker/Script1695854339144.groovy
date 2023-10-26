@@ -38,8 +38,8 @@ WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 
 // Specify the email address and password for your Outlook account
-String username = "ahmed03ashr@outlook.com"
-String password = "" // Replace with your Outlook account password
+String username = "ntestmfortesting12@outlook.com"
+String password = "Test#654321" // Replace with your Outlook account password
 
 // Specify the recipient email address
 String recipient = JobSeekerEmail
@@ -85,8 +85,9 @@ try {
 	// Print an error message
 	println("Error sending email: " + ex.getMessage())
 }
-WebUI.refresh()
+Thread.sleep(5000)
+
+WebUI.refresh() 
 String actualSubject = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/SubjectOfFirstEmail'))
 WebUI.verifyMatch(actualSubject, excpectedSubject, false)
 
-WebUI.closeBrowser()

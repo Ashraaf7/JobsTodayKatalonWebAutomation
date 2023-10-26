@@ -18,3 +18,4 @@ registerAsCandidateUsingEmailFromRegisterPageTC
 CandidatLoginTC
 ApplyOnjobWithoutLogin
 ApplyforjobAfterLogin
+ContactJobSeeker
