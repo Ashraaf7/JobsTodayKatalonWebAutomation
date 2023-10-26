@@ -85,7 +85,7 @@
       <guid>36a9b932-9cec-430a-b6b9-303142973c23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/PostJobsAsCandidateAllTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/PostJobsAsCandidateAllTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
