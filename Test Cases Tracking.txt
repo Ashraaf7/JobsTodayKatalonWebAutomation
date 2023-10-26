@@ -14,7 +14,6 @@ Employee TCs:
 12. login 
 13. logout
 
-
 Candidate TCs:
 ==============
 1. registerAsCandidateUsingEmailFromJobSeekerPageTC

@@ -113,7 +113,7 @@
       <guid>55d7e1be-a531-47be-841b-82a4ba38e86e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/ChangePasswordFromProfile</testCaseId>
+      <testCaseId>Test Cases/Candidate/LoginCandidateTCs/ChangePasswordFromProfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
