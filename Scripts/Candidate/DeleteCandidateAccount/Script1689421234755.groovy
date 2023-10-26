@@ -16,84 +16,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select as Select
 
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
+WebUI.callTestCase(findTestCase('Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.Production)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
-
-WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
-
-WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    GlobalVariable.flagEmailForRegister)
-
-WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
-    GlobalVariable.Password)
-
-// Get the driver instance
-def driver = DriverFactory.getWebDriver()
-
-// Create an instance of the Actions class
-def a = new Actions(driver)
-
-// Call the sendKeys() method on the Actions instance to simulate keyboard input
-a.sendKeys(Keys.TAB).build().perform()
-
-a.sendKeys(Keys.TAB).build().perform()
-
-a.sendKeys(Keys.TAB).build().perform()
-
-a.sendKeys(Keys.TAB).build().perform()
-
-a.sendKeys(Keys.TAB).build().perform()
-
-// a.MoveToElement(_driver.FindElement(By.XPath("//button[@id='btn-card-verify']"))).Build().Perform();
-Thread.sleep(2000)
-
-char a1 = '0'
-
-char a2 = '7'
-
-char a3 = '8'
-
-char a4 = '9'
-
-a.sendKeys(String.valueOf(a1), String.valueOf(a2), String.valueOf(a3), String.valueOf(a4)).build().perform()
-
-WebUI.sendKeys(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'), 
-    String.valueOf(((a1 + a2) + a3) + a4))
-
-WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/button_Login'))
-
-Thread.sleep(2000)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Production, false)
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SETTINGS'))
 
-WebUI.scrollToPosition(600,1268)
+WebUI.scrollToPosition(600, 1268)
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
 
-
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
 
+Thread.sleep(3000)
+
+String pageURL = WebUI.getUrl()
 //WebUI.click(findTestObject('Object Repository/ChangePasswordElements/confirmDelete'))
-
-
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(pageURL, 'https://www.jobstoday.world/en/login/', false)
 
 WebUI.closeBrowser()
+

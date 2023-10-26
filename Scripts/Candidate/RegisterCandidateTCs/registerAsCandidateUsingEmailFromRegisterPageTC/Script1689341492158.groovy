@@ -82,7 +82,7 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 Thread.sleep(2000);
 WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
 
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+/*WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
 
@@ -101,3 +101,4 @@ WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false
 
 WebUI.closeBrowser()
 
+*/

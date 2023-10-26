@@ -23,6 +23,7 @@ Candidate TCs:
 4. ApplyOnjobWithoutLogin
 5. ApplyforjobAfterLogin
 6. ContactJobSeeker
+7. DeleteCandidateAccount
 
 General TCs:
 ============
