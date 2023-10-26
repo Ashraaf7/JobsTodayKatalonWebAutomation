@@ -16,14 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select as Select
 
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
-
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
+WebUI.callTestCase(findTestCase('Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
@@ -36,8 +36,7 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/butto
 WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_Current password_input_current_password'), 
     'Pass@123')
 
-WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_New password_input_new_password'), 
-    'Pass@123')
+WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_New password_input_new_password'), 'Pass@123')
 
 WebUI.setText(findTestObject('Object Repository/ChangePasswordElements/Page_/input_Repeat new password_input_confirm_password'), 
     'Pass@123')

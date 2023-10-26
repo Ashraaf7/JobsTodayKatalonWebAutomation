@@ -78,7 +78,7 @@
       <guid>c5fb598a-967d-4433-9a67-f2606fc772fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/LogoutCandidateTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/LoginCandidateTCs/LogoutCandidateTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
