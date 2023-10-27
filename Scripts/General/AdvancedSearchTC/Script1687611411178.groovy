@@ -27,7 +27,9 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+	
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
+	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 Thread.sleep(3000);
 
@@ -35,20 +37,24 @@ WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs S
 Thread.sleep(3000);
 
 WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/img'))
+WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/button_Clear'))
 
 WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/span_Filter_select2-selection select2-selec_809b49'))
+
 def driver = DriverFactory.getWebDriver()
 By G= By.id("country")
 WebElement CountryDrop= driver.findElement(G)
 Select dropDown = new Select(CountryDrop)
-dropDown.selectByVisibleText("Germany")
 
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/button_Clear'))
+def country = "Germany"
+dropDown.selectByVisibleText(country)
+
 
 WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/span_Search'))
 Thread.sleep(3000);
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedSearchElements/Page_/p_4977362 jobs found'))
+def ActualCountry = WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_/p_4977362 jobs found'))
+ActualCountryStatus = ActualCountry.contains(country)
+WebUI.verifyEqual(ActualCountryStatus,true)
 
 WebUI.closeBrowser()
 
