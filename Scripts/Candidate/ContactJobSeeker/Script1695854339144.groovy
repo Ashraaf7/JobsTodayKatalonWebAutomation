@@ -91,3 +91,8 @@ WebUI.refresh()
 String actualSubject = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/SubjectOfFirstEmail'))
 WebUI.verifyMatch(actualSubject, excpectedSubject, false)
 
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/checkBoxForAllMailBox'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/deleteAllMailBoxes'))
+
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/yesForDeletion'))
+

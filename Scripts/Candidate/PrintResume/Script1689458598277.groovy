@@ -27,6 +27,7 @@ import java.awt.event.KeyEvent;
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
@@ -48,8 +49,11 @@ robot.delay(2000)
 robot.keyPress(KeyEvent.VK_CONTROL);
 robot.keyRelease(KeyEvent.VK_CONTROL);
 robot.delay(2000)
+String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
 
-StringSelection selection = new StringSelection('C:\\Users\\elost\\Desktop\\test.pdf')
+String path = projectDirectory + '\\' + 'Attachments\\test.pdf'
+
+StringSelection selection = new StringSelection(path)
 Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 clipboard.setContents(selection, null)
 robot.keyPress(KeyEvent.VK_ENTER)
