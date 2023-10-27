@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], 
 
 WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobs'))
 
-WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_keywords'), 'Test Job')
+WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_keywords'), GlobalVariable.jobTitle)
 
 WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_location'), GlobalVariable.location)
 

@@ -79,4 +79,14 @@
       <initValue>''</initValue>
       <name>jobTitle</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ntestmfortesting12@outlook.com'</initValue>
+      <name>outlookEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test#654321'</initValue>
+      <name>outlookPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

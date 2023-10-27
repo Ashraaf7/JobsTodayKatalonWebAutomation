@@ -23,8 +23,8 @@ import javax.mail.*
 import javax.mail.internet.*
 
 // Specify the email address and password for your Outlook account
-String username = "ahmedashraaf09@gmail.com"
-String password = "Ashraf12345@"
+String username = GlobalVariable.outlookEmail
+String password = GlobalVariable.outlookPassword // Replace with your Outlook account password
 
 // Specify the recipient email address
 String recipient = "lukas@jobstoday.world"

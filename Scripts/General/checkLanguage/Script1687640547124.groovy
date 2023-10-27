@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+	
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
+	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobs')), 'Find Jobs', false)
 

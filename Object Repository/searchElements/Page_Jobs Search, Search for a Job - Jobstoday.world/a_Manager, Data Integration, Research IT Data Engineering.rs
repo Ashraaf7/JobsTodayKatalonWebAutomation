@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='results']/div[3]/div/div[2]/h3/a</value>
+         <value>(//h3 /a)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1b391c04-96e2-410b-bd31-4cbcb9e558b1</webElementGuid>
+      <webElementGuid>3b3fe068-675f-4b05-aa3a-5b85bf79268b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/en/job/es/da92d04661815f91eeb8dd8275c8505d/</value>
-      <webElementGuid>43266202-2f81-4291-b556-1eee0a4bfe4a</webElementGuid>
+      <webElementGuid>652e42ee-b0e2-41d5-9efe-8f08a0040f67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>f2bb3ad1-03d7-4662-aa7a-64c8d20fa5f8</webElementGuid>
+      <webElementGuid>12699a6b-9d9f-4988-b3e8-e85b45595b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>view-job-title</value>
-      <webElementGuid>a4f57507-a7d7-45e3-b36d-91fc1947be67</webElementGuid>
+      <webElementGuid>a6fd7b73-05e4-43cb-9b51-bd090fd15e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <type>Main</type>
       <value>
                 Manager, Data Integration, Research IT Data Engineering            </value>
-      <webElementGuid>6e4af9aa-541d-4910-a392-2d63a1f134cc</webElementGuid>
+      <webElementGuid>a96f462f-2832-491c-b663-817f2a51f8a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;results&quot;)/div[@class=&quot;job--list display--flex flex--wrap&quot;]/div[@class=&quot;single--block display--flex&quot;]/div[@class=&quot;job--info&quot;]/h3[@class=&quot;job--title margin-0&quot;]/a[@class=&quot;view-job-title&quot;]</value>
-      <webElementGuid>180e0c68-86f9-4e9a-86e1-075c0bb73342</webElementGuid>
+      <webElementGuid>34179f26-a8a6-4761-929e-7fdbca8d5166</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='results']/div[3]/div/div[2]/h3/a</value>
-      <webElementGuid>4a46e814-cb08-40c2-a262-938284db5a05</webElementGuid>
+      <webElementGuid>cf3a28c2-726a-4c12-9a7a-cebf3d61e631</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Manager, Data Integration, Research IT Data Engineering')]</value>
-      <webElementGuid>4b8dbe46-0e77-4d5d-9cb8-f686ea956fc1</webElementGuid>
+      <webElementGuid>35a96b0f-b2ff-42ef-899c-5c421e18129f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bristol Myers Squibb'])[1]/following::a[1]</value>
-      <webElementGuid>1cc49d1e-7a93-4d6c-baf5-15a1fbc0de4d</webElementGuid>
+      <webElementGuid>7f7550b9-d79f-42e9-91bb-48fde7292799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Oldest Jobs'])[2]/following::a[1]</value>
-      <webElementGuid>3d858828-ba79-4abf-9c26-0217b0d15704</webElementGuid>
+      <webElementGuid>721a51e9-c0e4-4d26-b4c2-32f9db3a2013</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View Job'])[1]/preceding::a[1]</value>
-      <webElementGuid>809f9038-9726-4aba-acaf-6b65bfda4a37</webElementGuid>
+      <webElementGuid>e3997a65-44bd-4f6a-89ed-ce85d54d4f9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Manager, Data Integration, Research IT Data Engineering']/parent::*</value>
-      <webElementGuid>2150cbdc-2413-4cb2-b889-968186a77534</webElementGuid>
+      <webElementGuid>555ba60f-f37d-4e16-930a-2033179597e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/en/job/es/da92d04661815f91eeb8dd8275c8505d/')]</value>
-      <webElementGuid>d8fb5546-7e8d-4e87-ad5f-5b2f256fda1b</webElementGuid>
+      <webElementGuid>6a0d0f73-4f27-46ce-b138-352376336784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3/a</value>
-      <webElementGuid>29bc2240-115d-4707-aa6b-a5306923b1b4</webElementGuid>
+      <webElementGuid>6ee8a668-7bbe-402a-b96d-d34663524d4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <value>//a[@href = '/en/job/es/da92d04661815f91eeb8dd8275c8505d/' and (text() = '
                 Manager, Data Integration, Research IT Data Engineering            ' or . = '
                 Manager, Data Integration, Research IT Data Engineering            ')]</value>
-      <webElementGuid>5374bce7-83c1-4ce5-8458-4ac121eeed15</webElementGuid>
+      <webElementGuid>60b33213-fa81-4c59-8495-29c8bb1bb559</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

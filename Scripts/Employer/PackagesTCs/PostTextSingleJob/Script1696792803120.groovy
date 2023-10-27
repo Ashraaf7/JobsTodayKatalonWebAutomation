@@ -24,6 +24,7 @@ import org.apache.commons.lang3.RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
 def driver = DriverFactory.getWebDriver()
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Post a job now'))
@@ -86,6 +87,7 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/s
 TestObject jobName = findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/div_Company description')
 
 String jobNameTxt = WebUI.getText(jobName)
+GlobalVariable.jobTitle = jobNameTxt
 WebUI.verifyMatch(jobTitle, jobNameTxt, false)
 
 WebUI.click(jobName)
