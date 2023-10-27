@@ -30,78 +30,12 @@ WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerOneEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 WebUI.closeBrowser()
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.Production)
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
-
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
-
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im a Candidate'))
-
-WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Email address_input_email'),
-	GlobalVariable.flagEmailForRegister)
-
-WebUI.setText(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/input_Password_input_password'),
-	GlobalVariable.Password)
-
-//WebUI.switchToFrame(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/frame'), 30)
-
-
-// Get the driver instance
-def driver = DriverFactory.getWebDriver()
-
-// Create an instance of the Actions class
-def a = new Actions(driver)
-
-// Call the sendKeys() method on the Actions instance to simulate keyboard input
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-a.sendKeys(Keys.TAB).build().perform();
-// a.MoveToElement(_driver.FindElement(By.XPath("//button[@id='btn-card-verify']"))).Build().Perform();
-Thread.sleep(2000);
-char a1 = '\u0030';
-char a2 = '\u0037';
-char a3 = '\u0038';
-char a4 = '\u0039';
-
-a.sendKeys(   String.valueOf(a1),
-		String.valueOf(a2),
-		String.valueOf(a3),
-		String.valueOf(a4)).build().perform();
-
-WebUI.sendKeys(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'),String.valueOf(a1 + a2 + a3 + a4))
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/IAgreeCheckbox'))
-
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
-Thread.sleep(2000);
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
+WebUI.callTestCase(findTestCase('Test Cases/Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'),  [:])
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerTwoEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 
 WebUI.verifyNotEqual(JobSeekerOneEmail, JobSeekerTwoEmail)
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/a_SETTINGS'))
-
-WebUI.scrollToPosition(600,1268)
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandidateaccountButton'))
-
-
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
-
-Thread.sleep(2000)
-
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
 
 WebUI.closeBrowser()

@@ -36,16 +36,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'alicja.gazdao@gmail.com'</initValue>
-      <name>EmployerCompanyEmail</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'tester312'</initValue>
-      <name>EmployerCompanyPassword</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Pass@1234567'</initValue>
       <name>newPassword</name>
    </GlobalVariableEntity>

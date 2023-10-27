@@ -26,7 +26,8 @@ Candidate TCs:
 8. LogoutCandidateTC
 9. ChangePasswordFromProfile
 10. PostJobsAsCandidateAllTC
-
+11. SubscribeToEmailTC
+12. verifyThatEachJobseekerHasDifferentEmail
 General TCs:
 ============
 1. AdvancedSearchTC

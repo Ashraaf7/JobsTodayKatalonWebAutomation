@@ -42,16 +42,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object EmployerCompanyEmail
-     
-    /**
-     * <p></p>
-     */
-    public static Object EmployerCompanyPassword
-     
-    /**
-     * <p></p>
-     */
     public static Object newPassword
      
     /**
@@ -107,8 +97,6 @@ public class GlobalVariable {
             Password = selectedVariables['Password']
             JobSeekerProductonEmail = selectedVariables['JobSeekerProductonEmail']
             EmployerEmail = selectedVariables['EmployerEmail']
-            EmployerCompanyEmail = selectedVariables['EmployerCompanyEmail']
-            EmployerCompanyPassword = selectedVariables['EmployerCompanyPassword']
             newPassword = selectedVariables['newPassword']
             UpdatedEmail = selectedVariables['UpdatedEmail']
             flagEmail = selectedVariables['flagEmail']
