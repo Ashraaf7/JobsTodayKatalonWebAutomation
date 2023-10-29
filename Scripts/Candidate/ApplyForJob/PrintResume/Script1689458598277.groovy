@@ -28,6 +28,7 @@ import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.Clipboard as Clipboard
 import java.awt.datatransfer.StringSelection as StringSelection
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.apache.commons.lang3.RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Candidate/ApplyForJob/CanCreateResume'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -54,8 +55,11 @@ robot.keyRelease(KeyEvent.VK_CONTROL)
 robot.delay(2000)
 
 String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
+def cvName = "test CV" + RandomStringUtils.randomAlphanumeric(2)+'.pdf'
+cvName = cvName.replaceAll("\\s", "")
 
-String path = (projectDirectory + '\\') + 'Attachments\\test.pdf'
+String path = (projectDirectory + '\\') + 'Attachments\\' + cvName
+
 
 StringSelection selection = new StringSelection(path)
 
