@@ -40,5 +40,3 @@ WebUI.scrollToPosition(573, 885)
 WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/button_Publish'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/JobSeekerRegElements/Page_/h5_Your purchase was successful'))
-
-WebUI.closeBrowser()

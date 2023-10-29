@@ -16,27 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
-
-import java.awt.Robot
-import java.awt.Toolkit
-import java.awt.datatransfer.Clipboard
-import java.awt.datatransfer.StringSelection
-import java.awt.event.KeyEvent
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select as Select
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.Clipboard as Clipboard
+import java.awt.datatransfer.StringSelection as StringSelection
 import java.awt.event.KeyEvent as KeyEvent
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.configuration.RunConfiguration
-WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+WebUI.callTestCase(findTestCase('Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Upload Resume'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/button_Create'))
-
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/input_Create Resume_title'))
 
@@ -47,9 +44,8 @@ WebUI.click(findTestObject('Object Repository/CreateResume/Page_/button_Create R
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/button_Edit'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/div_Salutation_jq-selectbox__trigger-arrow'))
+
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/li_Mr'))
-
-
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_First name_firstname'), 'Ahmed')
 
@@ -61,21 +57,19 @@ WebUI.click(findTestObject('Object Repository/CreateResume/Page_/div_Select mont
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/january'))
 
-
-
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/year'))
+
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/2001'))
 
- 
 WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_Address_address'), 'Egypt')
-WebUI.click(findTestObject('Object Repository/CreateResume/Page_/input_Postal code_zipcode'))
-WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_Postal code_zipcode'), '13211')
 
+WebUI.click(findTestObject('Object Repository/CreateResume/Page_/input_Postal code_zipcode'))
+
+WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_Postal code_zipcode'), '13211')
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_City  Country_location'), 'Cairo')
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input__email'), 'test@gmail.com')
-
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/Page_/input_Enter your professional designation. _81882b'), 
     'Test Test')
@@ -103,7 +97,6 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/input
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div_EU Motorcycle Type A'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Save'))
-
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Add languages'))
 
@@ -140,6 +133,7 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div_S
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/li_2022'))
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_Name of degree_name_of_degree'), 'A plus')
+
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div_Select the year of completion_jq-select_40f40b'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/li_University Degree'))
@@ -188,40 +182,54 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/li_20
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_Select year_currently'))
 
-
 //WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/label_Enter a brief summary of your tasks  _5b6836'))
-
 Thread.sleep(2000)
-WebElement frame = driver.findElement(By.id("short_description_ifr"));
+
+WebElement frame = driver.findElement(By.id('short_description_ifr'))
+
 driver.switchTo().frame(frame)
 
-WebUI.sendKeys(findTestObject('Object Repository/CreateResume/NewResume/Page_/brief'),'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+WebUI.sendKeys(findTestObject('Object Repository/CreateResume/NewResume/Page_/brief'), 'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
+
 driver.switchTo().parentFrame()
+
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_SaveLast-1'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Add attachments'))
 
-String projectDirectory = (RunConfiguration.getProjectDir()).replaceAll("/", "\\\\")
+String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
 
-String path = projectDirectory + '\\' + 'Attachments\\CV.png'
+String path = (projectDirectory + '\\') + 'Attachments\\CV.png'
+
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Upload'))
+
 Robot robot = new Robot()
 
 StringSelection selection = new StringSelection(path)
-Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+
+Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard()
+
 clipboard.setContents(selection, null)
+
 robot.keyPress(KeyEvent.VK_ENTER)
+
 robot.keyRelease(KeyEvent.VK_ENTER)
+
 robot.delay(2000)
+
 robot.keyPress(KeyEvent.VK_CONTROL)
+
 robot.keyPress(KeyEvent.VK_V)
+
 robot.keyRelease(KeyEvent.VK_V)
+
 robot.keyRelease(KeyEvent.VK_CONTROL)
+
 robot.delay(2000)
+
 robot.keyPress(KeyEvent.VK_ENTER)
+
 robot.keyRelease(KeyEvent.VK_ENTER)
-
-
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Edit'))
 
@@ -230,7 +238,6 @@ WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/inp
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div_Accounting'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/administaration'))
-
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_Specify your ideal employment type. Y_73564a'))
 
@@ -244,27 +251,20 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div__
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_text_1'), 'Cairo')
 
-
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/input__ms-input-readonly'))
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/polandprefrerence'))
 
 WebUI.setText(findTestObject('Object Repository/CreateResume/NewResume/Page_/input_text_1_2'), 'Testing')
 
-//WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/div_Immediately_jq-selectbox__trigger-arrow'))
-
-//WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/li_Daily'))
-
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_SaveLast'))
 
-
-//New  /////////////////////////////////////////////////////////
-
-
 WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
 
-
-//driver.switchTo().alert().accept()
+driver.switchTo().alert().accept()
 Thread.sleep(3000)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/CreateResume/Page_/a_Testing'))
+

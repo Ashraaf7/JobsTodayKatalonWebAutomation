@@ -28,8 +28,10 @@ Candidate TCs:
 10. PostJobsAsCandidateAllTC
 11. SubscribeToEmailTC
 12. verifyThatEachJobseekerHasDifferentEmail
-13. 
+13. CanCreateResume
 14.
+
+
 General TCs:
 ============
 1. AdvancedSearchTC
