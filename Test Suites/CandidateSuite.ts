@@ -50,7 +50,7 @@
       <guid>bbf28636-e18d-449f-ba76-9ab1739ce643</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/CanCreateResume</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/CanCreateResume</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -92,7 +92,7 @@
       <guid>ecf1cc22-7a9a-4505-8c0f-4e11653751d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/PrintResume</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/PrintResume</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

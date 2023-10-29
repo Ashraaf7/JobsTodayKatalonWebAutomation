@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ASMAA~1.FAW\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Candidate\\CanCreateResume\\20231029_195215\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ASMAA~1.FAW\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Candidate\\PrintResume\\20231029_212723\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Candidate/CanCreateResume', new TestCaseBinding('Test Cases/Candidate/CanCreateResume',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Candidate/PrintResume', new TestCaseBinding('Test Cases/Candidate/PrintResume',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

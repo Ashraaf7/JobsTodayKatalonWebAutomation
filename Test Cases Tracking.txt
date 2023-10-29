@@ -29,7 +29,7 @@ Candidate TCs:
 11. SubscribeToEmailTC
 12. verifyThatEachJobseekerHasDifferentEmail
 13. CanCreateResume
-14.
+14. PrintResume
 
 
 General TCs:
