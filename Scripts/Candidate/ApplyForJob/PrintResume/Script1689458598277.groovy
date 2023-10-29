@@ -30,62 +30,37 @@ import java.awt.datatransfer.StringSelection as StringSelection
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.apache.commons.lang3.RandomStringUtils
 
+
+
+
 WebUI.callTestCase(findTestCase('Candidate/ApplyForJob/CanCreateResume'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/CreateResume/EmployeeViewButton'))
 
-Robot robot = new Robot()
+WebUI.switchToWindowIndex(1)
 
-robot.delay(2000)
-
-robot.keyPress(KeyEvent.VK_CONTROL)
-
-robot.keyPress(KeyEvent.VK_P)
-
-robot.keyRelease(KeyEvent.VK_P)
-
-robot.keyRelease(KeyEvent.VK_CONTROL)
-
-robot.delay(2000)
-
-robot.keyPress(KeyEvent.VK_CONTROL)
-
-robot.keyRelease(KeyEvent.VK_CONTROL)
-
-robot.delay(2000)
 
 String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
-def cvName = "test CV" + RandomStringUtils.randomAlphanumeric(2)+'.pdf'
+def cvName = "test CV" + RandomStringUtils.randomAlphanumeric(2)+'.png'
 cvName = cvName.replaceAll("\\s", "")
 
 String path = (projectDirectory + '\\') + 'Attachments\\' + cvName
 
 
-StringSelection selection = new StringSelection(path)
+// Define an array of Test Object names
+def testObjectNames = ["Object Repository/PrintResume/Header1", "Object Repository/PrintResume/Footer"]
 
-Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard()
+// Create a list to store Test Objects
+List<TestObject> ignoredTestObjectList = []
 
-clipboard.setContents(selection, null)
+// Initialize Test Objects and add them to the list
+for (String objectName : testObjectNames) {
+    TestObject testObject = findTestObject(objectName)
+    ignoredTestObjectList.add(testObject)
+}
 
-robot.keyPress(KeyEvent.VK_ENTER)
+WebUI.takeFullPageScreenshot(path,ignoredTestObjectList)
 
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-robot.delay(2000)
-
-robot.keyPress(KeyEvent.VK_CONTROL)
-
-robot.keyPress(KeyEvent.VK_V)
-
-robot.keyRelease(KeyEvent.VK_V)
-
-robot.keyRelease(KeyEvent.VK_CONTROL)
-
-robot.delay(2000)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-robot.keyRelease(KeyEvent.VK_ENTER)
 
 WebUI.closeBrowser()
 
