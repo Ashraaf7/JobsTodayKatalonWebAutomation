@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f60f29de-1ce8-4c98-8514-4c989de0fdc1</webElementGuid>
+      <webElementGuid>bac7dc77-dc5a-4028-b166-a0384f9d3ee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>b502f0cc-2a05-4112-8caa-19e60ee3813b</webElementGuid>
+      <webElementGuid>4d41232f-902b-481f-ba39-b6558de270cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$(this).parent().find('form').submit();</value>
-      <webElementGuid>c7fb4856-e8a4-4801-a46c-d54c8e19a281</webElementGuid>
+      <webElementGuid>d2a633c9-0a8a-4474-9174-db3c927d0cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>confirm-button-button confirm-button-blue button-buy button-buy-subscription-enterprise</value>
-      <webElementGuid>a835bf8e-1784-4b79-910c-5240d5580b11</webElementGuid>
+      <webElementGuid>fd45da14-e074-43f0-b6bf-1c99c1d81026</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select</value>
-      <webElementGuid>bf232d45-4774-4392-92ed-134fe7c6d2ce</webElementGuid>
+      <webElementGuid>3547aa22-a336-452b-be99-5a89c740a6ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;pricing--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;pricing-section&quot;]/div[@class=&quot;page-wrapper-fulid&quot;]/div[@class=&quot;pricing-table-list&quot;]/div[@class=&quot;pricing-list-inner monthly-show&quot;]/div[@class=&quot;pricing-single-tab monthly--tab-card&quot;]/div[@class=&quot;pricing--card-main&quot;]/div[@class=&quot;pricing--card single-pricing-card Enterprise-card&quot;]/div[@class=&quot;pricing-card-inner&quot;]/div[@class=&quot;select-button text--center&quot;]/a[@class=&quot;confirm-button-button confirm-button-blue button-buy button-buy-subscription-enterprise&quot;]</value>
-      <webElementGuid>f13aba5c-13dd-40f2-8af7-b3e018309b23</webElementGuid>
+      <webElementGuid>7bc2a6c1-d08d-4025-8756-901dbcd155bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=&quot;$(this).parent().find('form').submit();&quot;])[5]</value>
-      <webElementGuid>929166b2-bb4b-4cd4-adcc-d445420fdf7b</webElementGuid>
+      <webElementGuid>dff6c73e-ec96-4ff8-b7a6-70e016b04f94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Select')])[5]</value>
-      <webElementGuid>a3fecd3a-b264-4c1d-95ea-201d44c8741e</webElementGuid>
+      <webElementGuid>17133daa-5c60-4915-b3a5-7c4947fc58cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Priority Email Support'])[2]/following::a[1]</value>
-      <webElementGuid>11255fc9-fced-4de8-acc1-9aa19e40aa44</webElementGuid>
+      <webElementGuid>d0527cdf-8cba-4144-b31e-2c3667aec997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Guarantee'])[5]/following::a[1]</value>
-      <webElementGuid>0bb6cd24-8a3a-4bab-94e4-6c6477d23515</webElementGuid>
+      <webElementGuid>272ded53-a5a8-41f2-8ee8-547ab36b637c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic'])[2]/preceding::a[1]</value>
-      <webElementGuid>e7d59078-1f9e-44f8-8a79-b1cff6dc2d7f</webElementGuid>
+      <webElementGuid>1e3db8f1-2aca-4748-bf7b-7b8a04b77f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$ 0'])[6]/preceding::a[1]</value>
-      <webElementGuid>245c7cd8-48a6-42e0-98a8-550cc518c973</webElementGuid>
+      <webElementGuid>a2e6e3dd-661d-48fd-bb3e-d4a06ce8708b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:;')])[8]</value>
-      <webElementGuid>3ab2b267-7ae2-4b1d-b748-9ac4aa76e738</webElementGuid>
+      <webElementGuid>68b575cf-40a8-4a71-a580-c9b375e8aaf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div[3]/a</value>
-      <webElementGuid>f0400d7f-4dd2-4c48-a244-0a5d665470e1</webElementGuid>
+      <webElementGuid>652cb5ba-b2b2-4aba-ad29-71c008d25e7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:;' and (text() = 'Select' or . = 'Select')]</value>
-      <webElementGuid>085bf260-e6f6-4adc-9a13-48487100edf8</webElementGuid>
+      <webElementGuid>59876804-4da3-43b2-845d-9236971dccf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils
-import org.apache.commons.lang3.RandomStringUtils
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Production)
-WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
@@ -57,7 +56,7 @@ WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/in
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Address_input_address'), 'Address')
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_City  Country_input_city_country'), 
-    'Cairo, Egypt')
+    GlobalVariable.location)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Postal code_input_postalcode'), '123456')
 
