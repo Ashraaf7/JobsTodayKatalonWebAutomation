@@ -20,28 +20,29 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
-import org.apache.commons.lang3.RandomStringUtils
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 String jobURL = 'https://www.jobstoday.world/en/'
-WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuyMonthlyJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/button_Select'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_Jobstoday/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/li_URL Job Posting'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/li_URL Job Posting'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/a_Yes'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/a_Yes'))
 
-WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Enter a valid URL that users will be _5ba390'), 
-    jobURL)
+WebUI.setText(findTestObject('Object Repository/PostURLMonthlyJob/Page_/input_Enter a valid URL that users will be _5ba390'), 
+     jobURL)
 
 // Generate a random email address
 def jobTitle = "Test Job " + RandomStringUtils.randomAlphanumeric(2)
 
-WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_Job title_job_title'), jobTitle)
+WebUI.setText(findTestObject('Object Repository/PostURLMonthlyJob/Page_/input_Job title_job_title'), jobTitle)
 
-WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/textarea_Enter a short Job description, it _305c38'), 
+WebUI.setText(findTestObject('Object Repository/PostURLMonthlyJob/Page_/textarea_Enter a short Job description, it _305c38'), 
     'Company description Company description Company description')
 
 By G = By.xpath('//*[@id="select_industry"]')
@@ -52,29 +53,29 @@ Select dropDown = new Select(Industry)
  
 dropDown.selectByVisibleText('Accounting')
  
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/span_Select employment type'))
+
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/span_Select employment type'))
 WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/type'))
 
-WebUI.setText(findTestObject('Object Repository/PostURLSingleJob/Page_/input_City  Country_location'), 'Cairo, Egypt')
+WebUI.setText(findTestObject('Object Repository/PostURLMonthlyJob/Page_/input_City  Country_location'), GlobalVariable.location)
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/label_No'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/label_No'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/a_Next'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/a_Next'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/input_RA-AT-2023-10-0005_privacy'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/input_HH-AT-2023-11-0010_privacy'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/button_Publish Now'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/button_Publish Now'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_/img'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_/img'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/span_My Jobs'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_Jobstoday/div_My Jobs'))
 
-WebUI.click(findTestObject('Object Repository/PostURLSingleJob/Page_Jobstoday/a_Job url'))
+WebUI.click(findTestObject('Object Repository/PostURLMonthlyJob/Page_Jobstoday/a_Job title'))
 
 WebUI.switchToWindowIndex(1)
 
 String openedURL = WebUI.getUrl()
 
 WebUI.verifyMatch(openedURL, jobURL, false)
-
 

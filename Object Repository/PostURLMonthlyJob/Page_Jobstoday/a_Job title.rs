@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Job title</name>
+   <tag></tag>
+   <elementGuidId>d68c5664-b252-401b-8939-cc661e0e6128</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr/td[4]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.-ol-link.b-expanded-tooltip._text_ellipsis</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1ce64805-97c9-4c11-8775-46103146948d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>c9985764-d227-44fc-b572-9f86ae8f9301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/job/undefined/company-name/job-title/7a86ca093d5a205af7f685e19544c931</value>
+      <webElementGuid>2bfd939b-83b9-4b68-9747-6fe66e6d0457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Job title</value>
+      <webElementGuid>333ce37f-da1c-4d04-94f3-29202716dc58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-ol-link b-expanded-tooltip _text_ellipsis</value>
+      <webElementGuid>2f0592cc-d45e-4937-bfb9-4fc75d0812fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Job title                    </value>
+      <webElementGuid>7413f68e-c642-42d7-8d5d-5ed6d8e94743</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;job_21297993&quot;)/td[@class=&quot;b-company-admin-panel-table__cell&quot;]/div[@class=&quot;b-company-admin-panel-table__data-text&quot;]/a[@class=&quot;-ol-link b-expanded-tooltip _text_ellipsis&quot;]</value>
+      <webElementGuid>51cc7325-6552-416d-8e9e-fe73af66bea5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='job_21297993']/td[4]/div/a</value>
+      <webElementGuid>96de6328-4865-485f-b73d-d2d79ef1e41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Job title')]</value>
+      <webElementGuid>28b4a51e-2042-44d8-bb15-d685d2047e2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[4]/following::a[1]</value>
+      <webElementGuid>b818aa08-4e79-40d6-9d79-9ea34519cf83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Applications'])[1]/following::a[1]</value>
+      <webElementGuid>62e83efe-00a8-4f22-81f1-ccfebb201384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online'])[3]/preceding::a[1]</value>
+      <webElementGuid>1a8ae6d4-a760-4f57-a9cf-9bfbf03e8a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/preceding::a[2]</value>
+      <webElementGuid>09d6ecc5-35dc-401d-9cd6-abe48951c62d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Job title']/parent::*</value>
+      <webElementGuid>5880eb13-187b-415e-8575-01854445de5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en/job/undefined/company-name/job-title/7a86ca093d5a205af7f685e19544c931')]</value>
+      <webElementGuid>50c9f08b-1a31-47dc-9ccd-20343d1e6a7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/a</value>
+      <webElementGuid>5b2367f6-0ffb-4671-962a-d99b105a34ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en/job/undefined/company-name/job-title/7a86ca093d5a205af7f685e19544c931' and @title = 'Job title' and (text() = 'Job title                    ' or . = 'Job title                    ')]</value>
+      <webElementGuid>5db2d05b-3f19-45cb-a5cd-b34b6f9d82d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
