@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Describe in a few words the main responsi_e3b1dd</name>
+   <tag></tag>
+   <elementGuidId>acfb8401-3748-429c-ab88-192034234c12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mceu_9']/label/p[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7a4aefcb-95b2-4f67-908f-62aa3316fe7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Describe in a few words the main responsibilities for this position.</value>
+      <webElementGuid>87946537-efb9-4a1a-9e9d-0f1dfe183f78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mceu_9&quot;)/label[1]/p[3]</value>
+      <webElementGuid>2477bdb0-66a0-4207-8928-dec9b53019f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mceu_9']/label/p[3]</value>
+      <webElementGuid>1cb66c00-88cc-4845-8380-b266456d5747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsibilities'])[1]/following::p[1]</value>
+      <webElementGuid>e32617cf-3fa1-4965-ae5c-04e9eb409192</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paragraph'])[1]/following::p[3]</value>
+      <webElementGuid>8c7ae0bd-89ea-49c6-be93-91bd25d0070b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidate Profile'])[1]/preceding::p[1]</value>
+      <webElementGuid>8f0a67ee-5511-4555-8132-9cba9fca70af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Offer'])[1]/preceding::p[3]</value>
+      <webElementGuid>424f9e24-b99c-47f2-a844-fc13f420039a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Describe in a few words the main responsibilities for this position.']/parent::*</value>
+      <webElementGuid>4cc8cfb9-e066-4a86-b1a8-34d6c942a124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]</value>
+      <webElementGuid>08f15bb7-884b-4900-83e1-c97a73263ea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Describe in a few words the main responsibilities for this position.' or . = 'Describe in a few words the main responsibilities for this position.')]</value>
+      <webElementGuid>76a742ea-d990-4dd2-a732-c863dd153d7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
