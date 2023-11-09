@@ -13,6 +13,8 @@ Employee TCs:
 11. register 
 12. login 
 13. logout
+14. BuyMonthlyJobAndRegister
+15. PostTextMonthlyJob
 
 Candidate TCs:
 ==============
