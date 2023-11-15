@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetLatestMesssageFromOutlook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f023b44-f9ce-4098-8632-d49806433b68</testCaseGuid>
+</TestCaseEntity>
