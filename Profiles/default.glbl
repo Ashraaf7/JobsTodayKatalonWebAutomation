@@ -79,4 +79,9 @@
       <initValue>'Test#654321'</initValue>
       <name>outlookPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>urlForReset</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -45,10 +44,22 @@ import javax.mail.internet.*
 import java.util.Properties
 import javax.mail.*
 import javax.mail.internet.*
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 
 // Specify the email address and password for your Outlook account
 String username = GlobalVariable.outlookEmail
 String password = GlobalVariable.outlookPassword // Replace with your Outlook account password
+
 
 // Set up the mail server properties for IMAP
 Properties props = new Properties()
@@ -58,6 +69,7 @@ props.put("mail.imap.port", "993") // IMAP server port for Outlook
 
 // Create a new session with the mail server
 Session session = Session.getInstance(props)
+
 
 try {
 	// Connect to the IMAP server
@@ -83,27 +95,27 @@ try {
 	if (content instanceof String) {
 		String textContent = (String) content
 		println("Email Body:\n" + textContent)
-	} else if (content instanceof Multipart) {
-		// Handle multipart messages (emails with attachments)
-		Multipart multipart = (Multipart) content
-		for (int i = 0; i < multipart.getCount(); i++) {
-			BodyPart bodyPart = multipart.getBodyPart(i)
-			if (bodyPart.getContentType().startsWith("text/plain")) {
-				// Handle plain text part
-				String textContent = readTextFromInputStream(bodyPart.getInputStream())
-				println("Email Body:\n" + textContent)
-			} else if (bodyPart.getContentType().startsWith("text/html")) {
-				// Handle HTML part if needed
-				String htmlContent = readTextFromInputStream(bodyPart.getInputStream())
-				println("Email Body (HTML):\n" + htmlContent)
-			}
-		}
-	}
+		// Define the regex pattern for extracting the URL
+		Pattern pattern = Pattern.compile("https://www.jobstoday.world/en/login/resetpassword/\\w+");
 
+		// Create a Matcher object
+		Matcher matcher = pattern.matcher(textContent);
+		// Find and print the URL
+		if (matcher.find()) {
+			String url = matcher.group();
+			System.out.println("URL: " + url);
+			GlobalVariable.urlForReset = url ;
+		}
+			
+		
+		}
+	
+					
+	
 	// Close the Inbox folder and the store when done
 	inbox.close(false)
 	store.close()
-} catch (Exception ex) {
+	} catch (Exception ex) {
 	// Print an error message
 	println("Error retrieving email: " + ex.getMessage())
 }

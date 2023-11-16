@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72b106ff-ca08-42ba-ac47-83b3ee8e1b36</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General/ResetPassword</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cdfb6ab5-7647-41c9-a49f-6e4108d92e02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
