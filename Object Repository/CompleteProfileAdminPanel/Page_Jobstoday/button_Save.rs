@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnCrop']</value>
+         <value>//*[@id=&quot;btnCrop&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>92958496-1da8-4d30-addc-8dc424dd6420</webElementGuid>
+      <webElementGuid>9c9bef9d-a4ee-4833-9411-138e7d33a3ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f1f68110-1b92-4122-9129-6fe1f841a55d</webElementGuid>
+      <webElementGuid>6ade43db-9557-411a-8029-a937799cae8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnCrop</value>
-      <webElementGuid>508c12c9-97a0-4530-9f42-be1559edf079</webElementGuid>
+      <webElementGuid>00c9b740-2b39-4776-8152-84bac69831fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-dark</value>
-      <webElementGuid>ea264e8e-1fe5-46f2-a07a-56d2ae0a1551</webElementGuid>
+      <webElementGuid>8b66341e-a992-4f21-b5c6-5791ef5a031f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>95fa6333-9b1c-48fd-839d-9eabf23ef417</webElementGuid>
+      <webElementGuid>fd760e3a-ccdf-4e3f-a25f-a1163d7c2109</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnCrop&quot;)</value>
-      <webElementGuid>f1a86a92-2819-479c-8f1e-214fad7a675f</webElementGuid>
+      <webElementGuid>fd1ff453-2ca6-4fc7-a8e7-783c4be5d3c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnCrop']</value>
-      <webElementGuid>6fee3cb9-6e11-4a35-85af-40c16ab30c5a</webElementGuid>
+      <webElementGuid>bc0fc761-3c29-4b8e-9b28-4ec9ecda96bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='select-picture-modal']/div[2]/div/div[3]/button</value>
-      <webElementGuid>a0cf0d60-ab8e-4160-bb98-9d5615a8fcef</webElementGuid>
+      <webElementGuid>63f70a7d-c204-4d39-a33a-5e921951fbce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[14]/following::button[1]</value>
-      <webElementGuid>0f5bf243-70a3-4b48-8aea-0f9a72f80187</webElementGuid>
+      <webElementGuid>d8e539d2-be5d-479a-af2e-878dd01a4abf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select File'])[1]/following::button[5]</value>
-      <webElementGuid>0db74cc9-6110-46d6-9d3d-0f6d890fd864</webElementGuid>
+      <webElementGuid>c020aad0-76b0-47f1-9866-acaa1d3436d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PREVIEW'])[1]/preceding::button[1]</value>
-      <webElementGuid>03df6e73-b0d2-4fe6-b258-8ad4f1f10544</webElementGuid>
+      <webElementGuid>40ac8d6c-f2a2-4ecf-b256-6a883780bf4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::button[1]</value>
-      <webElementGuid>c2b5ac59-20a8-43a1-85cb-177bdd9b8db1</webElementGuid>
+      <webElementGuid>4e608c61-37ce-4ba8-83de-ca593a77f85a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>ea4fde54-6b39-4301-bc97-7354ce0168f4</webElementGuid>
+      <webElementGuid>f4698460-9144-43ab-934d-38a27cbc8a4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'btnCrop' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>3f6a0511-df58-4d5f-8714-ebce5d3d8d58</webElementGuid>
+      <webElementGuid>6ae93689-c868-44a2-a21b-ad8dad3f8a2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

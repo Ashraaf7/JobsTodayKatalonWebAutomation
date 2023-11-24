@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CompleteProfileAdminPanel(NotCompleted)</name>
+   <name>CompleteProfileAdminPanel</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>488ba2c5-355b-4e86-9c46-94dc2afbdf73</testCaseGuid>

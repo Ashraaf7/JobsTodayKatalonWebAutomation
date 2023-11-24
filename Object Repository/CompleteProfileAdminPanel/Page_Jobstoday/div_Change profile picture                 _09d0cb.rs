@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;fileInputImage&quot;]</value>
+         <value>//*[@id=&quot;select-profile-picture-direct&quot;]/label/div/img</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e5e6839f-67de-4e95-a9a0-b045623028ee</webElementGuid>
+      <webElementGuid>b31b3b5b-9ba5-4e36-98ec-db36939ce01b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>de76973b-0cc3-4696-b991-1170c11c91c0</webElementGuid>
+      <webElementGuid>c54d3b68-75b8-435c-8305-bacc95ef89a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
                                                 
                                             
                             </value>
-      <webElementGuid>4e5ff0f2-1b11-47dd-a621-81db22c90aa8</webElementGuid>
+      <webElementGuid>606f7c06-d07f-474e-af7c-4d29341cacb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select-profile-picture-direct&quot;)/label[1]/div[@class=&quot;tooltip&quot;]</value>
-      <webElementGuid>fdebffd3-0c5c-400a-a229-463d73e15baf</webElementGuid>
+      <webElementGuid>e3517b91-8c3f-47ba-b976-2e24d279465e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='select-profile-picture-direct']/label/div</value>
-      <webElementGuid>989c6a6f-c68f-48f5-a337-48184703db65</webElementGuid>
+      <webElementGuid>9e3fe706-4d8f-4267-a36b-62b49c5b7a96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[3]/following::div[12]</value>
-      <webElementGuid>d2aba910-a834-4b72-a4b8-4480a6a470e4</webElementGuid>
+      <webElementGuid>6d73bacc-90d2-4007-a7a8-46b1c36e3122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Team'])[3]/following::div[12]</value>
-      <webElementGuid>3a623030-dc3d-415a-8b9a-0a80d6ed4d3d</webElementGuid>
+      <webElementGuid>44ab1a39-94ae-4833-ae41-8e31971dfad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div</value>
-      <webElementGuid>72c8b179-8dc3-4d61-b220-7305c4e49b39</webElementGuid>
+      <webElementGuid>ef3175af-21e0-4309-b954-ca6671dbefbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                                                 
                                             
                             ')]</value>
-      <webElementGuid>122c5ce7-bcf1-456f-8e59-c153a440500f</webElementGuid>
+      <webElementGuid>155bb500-8427-4f79-9660-f66a4c06f9ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
