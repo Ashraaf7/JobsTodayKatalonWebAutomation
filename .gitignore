@@ -1,0 +1,24 @@
+.cache/
+.settings/
+/Test Cases/backup/
+/Reports/
+/bin/
+/Include/config/
+/Profiles/
+.project
+.classpath
+.settings/
+*.prefs
+/Libs/logging.log
+/Temp/
+.project
+.classpath
+.settings/
+bin/
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+/Reports/
+/Drivers/
+Libs/External Libraries/
