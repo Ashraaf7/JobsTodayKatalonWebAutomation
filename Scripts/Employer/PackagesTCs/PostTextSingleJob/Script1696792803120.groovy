@@ -86,6 +86,8 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/s
 
 TestObject jobName = findTestObject('Object Repository/PostTextSingleJob/Page_Jobstoday/div_Company description')
 
+
+
 String jobNameTxt = WebUI.getText(jobName)
 GlobalVariable.jobTitle = jobNameTxt
 WebUI.verifyMatch(jobTitle, jobNameTxt, false)
