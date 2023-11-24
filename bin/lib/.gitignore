@@ -7,7 +7,6 @@
 /TempTestCase1690390861312.class
 /TempTestCase1690486958267.class
 /TempTestCase1690489627664.class
-/internal/
 /TempTestCase1690489630706.class
 /TempTestCase1690489632753.class
 /TempTestCase1690489634811.class
@@ -66,6 +65,7 @@
 /TempTestCase1698618155363.class
 /TempTestCase1698618171114.class
 /TempTestCase1698618198225.class
+<<<<<<< HEAD
 /TempTestCase1700846410735.class
 /TempTestCase1700846501562.class
 /TempTestCase1700846597971.class
@@ -94,3 +94,15 @@
 /TempTestCase1700860851922.class
 /TempTestCase1700861620638.class
 /TempTestCase1700861852435.class
+=======
+/internal/
+/TempTestCase1700860146432.class
+/TempTestCase1700860211818.class
+/TempTestCase1700860246090.class
+/TempTestCase1700860324491.class
+/TempTestCase1700860984526.class
+/TempTestCase1700860997419.class
+/TempTestCase1700861347205.class
+/TempTestCase1700861639361.class
+/TempTestCase1700861969788.class
+>>>>>>> ApplyOnOwnJobAndCheck
