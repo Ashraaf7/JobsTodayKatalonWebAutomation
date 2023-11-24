@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ApplyOnOwnJobAndCheckEmail(Not Completed)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3aa6829-dbab-4a07-85b2-f20c341fb20b</testCaseGuid>
+</TestCaseEntity>
