@@ -16,6 +16,8 @@ Employee TCs:
 14. BuyMonthlyJobAndRegister
 15. PostTextMonthlyJob
 16. PostURLMonthlyJob
+17. CompleteProfileAdminPanel
+18. Change Email
 
 
 Candidate TCs:
