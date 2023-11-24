@@ -89,6 +89,11 @@ public class GlobalVariable {
      */
     public static Object urlForReset
      
+    /**
+     * <p></p>
+     */
+    public static Object urlForChangeEmail
+     
 
     static {
         try {
@@ -112,6 +117,7 @@ public class GlobalVariable {
             outlookEmail = selectedVariables['outlookEmail']
             outlookPassword = selectedVariables['outlookPassword']
             urlForReset = selectedVariables['urlForReset']
+            urlForChangeEmail = selectedVariables['urlForChangeEmail']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

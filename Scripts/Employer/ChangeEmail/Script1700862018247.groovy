@@ -21,8 +21,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.annotation.Keyword as Keyword
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-//Update email steps
-WebUI.callTestCase(findTestCase('General/registerWithOutlookEmailForSpecialCase'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Employer/RegisterTCs/registerAsEmployeeUsingEmailTC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String accountActivated = 'YOUR ACCOUNT WAS ACTIVATED SUCCESSFULLY!'
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
@@ -30,19 +31,24 @@ WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/span_Se
 
 WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/button_Change account email'))
 
-// Generate a random email address
-def randomEmail = ('user' + RandomStringUtils.randomAlphanumeric(5)) + '@example.com'
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_Current email address_currentEmail'), GlobalVariable.flagEmail)
 
-WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_Current email address_currentEmail'), GlobalVariable.outlookEmail)
-
-WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_New email address_newEmail'), randomEmail)
+WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input_New email address_newEmail'), GlobalVariable.outlookEmail)
 
 WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/button_Save'))
 
-//confirm changing using LastMesasge TC
-//Try Login with new email
+WebUI.callTestCase(findTestCase('Test Cases/General/GetURLForChangeEmail'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl(GlobalVariable.urlForChangeEmail)
+
+String expectdActiveTxt = WebUI.getText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/check account activated'))
+
+WebUI.verifyMatch(expectdActiveTxt, accountActivated, false)
+
+WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/Click Login btn'))
+
 WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    randomEmail)
+    GlobalVariable.outlookEmail)
 
 WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
     GlobalVariable.Password)
@@ -84,4 +90,15 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 Thread.sleep(2000)
 
 WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))
+
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/DeleteButton'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/ConfirmDeleteButton'))
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete'))
+WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.Password)
+WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))
+
+
 

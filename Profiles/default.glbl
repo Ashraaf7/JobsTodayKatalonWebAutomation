@@ -84,4 +84,9 @@
       <initValue>''</initValue>
       <name>urlForReset</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>urlForChangeEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
