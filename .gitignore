@@ -1,11 +1,9 @@
 .cache/
 .settings/
-/Test Cases/backup/
 /Reports/
 /bin/
 /Include/config/
 /Profiles/
-.project
 .classpath
 .settings/
 *.prefs
@@ -13,8 +11,6 @@
 /Temp/
 .project
 .classpath
-.settings/
-bin/
 .DS_Store
 Thumbs.db
 .idea/
