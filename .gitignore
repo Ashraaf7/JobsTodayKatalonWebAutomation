@@ -15,8 +15,9 @@ Libs/*
 .project
 .classpath
 .settings/
-bin/*
+bin/lib/*
 !bin/lib/internal/
+!bin/lib/internal/CustomKeywords.class
 .DS_Store
 Thumbs.db
 .idea/
