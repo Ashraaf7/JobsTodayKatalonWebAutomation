@@ -8,14 +8,14 @@
 .classpath
 .settings/
 *.prefs
-/Libs/
+Libs/*
 !Libs/internal/
 !Libs/CustomKeywords.groovy
 /Temp/
 .project
 .classpath
 .settings/
-bin/
+bin/*
 !bin/lib/internal/
 .DS_Store
 Thumbs.db
