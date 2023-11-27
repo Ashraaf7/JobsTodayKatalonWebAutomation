@@ -2,19 +2,21 @@
 .settings/
 /Test Cases/backup/
 /Reports/
-/bin/
 /Include/config/
 /Profiles/
 .project
 .classpath
 .settings/
 *.prefs
-/Libs/logging.log
+/Libs/
+!Libs/internal/
+!Libs/CustomKeywords.groovy
 /Temp/
 .project
 .classpath
 .settings/
 bin/
+!bin/lib/internal/
 .DS_Store
 Thumbs.db
 .idea/
