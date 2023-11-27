@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>65d770f3-7101-484c-be39-cc577ea177a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.favourite-btn.job-request-remove > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>5f2ded92-0b77-4440-92d4-da5f72cf4b0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/icon/bin-icon.svg</value>
+      <webElementGuid>c3847572-1db0-4e16-bad6-0368290ebb62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;candidate-dashboard-job-requests-page&quot;]/div[@class=&quot;main-content display--flex&quot;]/section[@class=&quot;content-section jobs-list-section&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;content--wrapper&quot;]/div[@class=&quot;content-box job-request-content&quot;]/div[@class=&quot;job-request-section current&quot;]/div[@class=&quot;list-container jobseeker display--flex flex--wrap&quot;]/div[@class=&quot;card-wrapper&quot;]/div[@class=&quot;single-card display--flex no-profile-picture&quot;]/div[@class=&quot;info-container&quot;]/div[@class=&quot;jobtitle-share-btn display--flex&quot;]/div[@class=&quot;share-rating-btn display--flex align-item--center&quot;]/button[@class=&quot;favourite-btn job-request-remove&quot;]/img[1]</value>
+      <webElementGuid>13f24294-1b4a-41cd-958b-d02c023cbae2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/img</value>
+      <webElementGuid>624da3c9-70de-4b09-a5a1-3dc3243bb003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/icon/bin-icon.svg']</value>
+      <webElementGuid>3aa95275-9d9e-4eda-818b-8e5994848175</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

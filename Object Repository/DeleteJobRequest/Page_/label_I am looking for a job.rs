@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_I am looking for a job</name>
+   <tag></tag>
+   <elementGuidId>051f31eb-0fa8-4e91-b426-ccb8b4487ed3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='premium-jobseeker-form']/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d52e00de-aa68-4bb1-b3ba-f9a5e12b46b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>input_job</value>
+      <webElementGuid>f87a545e-1e0d-4cec-8ae4-80f5274b0807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I am looking for a job...                                            *</value>
+      <webElementGuid>60f9deab-d0f5-4b29-9188-048d43a0ab8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;premium-jobseeker-form&quot;)/div[@class=&quot;form-group-global display--flex flex--wrap p-sides&quot;]/label[1]</value>
+      <webElementGuid>7e265feb-3d6a-46e2-8286-063cea13760c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='premium-jobseeker-form']/div[3]/label</value>
+      <webElementGuid>55944d0a-4e9b-4d13-b2ac-54df0850543c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ex: SEO Marketing, Social Media Expert, Logo Designer'])[1]/following::label[1]</value>
+      <webElementGuid>74b95464-50e3-4938-8ad0-e070b15b0e9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::label[1]</value>
+      <webElementGuid>6c92fdfa-7642-4c0c-9b7b-5c966068dba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Job Request'])[1]/preceding::label[1]</value>
+      <webElementGuid>6369e04d-f7e5-4d6e-9996-f1f240471be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>757f3812-7ba1-496b-8fb3-cea32e9222c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'I am looking for a job...                                            *' or . = 'I am looking for a job...                                            *')]</value>
+      <webElementGuid>d9eec236-9417-4dc9-8a13-ed887490920e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

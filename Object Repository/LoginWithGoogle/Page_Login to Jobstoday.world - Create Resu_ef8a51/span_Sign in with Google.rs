@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sign in with Google</name>
+   <tag></tag>
+   <elementGuidId>7d2fb4ee-067a-4d82-a9f9-13c0a67609da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.nsm7Bb-HzV7m-LgbsSe-BPrWId</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='g_id_signin']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8de62048-61a6-413f-86c2-bf321a96397a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nsm7Bb-HzV7m-LgbsSe-BPrWId</value>
+      <webElementGuid>b0c07d0c-0834-4cbc-b7c2-2985ec7ebd6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in with Google</value>
+      <webElementGuid>31f7512a-19d3-40fa-ba70-d8c156c0f269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;nsm7Bb-HzV7m-LgbsSe  hJDwNd-SxQuSe i5vt6e-Ia7Qfc JGcpL-RbRzK&quot;]/div[@class=&quot;nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb&quot;]/span[@class=&quot;nsm7Bb-HzV7m-LgbsSe-BPrWId&quot;]</value>
+      <webElementGuid>46d7f4f2-72af-4fb3-90db-8b5058be2b1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/LoginWithGoogle/Page_Login to Jobstoday.world - Create Resu_ef8a51/iframe_Login failed_gsi_411046_187208</value>
+      <webElementGuid>6f32fe02-4a61-428a-9f48-8a74abccc4bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div[2]/span</value>
+      <webElementGuid>bbd827de-4c2e-4680-a2bb-25f2caa75b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in with Google'])[2]/preceding::span[1]</value>
+      <webElementGuid>efcebe69-f300-40b3-8785-94325aebb509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign in with Google']/parent::*</value>
+      <webElementGuid>cb647f85-0e54-4d42-a036-a3b9e342b22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>6c7bc58e-ec35-4daa-ad88-50802cda2e8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
+      <webElementGuid>a3479548-c345-45e0-9f48-9556a004f6cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
