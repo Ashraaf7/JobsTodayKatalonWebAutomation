@@ -17,7 +17,7 @@ Libs/*
 .settings/
 bin/lib/*
 !bin/lib/internal/
-!bin/lib/internal/CustomKeywords.class
+!bin/lib/CustomKeywords.class
 .DS_Store
 Thumbs.db
 .idea/
