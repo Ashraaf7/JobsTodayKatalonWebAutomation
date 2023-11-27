@@ -3,9 +3,6 @@
 /Test Cases/backup/
 /Reports/
 /Include/config/
-/Profiles/
-.project
-.classpath
 .settings/
 *.prefs
 Libs/*
@@ -18,10 +15,3 @@ Libs/*
 bin/lib/*
 !bin/lib/internal/
 !bin/lib/CustomKeywords.class
-.DS_Store
-Thumbs.db
-.idea/
-*.iml
-/Reports/
-/Drivers/
-Libs/External Libraries/
