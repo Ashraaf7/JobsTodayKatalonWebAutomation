@@ -57,6 +57,7 @@ WebDriver driver = new ChromeDriver(chrome)
 DriverFactory.changeWebDriver(driver)
 
 // Here you can continue your test case
+//WebUI.openBrowser('')
 WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
 
 WebUI.maximizeWindow()
@@ -91,16 +92,14 @@ Thread.sleep(5000)
 
 a.sendKeys(Keys.ENTER).build().perform()
 Thread.sleep(5000)
-WebUI.switchToWindowIndex(1)
 System.out.print(WebUI.getUrl())
+WebUI.switchToWindowTitle('Sign in - Google Accounts')
 
 a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.ENTER).build().perform()
 
-Thread.sleep(1000)
-System.out.print(WebUI.getUrl())
-
 WebUI.switchToWindowIndex(0)
+
 WebUI.navigateToUrl("https://www.jobstoday.world/en/new-dashboard/overview/")
 
 WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/new-dashboard/overview/", false)
