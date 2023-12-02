@@ -28,7 +28,7 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
+/*
 String pathToChromeDriver = 'C:\\Users\\asmaa.fawzy\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe'
 
 System.setProperty('webdriver.chrome.driver', pathToChromeDriver)
@@ -55,9 +55,9 @@ WebDriver driver = new ChromeDriver(chrome)
 
 //driver.get("https://gmail.com/");
 DriverFactory.changeWebDriver(driver)
-
+*/
 // Here you can continue your test case
-//WebUI.openBrowser('')
+WebUI.openBrowser('')
 WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
 
 WebUI.maximizeWindow()
