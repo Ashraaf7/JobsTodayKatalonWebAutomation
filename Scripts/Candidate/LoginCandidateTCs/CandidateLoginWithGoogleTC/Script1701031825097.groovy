@@ -28,47 +28,12 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-/*
-String pathToChromeDriver = 'C:\\Users\\asmaa.fawzy\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe'
-
-System.setProperty('webdriver.chrome.driver', pathToChromeDriver)
-
-// It is important that this chromeProfilePath ends with User Data and not with the profile folder (Profile 2)
-String chromeProfilePath = 'C:\\Users\\asmaa.fawzy\\AppData\\Local\\Google\\Chrome\\User Data'
-
-ChromeOptions chrome = new ChromeOptions()
-
-chrome.addArguments('user-data-dir=' + chromeProfilePath)
-
-// Here you specify the actual profile folder (Profile 2)
-chrome.addArguments('profile-directory= Profile 67')
-
-chrome.addArguments('--disable-gpu') // applicable to windows os only
-
-chrome.addArguments('--disable-dev-shm-usage') // overcome limited resource problems
-
-chrome.addArguments('--no-sandbox') // Bypass OS security model
-
-chrome.addArguments('--headless') // Bypass OS security model
-
-WebDriver driver = new ChromeDriver(chrome)
-
-//driver.get("https://gmail.com/");
-DriverFactory.changeWebDriver(driver)
-*/
-// Here you can continue your test case
 WebUI.openBrowser('')
 WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
 
 WebUI.maximizeWindow()
 
 System.out.print(WebUI.getUrl())
-
-
-
-//WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
-
-//WebUI.click(findTestObject('Object Repository/LoginWithGoogle/Page_Login to Jobstoday.world - Create Resu_ef8a51/span_Sign in with Google'))
 
 // Get the driver instance
 driver = DriverFactory.getWebDriver()
@@ -79,22 +44,20 @@ def a = new Actions(driver)
 // Call the sendKeys() method on the Actions instance to simulate keyboard input
 
 
-Thread.sleep(5000)
+Thread.sleep(3000)
 
 for(int i= 0; i < 16 ;i++){
 	a.sendKeys(Keys.TAB).build().perform()
 	
 }
-Thread.sleep(5000)
+Thread.sleep(3000)
 
 a.sendKeys(Keys.ENTER).build().perform()
-Thread.sleep(5000)
-System.out.print(WebUI.getUrl())
+Thread.sleep(3000)
 
 WebUI.switchToWindowIndex(1)
-Thread.sleep(5000)
+Thread.sleep(3000)
 
-a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.ENTER).build().perform()
 
