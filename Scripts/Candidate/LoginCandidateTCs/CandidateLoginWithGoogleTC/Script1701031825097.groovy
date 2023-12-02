@@ -64,10 +64,7 @@ WebUI.maximizeWindow()
 
 System.out.print(WebUI.getUrl())
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), 
-    FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
-}
+
 
 //WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
@@ -93,12 +90,16 @@ Thread.sleep(5000)
 a.sendKeys(Keys.ENTER).build().perform()
 Thread.sleep(5000)
 System.out.print(WebUI.getUrl())
-WebUI.switchToWindowTitle('Sign in - Google Accounts')
 
+WebUI.switchToWindowIndex(1)
+Thread.sleep(5000)
+
+a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.ENTER).build().perform()
 
 WebUI.switchToWindowIndex(0)
+Thread.sleep(3000)
 
 WebUI.navigateToUrl("https://www.jobstoday.world/en/new-dashboard/overview/")
 
