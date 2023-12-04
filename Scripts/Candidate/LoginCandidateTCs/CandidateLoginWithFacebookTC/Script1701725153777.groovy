@@ -59,7 +59,7 @@ def a = new Actions(driver)
 
 Thread.sleep(3000)
 
-for(int i= 0; i < 16 ;i++){
+for(int i= 0; i < 17 ;i++){
 	a.sendKeys(Keys.TAB).build().perform()
 	
 }
