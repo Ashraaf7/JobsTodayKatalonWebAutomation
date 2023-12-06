@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
@@ -33,6 +34,7 @@ WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Se
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_Jobbrse, Jobangebote - Jobstoday.world/a_Jobs finden')), 'Jobs finden', false)
 
+//WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_EN'))
 
 WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_DE'))
 

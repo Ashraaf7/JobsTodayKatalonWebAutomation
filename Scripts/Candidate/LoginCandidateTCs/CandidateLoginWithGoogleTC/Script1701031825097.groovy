@@ -58,13 +58,12 @@ DriverFactory.changeWebDriver(driver)
 */
 // Here you can continue your test case
 WebUI.openBrowser('')
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
 
 WebUI.maximizeWindow()
 
 System.out.print(WebUI.getUrl())
-
-
 
 //WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
@@ -95,7 +94,7 @@ WebUI.switchToWindowIndex(1)
 Thread.sleep(5000)
 
 a.sendKeys(Keys.TAB).build().perform()
-a.sendKeys(Keys.TAB).build().perform()
+//a.sendKeys(Keys.TAB).build().perform()
 a.sendKeys(Keys.ENTER).build().perform()
 
 WebUI.switchToWindowIndex(0)

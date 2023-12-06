@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
-
 WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Post Job Request'))
 
 WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/button_Post Now'))

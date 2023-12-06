@@ -98,3 +98,4 @@ String openedURL = WebUI.getUrl()
 GlobalVariable.jobURL = openedURL
 
 
+

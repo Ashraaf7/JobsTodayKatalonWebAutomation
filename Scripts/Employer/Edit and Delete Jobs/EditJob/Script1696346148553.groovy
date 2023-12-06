@@ -28,7 +28,7 @@ def driver = DriverFactory.getWebDriver()
 
 // Create an instance of the Actions class
 def a = new Actions(driver)
-
+WebUI.switchToWindowIndex(0)
 TestObject settings = findTestObject('Object Repository/EditJob/Page_Jobstoday/SettingsLocator')
 
 WebUI.click(settings)
@@ -57,3 +57,4 @@ String JobTitle = WebUI.getText(findTestObject('Object Repository/EditJob/Page_J
 
 WebUI.verifyMatch(newTitle, JobTitle, false)
 
+WebUI.closeBrowser()

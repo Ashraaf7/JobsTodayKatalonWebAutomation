@@ -30,15 +30,11 @@ import java.awt.datatransfer.StringSelection as StringSelection
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.apache.commons.lang3.RandomStringUtils
 
-
-
-
 WebUI.callTestCase(findTestCase('Candidate/ApplyForJob/CanCreateResume'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/CreateResume/EmployeeViewButton'))
 
 WebUI.switchToWindowIndex(1)
-
 
 String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
 def cvName = "test CV" + RandomStringUtils.randomAlphanumeric(2)+'.png'

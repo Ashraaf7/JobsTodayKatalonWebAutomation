@@ -20,7 +20,7 @@ import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
-
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.navigateToUrl(GlobalVariable.Production)
 
 WebUI.maximizeWindow()

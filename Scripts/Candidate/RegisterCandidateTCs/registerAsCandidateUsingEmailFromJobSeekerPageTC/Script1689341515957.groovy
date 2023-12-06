@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.annotation.Keyword
 import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
-
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.navigateToUrl(GlobalVariable.Production)
 
 WebUI.maximizeWindow()

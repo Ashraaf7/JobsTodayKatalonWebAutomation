@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
-
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.navigateToUrl(GlobalVariable.Production)
 
 WebUI.maximizeWindow()
@@ -27,7 +27,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/pricing'))
 
-WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_For employers'))
+//WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_For employers'))
 
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Monthly'))
 

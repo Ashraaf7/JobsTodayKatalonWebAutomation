@@ -100,5 +100,6 @@ WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete
 WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.Password)
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))
 
+WebUI.closeBrowser()
 
 

@@ -20,7 +20,6 @@ import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/registerWithOutlookEmailForSpecialCase'), [:], FailureHandling.STOP_ON_FAILURE)
-
 //logout steps
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))

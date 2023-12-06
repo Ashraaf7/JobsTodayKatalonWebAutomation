@@ -25,6 +25,7 @@ import org.openqa.selenium.support.ui.Select as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
 
 WebUI.openBrowser('')
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://www.jobstoday.world/en/')
 	
