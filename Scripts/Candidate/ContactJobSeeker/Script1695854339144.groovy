@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 import java.awt.List
-
 import javax.mail.Authenticator
 import javax.mail.PasswordAuthentication
 
@@ -30,6 +29,7 @@ import javax.activation.DataHandler
 import javax.activation.FileDataSource
 import javax.mail.*
 import javax.mail.internet.*
+
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
@@ -57,34 +57,56 @@ Session session = Session.getInstance(props, new Authenticator() {
 		return new PasswordAuthentication(username, password)
 	}
 })
-String excpectedSubject = "Test email"
-try {
-	// Create a new message
-	MimeMessage message = new MimeMessage(session)
-	message.setFrom(new InternetAddress(username))
-	message.addRecipient(Message.RecipientType.TO, new InternetAddress(recipient))
-	message.setSubject(excpectedSubject)
 
-	// Create a multipart message body
-	MimeMultipart multipart = new MimeMultipart()
+String expectedSubject = "Test email"
+int maxRetries = 3
+int retryCount = 0
 
-	// Create a text/plain message body part
-	MimeBodyPart messageBodyPart = new MimeBodyPart()
-	messageBodyPart.setText("This is a test email.")
-	multipart.addBodyPart(messageBodyPart)
+while (retryCount < maxRetries) {
+	try {
+		// Create a new message
+		MimeMessage message = new MimeMessage(session)
+		message.setFrom(new InternetAddress(username))
+		message.addRecipient(Message.RecipientType.TO, new InternetAddress(recipient))
+		message.setSubject(expectedSubject)
 
-	// Set the multipart message body as the message content
-	message.setContent(multipart)
+		// Create a multipart message body
+		MimeMultipart multipart = new MimeMultipart()
 
-	// Send the message
-	Transport.send(message)
+		// Create a text/plain message body part
+		MimeBodyPart messageBodyPart = new MimeBodyPart()
+		messageBodyPart.setText("This is a test email.")
+		multipart.addBodyPart(messageBodyPart)
 
-	// Print a success message
-	println("Email sent successfully!")
-} catch (Exception ex) {
-	// Print an error message
-	println("Error sending email: " + ex.getMessage())
+		// Set the multipart message body as the message content
+		message.setContent(multipart)
+
+		// Send the message
+		Transport.send(message)
+
+		// Print a success message
+		println("Email sent successfully!")
+		break // exit the loop if email is sent successfully
+	} catch (AuthenticationFailedException ex) {
+		// Print an authentication failure message
+		println("Authentication failed. Retrying...")
+
+		// Increment the retry count
+		retryCount++
+		
+		// You might want to add a delay here before retrying (e.g., Thread.sleep(1000))
+
+	} catch (Exception ex) {
+		// Print an error message
+		println("Error sending email: " + ex.getMessage())
+		break // exit the loop if an unexpected error occurs
+	}
 }
+
+if (retryCount == maxRetries) {
+	println("Max retries reached. Could not send email.")
+}
+
 Thread.sleep(5000)
 
 WebUI.refresh() 
