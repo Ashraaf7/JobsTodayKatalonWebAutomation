@@ -15,17 +15,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.NoSuchWindowException
-import org.openqa.selenium.interactions.Actions as Actions
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
-import org.openqa.selenium.edge.EdgeDriver as EdgeDriver
-import org.openqa.selenium.edge.EdgeOptions as EdgeOptions
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
+import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -42,24 +32,13 @@ try {
 }
 
 WebUI.openBrowser('')
-<<<<<<< HEAD
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
-=======
-WebUI.navigateToUrl(GlobalVariable.Production+"login/")
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
+WebUI.navigateToUrl("https://jobstoday.world/en/registration/premium/s")
+
 
 WebUI.maximizeWindow()
 
 System.out.print(WebUI.getUrl())
 
-<<<<<<< HEAD
-//WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
-
-//WebUI.click(findTestObject('Object Repository/LoginWithGoogle/Page_Login to Jobstoday.world - Create Resu_ef8a51/span_Sign in with Google'))
-
-=======
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
 // Get the driver instance
 driver = DriverFactory.getWebDriver()
 
@@ -71,7 +50,7 @@ def a = new Actions(driver)
 
 Thread.sleep(3000)
 
-for(int i= 0; i < 16 ;i++){
+for(int i= 0; i < 10 ;i++){
 	a.sendKeys(Keys.TAB).build().perform()
 	
 }
@@ -84,19 +63,15 @@ WebUI.switchToWindowIndex(1)
 Thread.sleep(3000)
 
 a.sendKeys(Keys.TAB).build().perform()
-<<<<<<< HEAD
-//a.sendKeys(Keys.TAB).build().perform()
-=======
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
 a.sendKeys(Keys.ENTER).build().perform()
 
 Thread.sleep(3000)
 Boolean flag = false;
 try {
-    WebUI.getUrl();
+	WebUI.getUrl();
 } catch (Exception e) {
-    flag = true;
-    System.out.println("Aman ya 8aly");
+	flag = true;
+	System.out.println("Aman ya 8aly");
 }
 
 if(!flag)
