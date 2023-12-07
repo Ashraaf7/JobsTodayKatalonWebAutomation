@@ -89,4 +89,24 @@
       <initValue>''</initValue>
       <name>urlForChangeEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4242424242424242'</initValue>
+      <name>cardNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Tester'</initValue>
+      <name>cardHolderName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'222'</initValue>
+      <name>cvc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0125'</initValue>
+      <name>expirationDate</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

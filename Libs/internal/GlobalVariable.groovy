@@ -94,6 +94,26 @@ public class GlobalVariable {
      */
     public static Object urlForChangeEmail
      
+    /**
+     * <p></p>
+     */
+    public static Object cardNumber
+     
+    /**
+     * <p></p>
+     */
+    public static Object cardHolderName
+     
+    /**
+     * <p></p>
+     */
+    public static Object cvc
+     
+    /**
+     * <p></p>
+     */
+    public static Object expirationDate
+     
 
     static {
         try {
@@ -118,6 +138,10 @@ public class GlobalVariable {
             outlookPassword = selectedVariables['outlookPassword']
             urlForReset = selectedVariables['urlForReset']
             urlForChangeEmail = selectedVariables['urlForChangeEmail']
+            cardNumber = selectedVariables['cardNumber']
+            cardHolderName = selectedVariables['cardHolderName']
+            cvc = selectedVariables['cvc']
+            expirationDate = selectedVariables['expirationDate']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

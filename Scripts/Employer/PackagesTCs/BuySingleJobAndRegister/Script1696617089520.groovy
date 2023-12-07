@@ -20,13 +20,14 @@ import org.apache.commons.lang3.RandomStringUtils
 
 WebUI.openBrowser('')
 WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Production)
+
+WebUI.navigateToUrl(GlobalVariable.Staging + "post-a-job/")
 
 WebUI.maximizeWindow()
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/Pricing'))
+//WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/Pricing'))
 
 String SinglePack = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Single Job'))
 
@@ -76,6 +77,18 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/numb
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span_Select communication language'))
 Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/language'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), 0)
+
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), GlobalVariable.cardNumber)
+
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardholder name'), GlobalVariable.cardHolderName)
+
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/expirationDate'), GlobalVariable.expirationDate)
+
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cvc'), GlobalVariable.cvc)
+
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/button_PLACE YOUR ORDER'))
 

@@ -15,3 +15,4 @@ Libs/*
 bin/lib/*
 !bin/lib/internal/
 !bin/lib/CustomKeywords.class
+/bin/
