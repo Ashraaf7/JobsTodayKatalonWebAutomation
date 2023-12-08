@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card number</name>
+   <name>CardNumberLabel</name>
    <tag></tag>
-   <elementGuidId>68c2953b-d3af-402b-8ba7-016f9162e848</elementGuidId>
+   <elementGuidId>761116cb-f5cb-42c3-b38f-8eefb103ae39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder=&quot;Card number&quot;]</value>
+         <value>//label[text()='Card number *']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

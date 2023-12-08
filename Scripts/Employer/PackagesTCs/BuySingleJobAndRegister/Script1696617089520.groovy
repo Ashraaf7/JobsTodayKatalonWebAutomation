@@ -24,6 +24,8 @@ WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.navigateToUrl(GlobalVariable.Staging + "post-a-job/")
 
 WebUI.maximizeWindow()
+WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
+
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
@@ -32,6 +34,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 String SinglePack = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Single Job'))
 
 String PackageName = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/PackageName'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'), 10)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'))
 
@@ -78,7 +82,7 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span
 Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/language'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/CardNumberLabel'), 5)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), GlobalVariable.cardNumber)
 
@@ -86,7 +90,7 @@ WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/ca
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/expirationDate'), GlobalVariable.expirationDate)
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cvc'), GlobalVariable.cvc)
+WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cvc'), GlobalVariable.cvv)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 

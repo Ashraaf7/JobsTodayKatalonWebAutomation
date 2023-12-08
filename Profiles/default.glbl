@@ -102,7 +102,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'222'</initValue>
-      <name>cvc</name>
+      <name>cvv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

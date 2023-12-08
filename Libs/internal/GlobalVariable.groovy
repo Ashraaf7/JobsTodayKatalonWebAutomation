@@ -107,7 +107,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object cvc
+    public static Object cvv
      
     /**
      * <p></p>
@@ -140,7 +140,7 @@ public class GlobalVariable {
             urlForChangeEmail = selectedVariables['urlForChangeEmail']
             cardNumber = selectedVariables['cardNumber']
             cardHolderName = selectedVariables['cardHolderName']
-            cvc = selectedVariables['cvc']
+            cvv = selectedVariables['cvv']
             expirationDate = selectedVariables['expirationDate']
             
         } catch (Exception e) {
