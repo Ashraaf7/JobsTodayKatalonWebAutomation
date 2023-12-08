@@ -33,7 +33,7 @@ import javax.mail.internet.*
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 

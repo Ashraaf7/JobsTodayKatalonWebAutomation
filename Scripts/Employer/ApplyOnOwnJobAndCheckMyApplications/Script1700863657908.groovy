@@ -37,7 +37,7 @@ Thread.sleep(3000)
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+'login/', false)
 
 WebUI.navigateToUrl(GlobalVariable.jobURL)
 
@@ -162,9 +162,9 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/myApplicationElement'))
 

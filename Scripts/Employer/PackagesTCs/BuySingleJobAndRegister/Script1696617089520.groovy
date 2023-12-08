@@ -58,6 +58,9 @@ a.sendKeys(Keys.ENTER).build().perform()
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
 GlobalVariable.flagEmail = randomEmail
 
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
+
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), randomEmail)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Password_input_password'), GlobalVariable.Password)

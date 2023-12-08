@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/registerWithOutlookEmailForSpecialCase'), [:], FailureHandling.STOP_ON_FAILURE)
 //logout steps
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
