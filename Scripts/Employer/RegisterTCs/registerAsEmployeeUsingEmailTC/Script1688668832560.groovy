@@ -23,7 +23,7 @@ import org.apache.commons.lang3.RandomStringUtils
 
 	WebUI.openBrowser('')
 	WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-	WebUI.navigateToUrl(GlobalVariable.Production)
+	WebUI.navigateToUrl(GlobalVariable.Staging")
 	WebUI.maximizeWindow()
 	
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
