@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils
+import org.openqa.selenium.Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
@@ -35,10 +39,21 @@ String SinglePack = WebUI.getText(findTestObject('Object Repository/BuySingleJob
 
 String PackageName = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/PackageName'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'), 10)
+// Get the driver instance
+def driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'))
+// Create an instance of the Actions class
+def a = new Actions(driver)
 
+(0..10).each { i ->
+	// Send the TAB key globally
+// Send the TAB key globally
+a.sendKeys(Keys.TAB).build().perform()
+}
+
+
+// Send the TAB key globally
+a.sendKeys(Keys.ENTER).build().perform()
 // Generate a random email address
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
 GlobalVariable.flagEmail = randomEmail
@@ -84,13 +99,21 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/lang
 
 WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/CardNumberLabel'), 5)
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), GlobalVariable.cardNumber)
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
+a.sendKeys(Keys.TAB).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardholder name'), GlobalVariable.cardHolderName)
+a.sendKeys(GlobalVariable.cardNumber).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/expirationDate'), GlobalVariable.expirationDate)
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cardHolderName).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cvc'), GlobalVariable.cvv)
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.expirationDate).build().perform()
+
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cvv).build().perform()
+
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 
