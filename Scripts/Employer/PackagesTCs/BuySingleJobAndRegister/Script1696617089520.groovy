@@ -97,7 +97,7 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span
 Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/language'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/CardNumberLabel'), 5)
+//WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'), 5)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
 a.sendKeys(Keys.TAB).build().perform()
