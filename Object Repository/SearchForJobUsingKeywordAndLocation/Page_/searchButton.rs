@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>searchButton</name>
    <tag></tag>
    <elementGuidId>5b52fa96-a624-4fa8-8d6f-40f9c11aca4e</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div/div[3]/button/img</value>
+         <value>//button[contains(@class,'search-btn')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>585e128a-bd4c-48bb-a243-9055d3123c60</webElementGuid>
+      <webElementGuid>3899af13-bbde-447d-874d-bbcae35d9dd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/search-white.svg</value>
-      <webElementGuid>0fa2ff73-2424-4834-93f9-9b21d66eacad</webElementGuid>
+      <webElementGuid>3ba0aa5d-9927-48f2-981f-03d9fc42ebe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;searchForm&quot;)/div[@class=&quot;search_form display--flex flex--wrap align-item--center active-job--serach&quot;]/div[@class=&quot;search--icon apply_button&quot;]/button[1]/img[1]</value>
-      <webElementGuid>b0d7e3f4-2c71-4685-bcfd-5e47ec882cd6</webElementGuid>
+      <webElementGuid>a7c07231-e7f0-41b2-83b9-f2548154e200</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='searchForm']/div/div[3]/button/img</value>
-      <webElementGuid>a3076d77-9a9d-44d5-a203-d3f4fb142fa8</webElementGuid>
+      <webElementGuid>fdd112b3-3962-44c6-93b7-e087d9503feb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/img</value>
-      <webElementGuid>740a76db-8f98-445e-91bb-189ec640ab64</webElementGuid>
+      <webElementGuid>c017bb0a-8cac-4888-8c29-d3a86d058ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/search-white.svg']</value>
-      <webElementGuid>a19b5e09-8ded-45d7-8834-edcd1cde09ea</webElementGuid>
+      <webElementGuid>827ae379-0c35-4da9-a814-3dfcfe60e5b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
