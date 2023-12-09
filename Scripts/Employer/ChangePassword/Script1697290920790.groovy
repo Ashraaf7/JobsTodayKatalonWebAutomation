@@ -82,6 +82,6 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
 
