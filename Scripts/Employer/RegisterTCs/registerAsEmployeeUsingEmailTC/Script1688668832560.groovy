@@ -114,7 +114,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	char a3 = '\u0038';
 	char a4 = '\u0039';
 	
-	a.sendKeys(  String.valueOf(a1),
+	a.sendKeys(String.valueOf(a1),
 			String.valueOf(a2),
 			String.valueOf(a3),
 			String.valueOf(a4)).build().perform();
