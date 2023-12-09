@@ -124,8 +124,8 @@ while (retryCount < maxRetries) {
 			String textContent = (String) content
 			println("Email Body:\n" + textContent)
 			// Define the regex pattern for extracting the URL
-			Pattern pattern = Pattern.compile("https://www.jobstoday.world/en/registration/confirmChangeEmail/\\w+");
-
+			Pattern pattern = Pattern.compile(GlobalVariable.Staging+"registration/confirmChangeEmail/\\w+");
+			
 			// Create a Matcher object
 			Matcher matcher = pattern.matcher(textContent);
 			// Find and print the URL

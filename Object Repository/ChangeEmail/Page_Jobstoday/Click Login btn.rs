@@ -17,6 +17,6 @@
          <value>//div[contains(@class, &quot;b-box-alert__btns-inner-item&quot;)]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
