@@ -21,12 +21,13 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Production)
+WebUI.navigateToUrl(GlobalVariable.Staging)
 WebUI.maximizeWindow()
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
+
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
 WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
 
