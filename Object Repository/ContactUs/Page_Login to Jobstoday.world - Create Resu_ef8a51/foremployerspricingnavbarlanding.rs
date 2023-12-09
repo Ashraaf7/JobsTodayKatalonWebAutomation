@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Pricing</name>
+   <name>foremployerspricingnavbarlanding</name>
    <tag></tag>
    <elementGuidId>e4ed4047-17f8-4d83-ba81-041c318071ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//header[@id='header']/div[3]/div/ul/li[3]/a</value>
+         <key>CSS</key>
+         <value>#foremployerspricingnavbarlanding</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>li.list-item-pricing > a.display--flex.align-item--center</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4c1dd01c-136b-4a12-8190-d6aef21cebd6</webElementGuid>
+      <webElementGuid>821d7e32-8f88-49fe-833d-ef0fe1dec07c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>77044ad1-231f-40f3-aa4c-f09b237c48f5</webElementGuid>
+      <webElementGuid>15705a15-98ab-4659-9b9e-c6674bed5541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>display--flex align-item--center</value>
-      <webElementGuid>9309732b-54fa-44cb-874d-73c10719fb82</webElementGuid>
+      <webElementGuid>208b6532-5a6b-4db9-816b-556fe5b3d2b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <type>Main</type>
       <value> Pricing 
                             </value>
-      <webElementGuid>791382dc-44a5-442b-870f-0ef82fc68028</webElementGuid>
+      <webElementGuid>1c2cf035-8b23-4d04-a0ed-7300d1ed43b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu left--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex&quot;]/li[@class=&quot;list-item-pricing&quot;]/a[@class=&quot;display--flex align-item--center&quot;]</value>
-      <webElementGuid>4c31d70a-a5db-4fcc-8f9f-f66eb994965b</webElementGuid>
+      <webElementGuid>f5cbb75b-b966-417d-a839-407663f4ff18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div/ul/li[3]/a</value>
-      <webElementGuid>28012be6-f3b5-4069-8434-bd3be94e0557</webElementGuid>
+      <webElementGuid>9f746cd2-ca09-46b5-8ce9-d57d363d6a25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Pricing')]</value>
-      <webElementGuid>bea2090b-1b81-4dad-98ae-b79195c71d0d</webElementGuid>
+      <webElementGuid>ae3a2364-448c-4806-940d-889720dcb609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Jobseekers'])[1]/following::a[1]</value>
-      <webElementGuid>f98c5378-0099-4013-936c-e392262248f5</webElementGuid>
+      <webElementGuid>e0e2b933-2770-45d6-93da-07560d378c7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Jobs'])[1]/following::a[2]</value>
-      <webElementGuid>3cc2dbe1-edf1-4595-a856-262393b1226b</webElementGuid>
+      <webElementGuid>a79445df-536c-47f6-9333-c1ba50e90d80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='For employers'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e83381f-cfa3-42c9-8ff0-52596bf95fea</webElementGuid>
+      <webElementGuid>fae603b0-9890-4985-9280-a08cb56ac1a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='For jobseekers'])[2]/preceding::a[2]</value>
-      <webElementGuid>1ced0853-69bb-4f64-a00e-597328081945</webElementGuid>
+      <webElementGuid>58521f9b-109a-4c44-9ca3-7f0a514e97ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:;')]</value>
-      <webElementGuid>d8e49d35-a8db-48d7-ac8d-aac7b11e7138</webElementGuid>
+      <webElementGuid>03a5a247-c7b0-4f48-8bf9-d072158f2c43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/ul/li[3]/a</value>
-      <webElementGuid>fb820a18-4c0d-4d60-bff8-522ca52434e2</webElementGuid>
+      <webElementGuid>6b1dec79-bb4c-4069-b5db-13730f263034</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <value>//a[@href = 'javascript:;' and (text() = ' Pricing 
                             ' or . = ' Pricing 
                             ')]</value>
-      <webElementGuid>dc0ce16e-ebf9-455b-ac7c-f8eb516dbae1</webElementGuid>
+      <webElementGuid>337f435f-1840-4d2b-ad79-b2eaa16c1e34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
