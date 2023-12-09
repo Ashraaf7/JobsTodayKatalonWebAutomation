@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>advancedButton</name>
    <tag></tag>
    <elementGuidId>ad40cbf7-de84-4df9-a0b8-ace42ddf4ad5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.form-group.filter--icon > img</value>
+         <value>.filter-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//form[@id='searchForm']/div/div[4]/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>05e4066c-e49f-4c87-aa3f-85fe478f5d34</webElementGuid>
+      <webElementGuid>7c27bdbf-a9a5-4f89-9718-606fd64b5d39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/search-filter.svg</value>
-      <webElementGuid>dbbfa310-f433-4cea-b8e9-97a38d55d01a</webElementGuid>
+      <webElementGuid>23d6cd4e-0139-4551-8b81-b9cc9f85bdd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;searchForm&quot;)/div[@class=&quot;search_form display--flex flex--wrap align-item--center active-job--serach&quot;]/div[@class=&quot;form-group filter--icon&quot;]/img[1]</value>
-      <webElementGuid>221c6cd0-9c0d-42cc-b976-865e257737cf</webElementGuid>
+      <webElementGuid>3982076b-f8c0-4ced-b365-ec32e1d8213d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='searchForm']/div/div[4]/img</value>
-      <webElementGuid>3c9fdb2a-e19e-4ab3-8a8c-4a0c582834c3</webElementGuid>
+      <webElementGuid>219d348d-1cea-43c5-bcea-c80046183017</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/img</value>
-      <webElementGuid>f0ec8d5c-0836-4c74-85b4-53f11abb4cb7</webElementGuid>
+      <webElementGuid>847f0999-3ee6-4936-b96c-581c2bd54270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/search-filter.svg']</value>
-      <webElementGuid>d6d18bd5-4a4b-4bae-aa75-c3750aa83f19</webElementGuid>
+      <webElementGuid>ac49cc5a-614f-474d-a898-38c363f714d1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

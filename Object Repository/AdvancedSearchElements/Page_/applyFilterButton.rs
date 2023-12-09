@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_4977362 jobs found</name>
+   <name>applyFilterButton</name>
    <tag></tag>
-   <elementGuidId>c92e9fda-7723-42cd-937e-ce48c34a8e52</elementGuidId>
+   <elementGuidId>fb72d154-677d-4c0b-8166-c0c7a2ead96f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#job-sort-order > p.search-result</value>
+         <value>a#applyfilters-findjobs</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(@class, 'type-and-location')] /span[contains(@class,'JobLocation')])[1]</value>
+         <value>//form[@id='searchForm']/div[2]/div/div[2]/div[5]/button[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>28c575d7-e0aa-4bf3-b086-29c85b83f7dd</webElementGuid>
+      <value>span</value>
+      <webElementGuid>d4261ca0-b040-4430-84e0-b76985e13903</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>search-result</value>
-      <webElementGuid>8a98ca60-8066-4bad-959a-f717bcba5eac</webElementGuid>
+      <value>mobile-hidden</value>
+      <webElementGuid>c64d9bf3-96ad-458c-800d-9784d8c91c05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>4977362 jobs found</value>
-      <webElementGuid>1fa5e123-0599-4603-baf2-5a499724d090</webElementGuid>
+      <value>Search</value>
+      <webElementGuid>9349783e-172a-4337-994e-cd0f0f50cc20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;job-sort-order&quot;)/p[@class=&quot;search-result&quot;]</value>
-      <webElementGuid>18db82ec-63bd-4084-9c77-80f82e1b8dc5</webElementGuid>
+      <value>id(&quot;searchForm&quot;)/div[@class=&quot;advance-search active--filter&quot;]/div[@class=&quot;advance-search-inner&quot;]/div[@class=&quot;search-advanced display--flex flex--wrap&quot;]/div[@class=&quot;apply-button display--flex align-item--center&quot;]/button[@class=&quot;apply_button&quot;]/span[@class=&quot;mobile-hidden&quot;]</value>
+      <webElementGuid>69cfbc09-ab04-4abd-b5da-af84a0e54cad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='job-sort-order']/p</value>
-      <webElementGuid>0fa2b84a-a454-44c6-9dd2-bad8a0063d29</webElementGuid>
+      <value>//form[@id='searchForm']/div[2]/div/div[2]/div[5]/button[2]/span</value>
+      <webElementGuid>70dfc394-cb2f-430f-9a85-dfe0636bd65c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Job'])[1]/following::p[1]</value>
-      <webElementGuid>43d4df7a-80a5-4245-873b-7b0b09560ba8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::span[1]</value>
+      <webElementGuid>8b2af132-5fb1-4da4-9be2-007c5a9aa2bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[2]/following::p[2]</value>
-      <webElementGuid>b96f2c6b-e214-4d85-8225-58c5724ef3fc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Jobs'])[2]/following::span[3]</value>
+      <webElementGuid>5135c2c3-3b50-43cd-8c11-5ce66c4d0ad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Job'])[2]/preceding::p[1]</value>
-      <webElementGuid>073a4d6a-faec-4d72-b63e-5fa3e57bff55</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/preceding::span[1]</value>
+      <webElementGuid>8eaca51f-3f95-4538-8c68-b59bd58367dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relevance'])[2]/preceding::p[1]</value>
-      <webElementGuid>099d4c13-f152-434c-8f0a-476343578648</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::span[2]</value>
+      <webElementGuid>48c991b4-9879-435a-b1e7-8b9d18e29ebd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/p</value>
-      <webElementGuid>d5dff3f6-8d05-43a6-b8ab-74ec3e2ffeb1</webElementGuid>
+      <value>//button[2]/span</value>
+      <webElementGuid>ab8dfa3a-9fe6-42f0-b8c3-6494e92b1f42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = '4977362 jobs found' or . = '4977362 jobs found')]</value>
-      <webElementGuid>2128194b-345f-436b-8f32-decd03722a45</webElementGuid>
+      <value>//span[(text() = 'Search' or . = 'Search')]</value>
+      <webElementGuid>10665ab4-bd36-4ace-80cd-191b74288dcb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

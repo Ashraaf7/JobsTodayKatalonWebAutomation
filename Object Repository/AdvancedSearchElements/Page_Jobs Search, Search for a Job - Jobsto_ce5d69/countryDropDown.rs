@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>countryDropDown</name>
    <tag></tag>
    <elementGuidId>e0203398-3852-4f3e-b7dc-84a99ed77f36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>ul.display--flex > li > a.display--flex.align-item--center > img</value>
+         <value>[name='countries[]']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//header[@id='header']/div[3]/div/ul/li/a/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>57a837d0-fdab-4be4-8e0e-2314a2c2f475</webElementGuid>
+      <webElementGuid>8705598c-5217-4fea-a747-13d660b3da84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/search-Icon.svg</value>
-      <webElementGuid>17fea201-d973-4775-9771-9af37cf7d8fe</webElementGuid>
+      <webElementGuid>8bb9074b-e287-43d4-b67e-c09854635643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu left--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex&quot;]/li[1]/a[@class=&quot;display--flex align-item--center&quot;]/img[1]</value>
-      <webElementGuid>e59f59a1-efc9-439f-be22-52a9eb044f1a</webElementGuid>
+      <webElementGuid>f8bbc2c8-d5ea-48c7-8f5c-ac2aa13cfd29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div/ul/li/a/img</value>
-      <webElementGuid>c94bb093-a463-475c-b95d-9f83b7af2393</webElementGuid>
+      <webElementGuid>1219c154-8661-4416-aa7c-2eb5f8158ff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/ul/li/a/img</value>
-      <webElementGuid>af6a1e4e-b5f2-4820-8b15-0d0054865f5e</webElementGuid>
+      <webElementGuid>02822c57-08ac-4ee0-ad5e-1094b2e9b2be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/search-Icon.svg']</value>
-      <webElementGuid>c29a7cd7-9259-4036-8078-be69d17d894a</webElementGuid>
+      <webElementGuid>8412b1c3-32a1-4a5b-8916-423a23e73494</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
