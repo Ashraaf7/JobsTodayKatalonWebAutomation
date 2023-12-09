@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardBu
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+'login/', false)
 
 WebUI.closeBrowser()
 
