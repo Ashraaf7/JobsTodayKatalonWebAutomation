@@ -48,10 +48,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Email Address_input_email'),
 		randomEmail)
-	
-	// Get the global variable
-	GlobalList.addToMyList(randomEmail)
-	
+
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Password_input_password'),
 		GlobalVariable.Password)
 	
@@ -132,5 +129,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	Thread.sleep(2000);
 	WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
-		
+	
+	// Get the global variable
+	GlobalList.addToMyList(randomEmail)
+	
 

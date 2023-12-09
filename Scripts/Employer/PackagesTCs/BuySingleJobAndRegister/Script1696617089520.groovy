@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Staging + "post-a-job/")
+WebUI.navigateToUrl(GlobalVariable.Staging)
 
 
 WebUI.maximizeWindow()
@@ -32,7 +32,7 @@ WebUI.maximizeWindow()
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-//WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/Pricing'))
+WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/foremployerspricingnavbarlanding'))
 
 String SinglePack = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Single Job'))
 
@@ -57,8 +57,6 @@ a.sendKeys(Keys.ENTER).build().perform()
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
 GlobalVariable.flagEmail = randomEmail
 
-// Get the global variable
-GlobalList.addToMyList(randomEmail)
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), randomEmail)
 
@@ -124,6 +122,9 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/butt
 String sucessMsg = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/h5_Your purchase was successful'))
 
 WebUI.verifyMatch(sucessMsg, 'Your purchase was successful', false)
+
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/img'))
 

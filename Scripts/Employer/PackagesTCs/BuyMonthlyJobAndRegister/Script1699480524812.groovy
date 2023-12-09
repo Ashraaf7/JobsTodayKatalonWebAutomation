@@ -17,17 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Staging + "post-a-job/")
+WebUI.navigateToUrl(GlobalVariable.Staging)
+
+// Get the driver instance
+def driver = DriverFactory.getWebDriver()
+
+// Create an instance of the Actions class
+def a = new Actions(driver)
 
 WebUI.maximizeWindow()
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/pricing'))
+WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/foremployerspricingnavbarlanding'))
 
-//WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_For employers'))
 
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Monthly'))
 
@@ -39,6 +47,7 @@ WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Post
 
 // Generate a random email address
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
+
 
 WebUI.setText(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/input_Email address_input_email'), randomEmail)
 
@@ -77,10 +86,30 @@ WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/num
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/span_Select communication language'))
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/language'))
 
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(GlobalVariable.cardNumber).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cardHolderName).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.expirationDate).build().perform()
+
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cvv).build().perform()
+
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
+
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/button_PLACE YOUR ORDER'))
 
 String sucessMsg = WebUI.getText(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/purchaseSuccessful'))
 WebUI.verifyMatch(sucessMsg, 'Your purchase was successful', false)
+
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
 
 WebUI.click(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_/img'))
 
@@ -91,3 +120,4 @@ WebUI.verifyMatch(PackageName2, PackageName, false)
 
 String MonthlyPack2 = WebUI.getText(findTestObject('Object Repository/BuyMonthlyJobAndRegister/Page_Jobstoday/MonthlyJob'))
 WebUI.verifyMatch(MonthlyPack2, MonthlyPack, false)
+
