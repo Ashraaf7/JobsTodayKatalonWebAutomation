@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.login</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[contains(@class, &quot;b-box-alert__btns-inner-item&quot;)]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
