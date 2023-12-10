@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@class,&quot;button-buy-onetime-starter&quot;)]</value>
+         <value>(//h2[text()='Starter'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a592431c-c3da-4b5e-9353-d6d40ff712e6</webElementGuid>
+      <webElementGuid>79c99c03-e1d8-4273-a0c2-e640310db908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>63e7fb7e-94c9-4092-b249-97cb462f7211</webElementGuid>
+      <webElementGuid>832c79b0-acc7-478f-b644-ac8ef1b0e765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$(this).parent().find('form').submit();</value>
-      <webElementGuid>88a370ec-3451-473c-a7ca-5fdc472b9820</webElementGuid>
+      <webElementGuid>ad54b8db-3cec-4c15-aa0c-fa59ac3a7208</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>confirm-button-button confirm-button-blue button-buy button-buy-onetime-starter</value>
-      <webElementGuid>75d1275b-8408-4bbf-bda0-ad40b57a2077</webElementGuid>
+      <webElementGuid>70fac695-5044-44b0-96ad-d0bb028daf27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select</value>
-      <webElementGuid>be0f865f-5d03-4ab7-9520-236c0a4273a2</webElementGuid>
+      <webElementGuid>0695973f-628c-418e-991c-e6550ef0b2a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;pricing--page&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;pricing-section&quot;]/div[@class=&quot;page-wrapper-fulid&quot;]/div[@class=&quot;pricing-table-list&quot;]/div[@class=&quot;pricing-list-inner&quot;]/div[@class=&quot;pricing-single-tab single--tab-card&quot;]/div[@class=&quot;pricing--card-main&quot;]/div[@class=&quot;pricing--card single-pricing-card&quot;]/div[@class=&quot;pricing-card-inner&quot;]/div[@class=&quot;select-button text--center&quot;]/a[@class=&quot;confirm-button-button confirm-button-blue button-buy button-buy-onetime-starter&quot;]</value>
-      <webElementGuid>08bf8f47-11b3-42bc-b7fb-02f2988c80cf</webElementGuid>
+      <webElementGuid>39599b08-d533-4e63-ab0b-97037e38bb1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;$(this).parent().find('form').submit();&quot;]</value>
-      <webElementGuid>e7ab2d49-622e-4f5a-9ec0-45dcf30514d0</webElementGuid>
+      <webElementGuid>4675bde7-3736-436e-baa0-480e490a094b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Select')]</value>
-      <webElementGuid>b7e3ecb1-93ce-4120-b926-328fe3ada94f</webElementGuid>
+      <webElementGuid>4ed20053-ce27-4811-9667-3d33e224e064</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Weekly Date Refresh'])[1]/following::a[1]</value>
-      <webElementGuid>87ceeb89-c060-45d6-900f-d8babb3fa960</webElementGuid>
+      <webElementGuid>a705b221-22b3-49c7-a75d-c833e7b05feb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Support'])[1]/following::a[1]</value>
-      <webElementGuid>f211ef7f-1c03-4d61-ad25-0b1b78668d03</webElementGuid>
+      <webElementGuid>f5e78bd0-6b53-479e-a4ce-ed8e36aa370d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise'])[1]/preceding::a[1]</value>
-      <webElementGuid>ef1b6fe3-d726-4e68-a244-d2a5f05954b8</webElementGuid>
+      <webElementGuid>25c14cb6-3b45-497a-85ca-be63f7f6fbaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$ 0'])[2]/preceding::a[1]</value>
-      <webElementGuid>e450af9a-0a78-4eb1-8929-c190e0c9fbe0</webElementGuid>
+      <webElementGuid>bddcb484-57a2-4ddb-bfdd-01bb5c9325af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Select']/parent::*</value>
-      <webElementGuid>77189a00-b442-42c1-bf7d-4d7beeb11a81</webElementGuid>
+      <webElementGuid>dd711dac-59a5-488f-9cad-f7ddc633df73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:;')])[4]</value>
-      <webElementGuid>ab8e9afc-986c-4fab-9629-217eadcc3f0b</webElementGuid>
+      <webElementGuid>5e96d8af-4d62-4058-b177-dcadc6483ecc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>56badaf4-d0b3-4c60-8c35-4bb4bfe7c48f</webElementGuid>
+      <webElementGuid>72186dd2-adfe-4ec1-ab60-77b9eed53d44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:;' and (text() = 'Select' or . = 'Select')]</value>
-      <webElementGuid>11ca65f6-fc66-4ee8-b048-b83050b892f0</webElementGuid>
+      <webElementGuid>a5e55b71-610f-41dc-9867-7bff71fcc504</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

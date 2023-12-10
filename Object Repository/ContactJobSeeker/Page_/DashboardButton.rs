@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_1</name>
+   <name>DashboardButton</name>
    <tag></tag>
    <elementGuidId>ecf770bc-cfc7-4544-8ff6-3be2f1dbeb24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;header&quot;]/div[3]/div[2]/ul/li[1]/a/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.user-login > a > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='registernowheaderlanding']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>fbddf747-8d30-49a0-8adc-860af1139e98</webElementGuid>
+      <webElementGuid>d8e3a833-f45b-444d-b973-6d0bd529cd90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/user.svg</value>
-      <webElementGuid>33005cee-d648-462f-8dc5-d9a42aaa78e5</webElementGuid>
+      <webElementGuid>973950cc-c3f3-4de5-ad22-1af305074019</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;user-login&quot;]/a[1]/img[1]</value>
-      <webElementGuid>f9374521-d2d3-49bd-98ea-91d983472726</webElementGuid>
+      <webElementGuid>edf8b54b-241f-42b6-913b-cead17221acd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>ea971c9c-8192-4c31-8bdb-9d9d657e6081</webElementGuid>
+      <webElementGuid>ba97e3e6-a0e1-46bd-ac61-50ac846a387d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>1a25965a-b570-433d-afc8-6afd7da6fdcb</webElementGuid>
+      <webElementGuid>87f67f68-3a48-4667-952c-0562e6d900eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/user.svg']</value>
-      <webElementGuid>5b8e9879-e51f-467f-b84c-d79274ce7f78</webElementGuid>
+      <webElementGuid>3f4ef58f-e957-49ba-92b1-de7f922957ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

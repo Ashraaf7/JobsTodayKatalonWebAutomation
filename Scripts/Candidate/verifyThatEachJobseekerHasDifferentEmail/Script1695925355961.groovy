@@ -25,14 +25,14 @@ import org.openqa.selenium.interactions.Actions
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerOneEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 WebUI.closeBrowser()
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'),  [:])
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerTwoEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 

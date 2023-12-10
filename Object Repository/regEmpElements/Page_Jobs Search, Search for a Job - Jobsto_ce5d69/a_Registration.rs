@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a0452b3d-1044-499d-a0ad-afb213123d0e</webElementGuid>
+      <webElementGuid>d611e3c7-3be4-412c-913e-96184fc2b04d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/en/registration/</value>
-      <webElementGuid>5a3b3eda-1e2a-4d84-b89b-c818d33b5045</webElementGuid>
+      <webElementGuid>68b8a399-cc77-4073-b479-98275dcef48f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Registration</value>
-      <webElementGuid>a79afbf9-489d-410d-be83-a054e922360b</webElementGuid>
+      <webElementGuid>9779107f-8255-4660-84f2-d71c770008b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;tablet-hidden&quot;]/a[1]</value>
-      <webElementGuid>cf3b4c1a-7f66-4b0b-80c7-16bf034a70e9</webElementGuid>
+      <webElementGuid>8a9898d8-b8c3-4d56-94b1-5be083d74cad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div[2]/ul/li/a</value>
-      <webElementGuid>a2940750-97ed-4d94-a2e7-01f8cfd6f218</webElementGuid>
+      <webElementGuid>4aff2262-7451-4efe-9bb5-91f30a68be0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Registration')])[2]</value>
-      <webElementGuid>d856845e-2957-46cf-b0df-9b60e4f1eae7</webElementGuid>
+      <webElementGuid>b425a621-a6c6-4b80-9855-70acce308481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='For jobseekers'])[2]/following::a[1]</value>
-      <webElementGuid>e80ca3e7-cbe9-40a4-99b1-6d038192132f</webElementGuid>
+      <webElementGuid>0125e492-3d1f-4321-af2a-5b18cc561257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='For employers'])[1]/following::a[2]</value>
-      <webElementGuid>ac547ba2-d70f-44da-bd64-cd9555c1172e</webElementGuid>
+      <webElementGuid>05fbc8b6-94bb-4b06-8952-8077c9f3041f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::a[1]</value>
-      <webElementGuid>552a3a4f-7ff8-4910-81d4-e2f851eab997</webElementGuid>
+      <webElementGuid>51881d35-e274-49f2-9fa4-869597928d70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[3]/preceding::a[2]</value>
-      <webElementGuid>6eabfae7-1bfc-4950-825e-e317cd565c90</webElementGuid>
+      <webElementGuid>289afc18-3505-4934-885c-8f25d5bead25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/en/registration/')])[2]</value>
-      <webElementGuid>3e528225-e05a-4716-98c5-7065a255b8ec</webElementGuid>
+      <webElementGuid>aeb8edc1-00e2-4e55-b0ce-28e2546de81f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/ul/li/a</value>
-      <webElementGuid>c46bbde9-f632-4045-98df-36f514da2d92</webElementGuid>
+      <webElementGuid>86c359b7-7f99-4be4-b7b7-0eb502d33add</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/en/registration/' and (text() = 'Registration' or . = 'Registration')]</value>
-      <webElementGuid>aa5388c5-a7bf-490c-af2e-babf13683b20</webElementGuid>
+      <webElementGuid>2e8a7203-7616-4996-b2f9-69026eb5b806</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

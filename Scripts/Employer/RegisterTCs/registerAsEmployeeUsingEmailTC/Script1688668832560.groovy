@@ -3,6 +3,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import java.awt.Robot
+import java.awt.event.KeyEvent
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -22,14 +26,19 @@ import com.kms.katalon.core.annotation.Keyword
 import org.apache.commons.lang3.RandomStringUtils
 
 	WebUI.openBrowser('')
-	WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-	WebUI.navigateToUrl(GlobalVariable.Production)
+	// Get the driver instance
+	def driver = DriverFactory.getWebDriver()
+	
+	// Create an instance of the Actions class
+	def a = new Actions(driver)
+	
+	WebUI.navigateToUrl(GlobalVariable.Staging+'registration/')
+
 	WebUI.maximizeWindow()
+	
 	
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
-
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
 	
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im an Employer'))
 	
@@ -39,7 +48,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Email Address_input_email'),
 		randomEmail)
-	
+
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Password_input_password'),
 		GlobalVariable.Password)
 	
@@ -87,11 +96,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/div_id(katalon-rec_elementInfoDiv)'))
 	
 	
-	// Get the driver instance
-	def driver = DriverFactory.getWebDriver()
-	
-	// Create an instance of the Actions class
-	def a = new Actions(driver)
+
 	
 	// Call the sendKeys() method on the Actions instance to simulate keyboard input
 	a.sendKeys(Keys.TAB).build().perform();
@@ -109,7 +114,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	char a3 = '\u0038';
 	char a4 = '\u0039';
 	
-	a.sendKeys(  String.valueOf(a1),
+	a.sendKeys(String.valueOf(a1),
 			String.valueOf(a2),
 			String.valueOf(a3),
 			String.valueOf(a4)).build().perform();
@@ -122,7 +127,10 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/button_Register Now'))
 	
 	Thread.sleep(2000);
-	WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/", false)
+	WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
-		
+	
+	// Get the global variable
+	GlobalList.addToMyList(randomEmail)
+	
 

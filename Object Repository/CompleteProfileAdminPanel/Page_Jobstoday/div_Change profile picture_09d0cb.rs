@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Change profile picture                 _09d0cb</name>
+   <name>div_Change profile picture_09d0cb</name>
    <tag></tag>
    <elementGuidId>085ae81f-03fe-4a3e-956f-f5447334eb9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select-profile-picture-direct&quot;]/label/div/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.tooltip</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;select-profile-picture-direct&quot;]/label/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

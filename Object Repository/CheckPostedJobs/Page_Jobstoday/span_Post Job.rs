@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.b-header__nav-btn-text</value>
+         <value>a.b-header__nav-btn</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a1f0b2a9-153f-477e-a68c-b9316e3371c7</webElementGuid>
+      <webElementGuid>00699cdc-271a-4991-a1ba-355f260e6123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>b-header__nav-btn-text</value>
-      <webElementGuid>73a5b650-9e1e-4b17-a8fa-773323eabfc2</webElementGuid>
+      <webElementGuid>85119f02-06bc-43bf-93c5-71dde7dda36b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>
                                     Post Job                                </value>
-      <webElementGuid>874acb1c-959d-475b-8a38-4ba75d0fb61d</webElementGuid>
+      <webElementGuid>661e8e51-b5a8-4d57-ad13-d01edfd753af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;_full_w _nav  _loaded  pace-done pace-done&quot;]/header[@class=&quot;b-header b-header_with_nav&quot;]/div[@class=&quot;b-header__part b-header__element-up&quot;]/nav[@class=&quot;b-header__part-item l-flex l-flex_valign_center _dmin_none&quot;]/ul[@class=&quot;b-header__nav&quot;]/li[@class=&quot;b-header__nav-item&quot;]/a[@class=&quot;b-header__nav-btn&quot;]/span[@class=&quot;b-header__nav-btn-text&quot;]</value>
-      <webElementGuid>f3dc3752-7617-4391-958a-e663e734deef</webElementGuid>
+      <webElementGuid>27415308-90ff-422d-b9ac-019c24d19831</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[1]</value>
-      <webElementGuid>d6870e18-fd7c-4290-bd88-97807d5880fd</webElementGuid>
+      <webElementGuid>85958bbc-fd28-4ce0-816d-cb36b754b675</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::span[2]</value>
-      <webElementGuid>4db6c1ca-75bd-4dcb-9c38-555be32e9850</webElementGuid>
+      <webElementGuid>65b51f06-2d31-477e-bb39-1b583d8d4a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en'])[2]/preceding::span[2]</value>
-      <webElementGuid>7d8890d1-da7d-4262-ae1b-83550a49a14c</webElementGuid>
+      <webElementGuid>a8a191fb-303f-426f-bc79-5116d9113f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en'])[3]/preceding::span[2]</value>
-      <webElementGuid>d890bbe7-b951-4d2d-9752-bcf8d2950251</webElementGuid>
+      <webElementGuid>6cb7eb71-32ba-4226-bad7-4c754e82d064</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Post Job']/parent::*</value>
-      <webElementGuid>fdfd2861-4bf9-4797-a0e0-05c39f841c74</webElementGuid>
+      <webElementGuid>5e2db151-5812-4203-a3aa-23ce076adfb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/span</value>
-      <webElementGuid>b40a3c18-b555-4a26-9310-600aeb2de3d5</webElementGuid>
+      <webElementGuid>65954d8f-e44f-42f1-a1b5-8d3e37a842a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <value>//span[(text() = '
                                     Post Job                                ' or . = '
                                     Post Job                                ')]</value>
-      <webElementGuid>efb7be47-babe-4345-a208-ad18a652268e</webElementGuid>
+      <webElementGuid>452a4e68-f57e-4b00-8ca2-36dd7856b551</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

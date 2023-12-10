@@ -28,7 +28,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 String companyDesc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
 WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
 String projectDirectory = RunConfiguration.getProjectDir().replaceAll('/', '\\\\')
 
@@ -37,10 +37,10 @@ String path = (projectDirectory + '\\') + 'Attachments\\image.jpg'
 TestObject data_URL = findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/data URL')
 
 if (!WebUI.getAttribute(data_URL, 'data-url').equals('0')) {
-	WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/div_Change profile picture                 _09d0cb'))
+	WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/div_Change profile picture_09d0cb'))
 	WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/change profile'))}
 else
-WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/div_Change profile picture                 _09d0cb'))
+WebUI.click(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/div_Change profile picture_09d0cb'))
 
 WebUI.sendKeys(findTestObject('Object Repository/CompleteProfileAdminPanel/Page_Jobstoday/span_Select File_cropper-face cropper-move'), path)
 

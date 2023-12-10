@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#keywords</value>
+         <value>input[name='keywords']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='keywords']</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f02281c0-4ee8-4e18-9f31-a03e25c4ed6d</webElementGuid>
+      <webElementGuid>e4690742-a19e-49ac-a9a4-a9e588572058</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cf2cab3d-ca83-46db-9733-f74244f209d5</webElementGuid>
+      <webElementGuid>4d91063e-507c-47a8-943b-e67877b6df80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Jobs</value>
-      <webElementGuid>dcd3a4c4-a910-4a6f-a39a-b4c9d9e1c3f1</webElementGuid>
+      <webElementGuid>63998556-f7cf-4554-a112-369b68857f76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>keywords</value>
-      <webElementGuid>3ec7f70a-3038-4ae3-9abd-e5c1cd0caddb</webElementGuid>
+      <webElementGuid>caa18c2e-2899-4f07-9c7f-ac6b33a33fb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>keywords</value>
-      <webElementGuid>b21b401e-4ed4-409e-bb76-84926d95a8a3</webElementGuid>
+      <webElementGuid>dbe94679-4d1f-431d-88ab-62b747a695eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;keywords&quot;)</value>
-      <webElementGuid>c791d20b-3518-4b08-b832-d85375f614bc</webElementGuid>
+      <webElementGuid>68c08b75-575d-4364-b760-7dc5f9f38806</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='keywords']</value>
-      <webElementGuid>d7d48773-d4a7-4df2-81bd-ed82e7f2d6f7</webElementGuid>
+      <webElementGuid>e2d00123-3aa5-40f7-9cad-20709e52f9c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='search']/div/input</value>
-      <webElementGuid>9b6e52d3-10f8-49e2-b2e4-ba0de6d59730</webElementGuid>
+      <webElementGuid>7a0566a3-b4ec-44be-a39e-ba951b412436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>adbd5cfa-228e-41ea-95a3-ffca0561a6a9</webElementGuid>
+      <webElementGuid>4dbb476b-fcab-4b67-b84a-ca4eea939bab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Search Jobs' and @id = 'keywords' and @name = 'keywords']</value>
-      <webElementGuid>d40fed07-9f92-4e16-a755-ba40c1b71c0f</webElementGuid>
+      <webElementGuid>08c720f2-6962-4bb0-a99d-9844af35e509</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

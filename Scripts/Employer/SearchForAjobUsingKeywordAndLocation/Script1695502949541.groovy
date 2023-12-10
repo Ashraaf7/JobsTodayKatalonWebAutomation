@@ -25,11 +25,12 @@ WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocat
 
 WebUI.setText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/input_PL_location'), GlobalVariable.location)
 
-WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/img'))
 
-String JobLabel = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/a_Tester'))
+WebUI.click(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/searchButton'))
 
-String Location = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/span_Amsterdam, Nederland'))
+String JobLabel = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/jobNameElement'))
+
+String Location = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/locationElement'))
 
 WebUI.verifyMatch(JobLabel, GlobalVariable.jobTitle, false)
 

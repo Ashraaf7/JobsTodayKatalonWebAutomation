@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/registerWithOutlookEmailForSpecialCase'), [:], FailureHandling.STOP_ON_FAILURE)
 //logout steps
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
@@ -91,11 +91,11 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
 
 //delete account
-WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))
 
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/DeleteButton'))

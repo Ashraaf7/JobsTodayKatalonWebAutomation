@@ -25,35 +25,26 @@ import org.openqa.selenium.support.ui.Select as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
 
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.maximizeWindow()
-WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.navigateToUrl(GlobalVariable.Staging)
 	
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
 Thread.sleep(3000);
+WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/findJobsButton'))
 
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-Thread.sleep(3000);
+WebUI.clearText(findTestObject('Object Repository/AdvancedSearchElements/Page_/locationInputWhenSearching'))
 
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/img'))
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/button_Clear'))
-
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/span_Filter_select2-selection select2-selec_809b49'))
-
-def driver = DriverFactory.getWebDriver()
-By G= By.id("country")
-WebElement CountryDrop= driver.findElement(G)
-Select dropDown = new Select(CountryDrop)
+WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/advancedButton'))
 
 def country = "Germany"
-dropDown.selectByVisibleText(country)
 
 
-WebUI.click(findTestObject('Object Repository/AdvancedSearchElements/Page_/span_Search'))
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/countryDropDown'), country, false)
+WebUI.click((findTestObject('Object Repository/AdvancedSearchElements/Page_/applyFilterButton')))
 Thread.sleep(3000);
-def ActualCountry = WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_/p_4977362 jobs found'))
+def ActualCountry = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/locationElement'))
 ActualCountryStatus = ActualCountry.contains(country)
 WebUI.verifyEqual(ActualCountryStatus,true)
 

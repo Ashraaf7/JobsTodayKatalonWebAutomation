@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/a_Pricing'))
+WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/foremployerspricingnavbarlanding'))
 
 WebUI.setText(findTestObject('Object Repository/ContactUs/Page_Post Jobs For Free - Jobstoday.world/input_Full name_input_name'), 
     'tester')

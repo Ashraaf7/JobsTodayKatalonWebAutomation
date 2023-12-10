@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.Production)
+WebUI.navigateToUrl(GlobalVariable.Staging)
 
 
 WebUI.setText(findTestObject('Object Repository/searchElements/Page_Jobs Search, Search for a Job - Jobstoday.world/input_Find employees from around the world_keywords'), 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/searchElements/Page_Jobs Search, S
 
 Thread.sleep(2000)
 
-def ActualJob = WebUI.getText(findTestObject('Object Repository/searchElements/Page_Jobs Search, Search for a Job - Jobstoday.world/a_Manager, Data Integration, Research IT Data Engineering'))
+def ActualJob = WebUI.getText(findTestObject('Object Repository/SearchForJobUsingKeywordAndLocation/Page_/jobNameElement'))
 
 WebUI.verifyEqual(ActualJob,  GlobalVariable.jobTitle)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Amsterdam, Nederland</name>
+   <name>locationElement</name>
    <tag></tag>
    <elementGuidId>2b1494c3-4527-418c-ae65-4786e1ebf638</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='results']/div[3]/div/div[2]/div[2]/div/span</value>
+         <value>(//div[@class='info'])[1] /div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b402b4a2-8d5b-4ec6-ad74-e2ffea84bd75</webElementGuid>
+      <webElementGuid>31c2bae8-8bd5-4084-aa5a-d3fa0c157c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>display--flex align-item--center JobLocation</value>
-      <webElementGuid>fa03f62e-a660-44c0-8cdb-7d99b2ec1cd6</webElementGuid>
+      <webElementGuid>7470c9bf-d31e-4004-99de-d7c6429a8477</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>
                      Amsterdam, Nederland                </value>
-      <webElementGuid>6b3425fc-e818-49af-bfce-e1c78f6a36c9</webElementGuid>
+      <webElementGuid>4b127780-ae82-4335-a08d-d9b2b8823408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;results&quot;)/div[@class=&quot;job--list display--flex flex--wrap&quot;]/div[@class=&quot;single--block display--flex&quot;]/div[@class=&quot;job--info&quot;]/div[@class=&quot;job-type--location display--flex flex--wrap&quot;]/div[@class=&quot;type-and-location display--flex&quot;]/span[@class=&quot;display--flex align-item--center JobLocation&quot;]</value>
-      <webElementGuid>2bc5ce97-714b-467c-a772-ee75c5fb7b3a</webElementGuid>
+      <webElementGuid>39e87948-0f54-4eb4-b9c5-ace016695bd5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='results']/div[3]/div/div[2]/div[2]/div/span</value>
-      <webElementGuid>aec4272b-dc89-4d45-9344-b8d89c7f8f00</webElementGuid>
+      <webElementGuid>6560cc8d-f4d7-4a5b-869f-a068f79acd58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tester'])[1]/following::span[1]</value>
-      <webElementGuid>4e9d0f7b-2259-4e66-ae3c-3f27ad33e6ac</webElementGuid>
+      <webElementGuid>fbaf6784-8e9c-4776-9798-07b75e1ba7c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yacht'])[1]/following::span[2]</value>
-      <webElementGuid>8abed663-571f-4a0d-b691-9b8c97c0e3ed</webElementGuid>
+      <webElementGuid>41d5ad23-d773-4d1f-a940-fa1c0acc502a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View Job'])[1]/preceding::span[2]</value>
-      <webElementGuid>e7816814-0e5e-400c-9855-fa7457c13380</webElementGuid>
+      <webElementGuid>674d4062-5a18-49b7-bac4-4b62cdebcbc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UWV'])[1]/preceding::span[2]</value>
-      <webElementGuid>d3441e88-2977-4436-867c-54a93e8042a3</webElementGuid>
+      <webElementGuid>d5af034f-273b-47b6-8f15-93507913a02e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Amsterdam, Nederland']/parent::*</value>
-      <webElementGuid>58a3ff31-743e-459e-94c0-cb16d230cf0d</webElementGuid>
+      <webElementGuid>a1ccfd7f-2221-4cef-9892-272906025a2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div[2]/div/span</value>
-      <webElementGuid>30da4a43-8b6e-47ec-9aec-08c288d0b3ce</webElementGuid>
+      <webElementGuid>331ccf05-362f-4c58-8d09-1b17c55e01c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <value>//span[(text() = '
                      Amsterdam, Nederland                ' or . = '
                      Amsterdam, Nederland                ')]</value>
-      <webElementGuid>0171204b-63d0-4594-8e6b-c891f12dbc2d</webElementGuid>
+      <webElementGuid>b7726fb4-119c-4d4b-8baf-3b7dcd4cd110</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

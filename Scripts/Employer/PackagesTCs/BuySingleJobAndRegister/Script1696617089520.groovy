@@ -17,31 +17,46 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils
+import org.openqa.selenium.Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 
-WebUI.navigateToUrl(GlobalVariable.Staging + "post-a-job/")
+WebUI.navigateToUrl(GlobalVariable.Staging)
+
 
 WebUI.maximizeWindow()
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-//WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/Pricing'))
+WebUI.click(findTestObject('Object Repository/ContactUs/Page_Login to Jobstoday.world - Create Resu_ef8a51/foremployerspricingnavbarlanding'))
 
 String SinglePack = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Single Job'))
 
 String PackageName = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/PackageName'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'), 10)
+// Get the driver instance
+def driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_Post Jobs For Free - Jobstoday.world/a_Select'))
+// Create an instance of the Actions class
+def a = new Actions(driver)
 
+(0..10).each { i ->
+	// Send the TAB key globally
+// Send the TAB key globally
+a.sendKeys(Keys.TAB).build().perform()
+}
+
+
+// Send the TAB key globally
+a.sendKeys(Keys.ENTER).build().perform()
 // Generate a random email address
 def randomEmail = "user" + RandomStringUtils.randomAlphanumeric(5) + "@example.com"
 GlobalVariable.flagEmail = randomEmail
+
 
 WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/input_Email address_input_email'), randomEmail)
 
@@ -82,15 +97,23 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/span
 Thread.sleep(1000)
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/language'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/CardNumberLabel'), 5)
+//WebUI.scrollToElement(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'), 5)
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/card number'), GlobalVariable.cardNumber)
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
+a.sendKeys(Keys.TAB).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardholder name'), GlobalVariable.cardHolderName)
+a.sendKeys(GlobalVariable.cardNumber).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/expirationDate'), GlobalVariable.expirationDate)
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cardHolderName).build().perform()
 
-WebUI.setText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cvc'), GlobalVariable.cvv)
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.expirationDate).build().perform()
+
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cvv).build().perform()
+
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 
@@ -99,6 +122,9 @@ WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/butt
 String sucessMsg = WebUI.getText(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/h5_Your purchase was successful'))
 
 WebUI.verifyMatch(sucessMsg, 'Your purchase was successful', false)
+
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
 
 WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/img'))
 

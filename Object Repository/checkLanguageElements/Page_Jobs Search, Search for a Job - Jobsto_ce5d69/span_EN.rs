@@ -6,15 +6,15 @@
    <elementGuidId>ae7a8d25-abb4-4d67-bdf7-3fdc4820d17b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#languagelanding</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//header[@id='header']/div[3]/div[2]/ul/li[3]/div/div/div/span</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span.custom-select-trigger</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d421d7c6-a176-433f-827e-8e89e70f6d24</webElementGuid>
+      <webElementGuid>0c772683-4de0-40a2-ad5a-6c0cc50ef21a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-select-trigger</value>
-      <webElementGuid>d11825c8-15a8-4775-b361-0d5240399a80</webElementGuid>
+      <webElementGuid>a4e1748b-25f0-4ed4-87cd-cb4742d0da23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EN</value>
-      <webElementGuid>38dccf7a-9e57-49a9-b927-795e17d3abb1</webElementGuid>
+      <webElementGuid>3192c239-8b40-402b-87f9-f49cf95430c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;language-dropdown&quot;]/div[@class=&quot;select-box select-language&quot;]/div[@class=&quot;custom-select-wrapper&quot;]/div[@class=&quot;custom-select&quot;]/span[@class=&quot;custom-select-trigger&quot;]</value>
-      <webElementGuid>f79b8198-b5e5-412d-9569-ade785dd2d27</webElementGuid>
+      <webElementGuid>5cbf0cd6-0141-4957-9327-75be28af51b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div[2]/ul/li[3]/div/div/div/span</value>
-      <webElementGuid>c15f1609-da14-49ed-b192-dd0613a1fe6a</webElementGuid>
+      <webElementGuid>c37f456f-cf47-493e-bbd0-abf08f4462c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::span[1]</value>
-      <webElementGuid>3d0a3662-0507-4658-ad03-fb5e707edfac</webElementGuid>
+      <webElementGuid>5cf5c683-e31f-40cd-9403-bef1da07b716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration'])[2]/following::span[1]</value>
-      <webElementGuid>a323e78b-6a43-45f1-93c2-605414869968</webElementGuid>
+      <webElementGuid>b6e48f69-0b9d-4fc5-ab95-d63e12e4eeed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[4]/preceding::span[1]</value>
-      <webElementGuid>3b471248-8325-477a-9df1-e432a52060ab</webElementGuid>
+      <webElementGuid>b1ad95e5-b052-4ddc-84f6-5080834bb9f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DE'])[3]/preceding::span[2]</value>
-      <webElementGuid>363f4e5d-085c-4ef3-959e-925c0ddf1b87</webElementGuid>
+      <webElementGuid>128d2226-7286-40be-b047-70463223747c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/div/div/span</value>
-      <webElementGuid>3c69363e-82be-48a8-96f0-f712a6924b5a</webElementGuid>
+      <webElementGuid>8a67a835-e6f4-4139-8091-388e7ba74d7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'EN' or . = 'EN')]</value>
-      <webElementGuid>37516aa9-3303-413f-b5dc-6bf2a0e766f1</webElementGuid>
+      <webElementGuid>5d8664b1-fe6a-411a-b96d-1a8eed737123</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
