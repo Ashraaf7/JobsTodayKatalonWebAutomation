@@ -85,6 +85,7 @@ for (String s:GlobalList.getMyList() )
 	WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/YesForDelete'))
 	WebUI.sendKeys(findTestObject('Object Repository/DeleteEmployerAccount/EnterPasswordForDelete'), GlobalVariable.Password)
 	WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/LastDeleteButton'))
+	Thread.sleep(3000)
 	WebUI.navigateToUrl(GlobalVariable.Staging+'login/' )
 	
 	
