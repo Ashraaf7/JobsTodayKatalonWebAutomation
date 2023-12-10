@@ -37,7 +37,7 @@ Thread.sleep(3000)
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/forHover'))
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_Jobstoday/span_Logout'))
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+'login/', false)
 
 WebUI.navigateToUrl(GlobalVariable.jobURL)
 
@@ -129,7 +129,7 @@ WebUI.sendKeys(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manag
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/button_Send Application'))
 
 
-WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
+WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'),
 	GlobalVariable.flagEmail)
@@ -162,9 +162,9 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/img_1'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
 WebUI.click(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/myApplicationElement'))
 

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click Login btn</name>
+   <name>cardRadioButton</name>
    <tag></tag>
-   <elementGuidId>383e976e-2797-4140-9811-9c717f8eb3ae</elementGuidId>
+   <elementGuidId>68c2953b-d3af-402b-8ba7-016f9162e848</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.login</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, &quot;b-box-alert__btns-inner-item&quot;)]/a</value>
+         <value>//input[@id='card']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

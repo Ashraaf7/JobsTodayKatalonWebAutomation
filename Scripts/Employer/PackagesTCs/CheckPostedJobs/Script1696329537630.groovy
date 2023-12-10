@@ -22,75 +22,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
 import org.apache.commons.lang3.RandomStringUtils
 import org.apache.commons.lang3.RandomStringUtils
-// Generate a random email address
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-def jobTitle = "Test Job When Logged in " + RandomStringUtils.randomAlphanumeric(2)
-
-
-WebUI.callTestCase(findTestCase('Employer/LoginTCs/EmployerLoginTC'), [:], FailureHandling.STOP_ON_FAILURE)
-
-def driver = DriverFactory.getWebDriver()
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_Post Job'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_Select'))
-
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Describe in few words the most imp_0f1197'), 
-    'Company description Company description Company description Company')
-
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Job title_job_title'), jobTitle)
-
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/textarea_Enter a short Job description, it _305c38'), 
-    'Company description Company description Company description Company')
-
-TestObject jobDescription = findTestObject('Object Repository/CheckPostedJobs/Page_/p_Compose your Job position with as many de_a6a97c')
-
-WebElement frame = driver.findElement(By.id('job_description_ifr'))
-
-driver.switchTo().frame(frame)
-
-WebUI.sendKeys(jobDescription, 'The role of a software tester involves designing and executing test plans, creating test cases, and analyzing the results to identify any issues or bugs. They are also responsible for documenting their findings and communicating them to the development team for resolution.Software testers may use a variety of testing techniques, including manual testing, automated testing, regression testing, performance testing, and security testing. They may also work on multiple projects simultaneously and collaborate with other members of the development team to ensure that software releases are of high quality and meet user expectations.')
-
-driver.switchTo().parentFrame()
-
-By G = By.xpath('//*[@id="select_industry"]')
-
-WebElement Industry = driver.findElement(G)
-
-Select dropDown = new Select(Industry)
-
-dropDown.selectByVisibleText('Accounting')
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/span_Select employment type'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/type'))
-
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_City  Country_location'), 'Cairo, Egypt')
-
-WebUI.setText(findTestObject('Object Repository/CheckPostedJobs/Page_/input_Reference_Reference'), 'Company description')
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/label_No'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/input_RA-AT-2022-09-0014_privacy'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_/button_Publish Now'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/CheckPostedJobs/Page_/h3_You have successfully posted your Job'))
-
-//Job is not appeared in My Jobs
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
-
-WebUI.click(findTestObject('Object Repository/CheckPostedJobs/Page_Jobstoday/span_My Jobs'))
-
-TestObject jobName = findTestObject('Object Repository/CheckPostedJobs/Page_/a_View Job')
-
-String jobNameTxt = WebUI.getText(jobName)
-
-WebUI.verifyMatch(jobTitle, jobNameTxt, false)
-
+WebUI.callTestCase(findTestCase('Test Cases/Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)

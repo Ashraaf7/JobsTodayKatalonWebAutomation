@@ -27,12 +27,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'jobseeker12@gmail.com'</initValue>
-      <name>JobSeekerProductonEmail</name>
+      <name>employeeProductonEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'employeeemail1@gmail.com'</initValue>
-      <name>EmployerEmail</name>
+      <name>EmployeeProductionEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -108,5 +108,10 @@
       <description></description>
       <initValue>'0125'</initValue>
       <name>expirationDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee@gmail.com'</initValue>
+      <name>employeeStagingEmail</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

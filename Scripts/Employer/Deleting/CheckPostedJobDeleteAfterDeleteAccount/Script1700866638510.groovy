@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String allJobs = "https://www.jobstoday.world/en/find-a-job/?posted_date=all_jobs"
+String allJobs = GlobalVariable.Staging+"find-a-job/?posted_date=all_jobs"
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(0)

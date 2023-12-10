@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
+         <value>//a[@id='registernowheaderlanding']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>d7f9d333-d3b5-4a72-bf38-dc4c9baeeceb</webElementGuid>
+      <webElementGuid>c6d2854e-a6d3-48cc-b170-354e7612013e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/icon/user.svg</value>
-      <webElementGuid>54056cf3-2467-455f-a1d6-c185b0cae88c</webElementGuid>
+      <webElementGuid>eec56ea3-47ec-430d-bef5-774b43ffbf45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu right--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex align-item--center&quot;]/li[@class=&quot;user-login&quot;]/a[1]/img[1]</value>
-      <webElementGuid>ea321f1c-91eb-4cf7-a444-b9845977016b</webElementGuid>
+      <webElementGuid>0e9371a5-438f-4914-887d-56da210cd414</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>7d0f7625-5a55-49f2-90df-4384ea3a4a97</webElementGuid>
+      <webElementGuid>483a3817-8fac-464d-acec-ee85480dcf9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/ul/li/a/img</value>
-      <webElementGuid>c1b31572-2c49-46b5-840c-9edb828ebe58</webElementGuid>
+      <webElementGuid>864e4111-0d71-471a-8c21-f825b6929c01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/icon/user.svg']</value>
-      <webElementGuid>33e8a7a7-1c30-42ce-826e-d3bc5b7dbc17</webElementGuid>
+      <webElementGuid>e5653fc9-4a9a-41dd-85fc-da4044ddfa34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

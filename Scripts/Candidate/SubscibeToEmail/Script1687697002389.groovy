@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/Candidat
 
 WebUI.scrollToPosition(0, 0)
 WebUI.setText(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/input_New Vacancies in Your Inbox_input_email'), 
-    GlobalVariable.JobSeekerProductonEmail)
+    GlobalVariable.employeeProductonEmail)
 
 WebUI.click(findTestObject('Object Repository/SubscibeToEmail/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Subscribe'))
 

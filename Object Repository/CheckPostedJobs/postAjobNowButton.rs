@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click Login btn</name>
+   <name>postAjobNowButton</name>
    <tag></tag>
-   <elementGuidId>383e976e-2797-4140-9811-9c717f8eb3ae</elementGuidId>
+   <elementGuidId>8daef715-e50e-4f9b-8d19-31b52f7dbfd1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.login</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, &quot;b-box-alert__btns-inner-item&quot;)]/a</value>
+         <value>//a[contains(text(),'Post a job')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

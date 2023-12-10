@@ -18,35 +18,32 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.jobstoday.world/en/')
+WebUI.navigateToUrl(GlobalVariable.Staging)
 	
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Find Jobs')), 'Find Jobs', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/findJobsButton')), 'Find Jobs', false)
 
 WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/span_EN'))
 
 WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/span_DE'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_Jobbrse, Jobangebote - Jobstoday.world/a_Jobs finden')), 'Jobs finden', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/findJobsButton')), 'Jobs finden', false)
 
-//WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_EN'))
-
-WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_DE'))
+WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/span_EN'))
 
 WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_ES'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_/a_Encontrar Empleos')), 'Encontrar Empleos', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/findJobsButton')), 'Encontrar Empleos', false)
 
-WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_ES_1'))
+WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/span_EN'))
 
 WebUI.click(findTestObject('Object Repository/checkLanguageElements/Page_/span_PL'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/checkLanguageElements/Page_/a_Znajd prac')), 'Znajdź pracę', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedSearchElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/findJobsButton')), 'Znajdź pracę', false)
 
 
 WebUI.closeBrowser()

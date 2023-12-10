@@ -20,8 +20,7 @@ import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Production)
+WebUI.navigateToUrl(GlobalVariable.Staging )
 
 WebUI.maximizeWindow()
 
@@ -31,7 +30,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Email address_input_email'), 
-    GlobalVariable.EmployerEmail)
+    GlobalVariable.employeeStagingEmail)
 
 WebUI.setText(findTestObject('Object Repository/loginElements/Page_Login to Jobstoday.world - Create Resu_ef8a51/input_Password_input_password'), 
     GlobalVariable.Password)
@@ -73,5 +72,5 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 

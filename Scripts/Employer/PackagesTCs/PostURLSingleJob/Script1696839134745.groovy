@@ -22,7 +22,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.Select as Select
 import org.apache.commons.lang3.RandomStringUtils
 
-String jobURL = 'https://www.jobstoday.world/en/'
+String jobURL = GlobalVariable.Staging
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/BuySingleJobAndRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()

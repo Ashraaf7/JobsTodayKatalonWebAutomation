@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Employer/RegisterTCs/registerAsEmployeeUsingEma
 
 String accountActivated = 'YOUR ACCOUNT WAS ACTIVATED SUCCESSFULLY!'
 
-WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
 WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/span_Settings'))
 
@@ -37,6 +37,7 @@ WebUI.setText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/input
 
 WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/button_Save'))
 
+Thread.sleep(5000)
 WebUI.callTestCase(findTestCase('Test Cases/General/GetURLForChangeEmail'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.urlForChangeEmail)
@@ -44,6 +45,8 @@ WebUI.navigateToUrl(GlobalVariable.urlForChangeEmail)
 String expectdActiveTxt = WebUI.getText(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/check account activated'))
 
 WebUI.verifyMatch(expectdActiveTxt, accountActivated, false)
+
+//Deleting Account
 
 WebUI.click(findTestObject('Object Repository/ChangeEmail/Page_Jobstoday/Click Login btn'))
 
@@ -89,7 +92,7 @@ WebUI.click(findTestObject('Object Repository/loginElements/Page_Login to Jobsto
 
 Thread.sleep(2000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))

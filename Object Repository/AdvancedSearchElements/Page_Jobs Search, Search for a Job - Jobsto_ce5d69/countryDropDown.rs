@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>countryDropDown</name>
    <tag></tag>
-   <elementGuidId>ad40cbf7-de84-4df9-a0b8-ace42ddf4ad5</elementGuidId>
+   <elementGuidId>e0203398-3852-4f3e-b7dc-84a99ed77f36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.form-group.filter--icon > img</value>
+         <value>[name='countries[]']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div/div[4]/img</value>
+         <value>//header[@id='header']/div[3]/div/ul/li/a/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,46 +22,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>05e4066c-e49f-4c87-aa3f-85fe478f5d34</webElementGuid>
+      <webElementGuid>8705598c-5217-4fea-a747-13d660b3da84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/assets/images/icon/search-filter.svg</value>
-      <webElementGuid>dbbfa310-f433-4cea-b8e9-97a38d55d01a</webElementGuid>
+      <value>/assets/images/icon/search-Icon.svg</value>
+      <webElementGuid>8bb9074b-e287-43d4-b67e-c09854635643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;searchForm&quot;)/div[@class=&quot;search_form display--flex flex--wrap align-item--center active-job--serach&quot;]/div[@class=&quot;form-group filter--icon&quot;]/img[1]</value>
-      <webElementGuid>221c6cd0-9c0d-42cc-b976-865e257737cf</webElementGuid>
+      <value>id(&quot;header&quot;)/div[@class=&quot;header-menu&quot;]/div[@class=&quot;vertical-menu left--menu mobile-hidden&quot;]/ul[@class=&quot;display--flex&quot;]/li[1]/a[@class=&quot;display--flex align-item--center&quot;]/img[1]</value>
+      <webElementGuid>f8bbc2c8-d5ea-48c7-8f5c-ac2aa13cfd29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div/div[4]/img</value>
-      <webElementGuid>3c9fdb2a-e19e-4ab3-8a8c-4a0c582834c3</webElementGuid>
+      <value>//header[@id='header']/div[3]/div/ul/li/a/img</value>
+      <webElementGuid>1219c154-8661-4416-aa7c-2eb5f8158ff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/img</value>
-      <webElementGuid>f0ec8d5c-0836-4c74-85b4-53f11abb4cb7</webElementGuid>
+      <value>//div[3]/div/ul/li/a/img</value>
+      <webElementGuid>02822c57-08ac-4ee0-ad5e-1094b2e9b2be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '/assets/images/icon/search-filter.svg']</value>
-      <webElementGuid>d6d18bd5-4a4b-4bae-aa75-c3750aa83f19</webElementGuid>
+      <value>//img[@src = '/assets/images/icon/search-Icon.svg']</value>
+      <webElementGuid>8412b1c3-32a1-4a5b-8916-423a23e73494</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
