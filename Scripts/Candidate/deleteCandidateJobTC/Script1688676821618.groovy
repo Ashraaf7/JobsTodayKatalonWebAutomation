@@ -23,7 +23,19 @@ WebUI.click(findTestObject('Object Repository/DeleteJob/ProfileLogo'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/myJobsRequests'))
 
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete icon'))
+
+//WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete popup button'))
+
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/cancel Job'))
+Thread.sleep(7000)
+
+String txt = WebUI.getUrl()
+
+WebUI.verifyMatch(txt, GlobalVariable.Staging + 'new-dashboard/job-requests/index/', false)
+
 Thread.sleep(3000)
 
+WebUI.closeBrowser()
 
 
