@@ -57,14 +57,14 @@
       <guid>acd9c025-aceb-4c7c-9ffa-f5e519a5187f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/deleteCandidateJobTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/Deleting TCs/DeleteCandidateJobRequestTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0b5d2ec3-b5b3-4162-8d71-5df1f66f28d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/DeleteJobRequestCandidate</testCaseId>
+      <testCaseId>Test Cases/Candidate/DeleteJobRequestCandidate(delete)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

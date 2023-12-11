@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
+WebUI.click(findTestObject('Object Repository/DeleteJobRequest/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJobRequest/Page_/button_Post Job Request'))
 
@@ -59,4 +59,3 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/deletecandi
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButton'))
 
-WebUI.closeBrowser()

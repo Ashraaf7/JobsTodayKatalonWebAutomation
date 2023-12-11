@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DeleteJobRequestCandidate</name>
+   <name>DeleteCandidateJobRequestTC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>04b9770b-82a3-4aad-a7ce-9dc683318acc</testCaseGuid>
+   <testCaseGuid>75c9cfd6-e211-4ac3-ab53-2b2c2b9c20ed</testCaseGuid>
 </TestCaseEntity>
