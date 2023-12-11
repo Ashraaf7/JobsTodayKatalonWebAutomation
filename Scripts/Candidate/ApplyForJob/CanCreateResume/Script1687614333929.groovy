@@ -265,7 +265,8 @@ WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
 Thread.sleep(7000)
 
 driver.switchTo().alert().accept()
-Thread.sleep(3000)
+
+Thread.sleep(7000)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CreateResume/Page_/a_Testing'))
 
