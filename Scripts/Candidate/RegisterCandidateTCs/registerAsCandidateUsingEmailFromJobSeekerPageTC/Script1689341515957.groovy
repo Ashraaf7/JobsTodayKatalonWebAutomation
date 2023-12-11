@@ -130,4 +130,7 @@ Thread.sleep(3000)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging + 'login/', false)
 */
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
+
 WebUI.closeBrowser()

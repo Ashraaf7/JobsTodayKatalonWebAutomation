@@ -82,3 +82,6 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
 Thread.sleep(2000);
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+'registration/success/candidate/', false)
+// Get the global variable
+GlobalList.addToMyList(randomEmail)
+
