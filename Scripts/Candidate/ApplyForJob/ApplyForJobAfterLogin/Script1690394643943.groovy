@@ -27,6 +27,8 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Employer/PackagesTCs/PostTextSingleJob'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.closeBrowser()
+
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'), [:])
 
 WebUI.navigateToUrl(GlobalVariable.jobURL)
@@ -43,6 +45,7 @@ WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manage
 
 WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_Phone number_input_phone_number'), 
     '+201140560426')
+
 
 WebUI.setText(findTestObject('Object Repository/ApplyWithoutLogin/Page_HR Manager - Jobstoday World/input_Email address_input_email'), 
     'testaaawy@yahoo.com')
