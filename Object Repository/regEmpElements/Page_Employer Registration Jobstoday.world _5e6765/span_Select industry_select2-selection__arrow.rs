@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='Employer-information']/div/div/div/div/div[3]/div[3]/div[2]/span/span/span/span[2]</value>
+         <value>//span[text()='Select industry']  //following::span[@role='presentation'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e5c88a92-aed4-4a81-9335-843788f5b852</webElementGuid>
+      <webElementGuid>a29fd2e6-f071-4f29-a368-b656d4ea982c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__arrow</value>
-      <webElementGuid>e81df061-34dd-48db-984f-c2fe4a729223</webElementGuid>
+      <webElementGuid>b976f1bc-4525-48ef-b538-aa66cfe3fb76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>7277920a-3c2e-49fd-a5d7-5013dd034937</webElementGuid>
+      <webElementGuid>0cd9bf01-ac59-4b67-8281-7fb86fdb46cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Employer-information&quot;)/div[@class=&quot;order-detail-inner display--flex flex--wrap&quot;]/div[@class=&quot;order-detail-left&quot;]/div[@class=&quot;order-detail-left-inner&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;order-detail-form&quot;]/div[@class=&quot;form-group display--flex flex--wrap align-item--center&quot;]/div[@class=&quot;form-inner display--flex flex--wrap align-item--center industry&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--below select2-container--open select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]</value>
-      <webElementGuid>c9704209-9242-40b4-834b-35fcb4cf077b</webElementGuid>
+      <webElementGuid>d6b721f1-d827-4b25-8388-15f5549f2a13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Employer-information']/div/div/div/div/div[3]/div[3]/div[2]/span/span/span/span[2]</value>
-      <webElementGuid>5a2a979d-a7cf-49cc-96ce-3fc223068f63</webElementGuid>
+      <webElementGuid>02ef78bf-c4c0-46f4-a8b2-f421fde59bb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select industry'])[1]/following::span[1]</value>
-      <webElementGuid>acbece19-e9bd-4c08-a00d-5a9d939863df</webElementGuid>
+      <webElementGuid>adfc46f4-d586-4acf-9946-e26105e1296d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry *'])[1]/following::span[6]</value>
-      <webElementGuid>c50f532f-f1a0-4189-ac57-a8089e698dbe</webElementGuid>
+      <webElementGuid>69b36229-f904-494c-a680-195cd10d8f8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation *'])[1]/preceding::span[3]</value>
-      <webElementGuid>c4750c6d-af6a-4fca-abcc-03bcbc94d8f0</webElementGuid>
+      <webElementGuid>8c50df96-3f17-438b-a970-429dd1c0df34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Salutation'])[2]/preceding::span[3]</value>
-      <webElementGuid>1ef457b4-8f3b-4656-821d-624125bcaf63</webElementGuid>
+      <webElementGuid>31eae9ae-a23d-40d4-94a8-755df270258c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span/span/span/span[2]</value>
-      <webElementGuid>9ba2c399-e942-414a-9f2a-8ab2851d621c</webElementGuid>
+      <webElementGuid>22f04b3e-f1f5-4049-af2a-c1fda5fd4249</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

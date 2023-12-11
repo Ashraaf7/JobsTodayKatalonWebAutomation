@@ -57,15 +57,17 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Company name_input_company_name'),
 		'Ashroof')
 	
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select profile type_select2-selection__arrow'))
+	//WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select profile type_select2-selection__arrow'))
+	a.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform()
 	
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/Employee'))
 	
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select industry_select2-selection__arrow'))
-	
+	//WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select industry_select2-selection__arrow'))
+	a.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform()
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/industrySelection'))
 	
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Salutation_select2-selection__arrow'))
+	//WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Salutation_select2-selection__arrow'))
+	a.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform()
 	
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Register for free in minutes on Jobsto_7b10ce/MR'))
 	
@@ -88,11 +90,13 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	WebUI.setText(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/input_Phone number_input_phone_number'),
 		'+201146196154')
 	
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select communication language_select2-_9515e7'))
+	//WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select communication language_select2-_9515e7'))
+	a.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform()
+	
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/En'))
 	
-	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select number_select2-selection__arrow'))
-	
+	//WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/span_Select number_select2-selection__arrow'))
+	a.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform()
 	WebUI.click(findTestObject('Object Repository/regEmpElements/Page_Employer Registration Jobstoday.world _5e6765/div_id(katalon-rec_elementInfoDiv)'))
 	
 	
