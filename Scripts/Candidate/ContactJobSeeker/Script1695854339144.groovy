@@ -111,7 +111,7 @@ Thread.sleep(5000)
 
 WebUI.refresh() 
 String actualSubject = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/SubjectOfFirstEmail'))
-WebUI.verifyMatch(actualSubject, excpectedSubject, false)
+WebUI.verifyMatch(actualSubject, expectedSubject, false)
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/checkBoxForAllMailBox'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/deleteAllMailBoxes'))

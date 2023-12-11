@@ -31,8 +31,7 @@ String JobSeekerOneEmail = WebUI.getText(findTestObject('Object Repository/Conta
 WebUI.closeBrowser()
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/RegisterCandidateTCs/registerAsCandidateUsingEmailFromRegisterPageTC'),  [:])
-
-WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
+WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/MailBox'))
 String JobSeekerTwoEmail = WebUI.getText(findTestObject('Object Repository/ContactJobSeeker/JobSeekerEmail'))
 
