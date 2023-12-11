@@ -36,7 +36,7 @@
       <guid>2a750f24-37cd-4f02-8d2b-5d742a548162</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidate/ApplyForJob/PostJobsAsCandidateAllTC</testCaseId>
+      <testCaseId>Test Cases/Candidate/ApplyForJob/PostJobsAsCandidateTC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

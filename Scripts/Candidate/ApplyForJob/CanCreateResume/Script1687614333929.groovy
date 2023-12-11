@@ -262,6 +262,7 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/butto
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
+Thread.sleep(3000)
 
 driver.switchTo().alert().accept()
 Thread.sleep(3000)
