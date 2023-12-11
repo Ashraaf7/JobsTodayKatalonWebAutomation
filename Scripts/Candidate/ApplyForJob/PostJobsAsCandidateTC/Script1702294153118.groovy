@@ -16,16 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
-WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Post Job Request'))
+WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 
-WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/button_Post Now'))
+def driver = DriverFactory.getWebDriver()
+def a = new Actions(driver)
+WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/buttonJobPost'))
 
-WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/input_First name_input_firstname'))
+WebUI.setText(findTestObject('Object Repository/PostJobsTC/Page_/input_First name_input_firstname'), "Ahmed")
 
-WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/input_Last name_input_lastname'))
+WebUI.setText(findTestObject('Object Repository/PostJobsTC/Page_/input_Last name_input_lastname'), "Tester")
 
 WebUI.setText(findTestObject('Object Repository/PostJobsTC/Page_/input_Ex SEO Marketing, Social Media Expert_7f15ab'), 'Sw Tester ')
 
@@ -35,6 +40,24 @@ WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/button_Create Job
 Thread.sleep(3000)
 
 WebUI.scrollToPosition(573, 885)
+
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(GlobalVariable.cardNumber).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cardHolderName).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.expirationDate).build().perform()
+
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cvv).build().perform()
+
+
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 
 WebUI.click(findTestObject('Object Repository/PostJobsTC/Page_/button_Publish'))
 

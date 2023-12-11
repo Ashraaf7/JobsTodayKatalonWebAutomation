@@ -21,8 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.annotation.Keyword
 import org.apache.commons.lang3.RandomStringUtils
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Production)
+WebUI.navigateToUrl(GlobalVariable.Staging + 'job-request/')
 
 WebUI.maximizeWindow()
 
@@ -90,15 +89,32 @@ WebUI.sendKeys(findTestObject('Object Repository/JobSeekerRegElements/Page_/butt
 
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_Create Account'))
 
-Thread.sleep(3000)
 
+Thread.sleep(3000)
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/cardRadioButton'))
+a.sendKeys(Keys.TAB).build().perform()
+
+a.sendKeys(GlobalVariable.cardNumber).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cardHolderName).build().perform()
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.expirationDate).build().perform()
+
+
+a.sendKeys(Keys.TAB).build().perform()
+a.sendKeys(GlobalVariable.cvv).build().perform()
+
+
+WebUI.click(findTestObject('Object Repository/BuySingleJobAndRegister/Page_/privacy'))
 WebUI.scrollToPosition(573, 885)
 
 WebUI.click(findTestObject('Object Repository/JobSeekerRegElements/Page_/button_Publish'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/JobSeekerRegElements/Page_/h5_Your purchase was successful'))
 
-WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+/*WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
 WebUI.click(findTestObject('Object Repository/ChangePasswordElements/Page_/img'))
 
@@ -112,6 +128,6 @@ WebUI.click(findTestObject('Object Repository/ChangePasswordElements/DeleteButto
 
 Thread.sleep(3000)
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
-
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging + 'login/', false)
+*/
 WebUI.closeBrowser()

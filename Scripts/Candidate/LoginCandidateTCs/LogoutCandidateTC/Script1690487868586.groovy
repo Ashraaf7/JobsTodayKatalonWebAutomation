@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/Candidate/LoginCandidateTCs/CandidatLoginTC'),  [:])
 
-WebUI.click(findTestObject('Object Repository/Logout/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
+//WebUI.click(findTestObject('Object Repository/Logout/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/img'))
 
-WebUI.click(findTestObject('Object Repository/Logout/Page_/img'))
+//WebUI.click(findTestObject('Object Repository/Logout/Page_/img'))
 
 WebUI.click(findTestObject('Object Repository/Logout/Page_/a_LOGOUT'))
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging + "login/", false)
 
 WebUI.closeBrowser()
 

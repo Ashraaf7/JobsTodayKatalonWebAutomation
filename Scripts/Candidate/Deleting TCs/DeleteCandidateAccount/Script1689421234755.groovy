@@ -41,7 +41,7 @@ Thread.sleep(3000)
 
 String pageURL = WebUI.getUrl()
 
-WebUI.verifyMatch(pageURL, 'https://www.jobstoday.world/en/login/', false)
+WebUI.verifyMatch(pageURL, GlobalVariable.Staging + 'login/', false)
 
 WebUI.closeBrowser()
 

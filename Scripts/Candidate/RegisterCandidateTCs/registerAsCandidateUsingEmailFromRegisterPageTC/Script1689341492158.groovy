@@ -24,15 +24,15 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.interactions.Actions
 import com.kms.katalon.core.annotation.Keyword
 import org.apache.commons.lang3.RandomStringUtils
+
 WebUI.openBrowser('')
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl(GlobalVariable.Staging)
+WebUI.navigateToUrl(GlobalVariable.Staging+'registration/')
 WebUI.maximizeWindow()
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'), FailureHandling.OPTIONAL))
 	WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/button_Accept All Cookies'))
 
-WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
+//WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Registration'))
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Register for free in minutes on Jobsto_7b10ce/div_Im a Candidate'))
 
@@ -81,4 +81,4 @@ WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Reg
 
 WebUI.click(findTestObject('Object Repository/regCandElements/Page_Jobseeker Registration Jobstoday.world_142f00/button_Register Now'))
 Thread.sleep(2000);
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/registration/success/candidate/", false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+'registration/success/candidate/', false)

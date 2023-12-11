@@ -17,13 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Candidate/ApplyForJob/PostJobsAsCandidateAllTC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Candidate/ApplyForJob/PostJobsAsCandidateTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/ProfileLogo'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/myJobsRequests'))
 
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete icon'))
+
+//WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete popup button'))
+
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/cancel Job'))
+Thread.sleep(7000)
+
+String txt = WebUI.getUrl()
+
+WebUI.verifyMatch(txt, GlobalVariable.Staging + 'new-dashboard/job-requests/index/', false)
+
 Thread.sleep(3000)
 
+WebUI.closeBrowser()
 
 
