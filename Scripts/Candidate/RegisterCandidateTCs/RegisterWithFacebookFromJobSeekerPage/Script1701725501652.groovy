@@ -16,24 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-String edgeProcessName = "msedge.exe";
-String chromeProcessName = "chrome.exe";
-
-try {
-	Runtime.getRuntime().exec("taskkill /F /IM " + edgeProcessName);
-	Runtime.getRuntime().exec("taskkill /F /IM " + chromeProcessName);
-	
-} catch (IOException | InterruptedException e) {
-	e.printStackTrace();
-}
+WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl("https://jobstoday.world/en/registration/premium/s")
 
+WebUI.navigateToUrl('https://jobstoday.world/en/registration/premium/s')
 
 WebUI.maximizeWindow()
 
@@ -46,44 +36,52 @@ driver = DriverFactory.getWebDriver()
 def a = new Actions(driver)
 
 // Call the sendKeys() method on the Actions instance to simulate keyboard input
-
-
 Thread.sleep(3000)
 
-for(int i= 0; i < 11 ;i++){
-	a.sendKeys(Keys.TAB).build().perform()
-	
+for (int i = 0; i < 11; i++) {
+    a.sendKeys(Keys.TAB).build().perform()
 }
+
 Thread.sleep(3000)
 
 a.sendKeys(Keys.ENTER).build().perform()
+
 Thread.sleep(3000)
 
 WebUI.switchToWindowIndex(1)
+
 Thread.sleep(3000)
 
 a.sendKeys(Keys.TAB).build().perform()
+
 a.sendKeys(Keys.ENTER).build().perform()
 
 Thread.sleep(3000)
-Boolean flag = false;
-try {
-	WebUI.getUrl();
-} catch (Exception e) {
-	flag = true;
-	System.out.println("Aman ya 8aly");
-}
 
-if(!flag)
-{
-	a.sendKeys(Keys.TAB).build().perform()
-	a.sendKeys(Keys.ENTER).build().perform()
+Boolean flag = false
+
+try {
+    WebUI.getUrl()
+}
+catch (Exception e) {
+    flag = true
+
+    System.out.println('Aman ya 8aly')
+} 
+
+if (!(flag)) {
+    a.sendKeys(Keys.TAB).build().perform()
+
+    a.sendKeys(Keys.ENTER).build().perform()
 }
 
 WebUI.switchToWindowIndex(0)
-Thread.sleep(3000)
-WebUI.navigateToUrl("https://www.jobstoday.world/en/new-dashboard/overview/")
 
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/new-dashboard/overview/", false)
+Thread.sleep(3000)
+
+WebUI.navigateToUrl('https://www.jobstoday.world/en/new-dashboard/overview/')
+
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.jobstoday.world/en/new-dashboard/overview/', false)
 
 driver.quit()
+

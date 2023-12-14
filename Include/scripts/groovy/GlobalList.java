@@ -13,6 +13,12 @@ public class GlobalList {
               myList.add(value);
           }
     }
+    
+    public static void removeFromMyList(String value) {
+  	  if (myList.contains(value)) {
+  		  	myList.remove(value);
+        }
+  }
 
     // Getter to retrieve the list
     public static List<String> getMyList() {

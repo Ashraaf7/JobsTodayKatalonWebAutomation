@@ -20,16 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-String edgeProcessName = "msedge.exe";
-String chromeProcessName = "chrome.exe";
-
-try {
-	Runtime.getRuntime().exec("taskkill /F /IM " + edgeProcessName);
-	Runtime.getRuntime().exec("taskkill /F /IM " + chromeProcessName);
-	
-} catch (IOException | InterruptedException e) {
-	e.printStackTrace();
-}
+WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.openBrowser('')
 WebUI.navigateToUrl("https://jobstoday.world/en/registration/premium/s")
