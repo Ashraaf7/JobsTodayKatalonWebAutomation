@@ -75,7 +75,8 @@ for (String s:GlobalList.getMyList() )
 	
 	Thread.sleep(2000)
 	
-	WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false)
+	if(!WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging, false))
+		continue;
 	
 	WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))
 	WebUI.click(findTestObject('Object Repository/DeleteEmployerAccount/Setting'))

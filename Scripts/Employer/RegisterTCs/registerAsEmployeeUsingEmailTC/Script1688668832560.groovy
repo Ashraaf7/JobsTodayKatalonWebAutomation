@@ -136,5 +136,5 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/regCandElements
 	
 	// Get the global variable
 	GlobalList.addToMyList(randomEmail)
-	
+	GlobalVariable.flagEmail = randomEmail
 

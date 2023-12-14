@@ -30,36 +30,16 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-String edgeProcessName = "msedge.exe";
-String chromeProcessName = "chrome.exe";
+WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
-try {
-	Runtime.getRuntime().exec("taskkill /F /IM " + edgeProcessName);
-	Runtime.getRuntime().exec("taskkill /F /IM " + chromeProcessName);
-	
-} catch (IOException | InterruptedException e) {
-	e.printStackTrace();
-}
-
-WebUI.openBrowser('')
-<<<<<<< HEAD
-WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-WebUI.navigateToUrl("https://www.jobstoday.world/en/login/")
-=======
 WebUI.navigateToUrl(GlobalVariable.Production+"login/")
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
+
 
 WebUI.maximizeWindow()
 
 System.out.print(WebUI.getUrl())
 
-<<<<<<< HEAD
-//WebUI.click(findTestObject('Object Repository/loginElements/Page_Jobs Search, Search for a Job - Jobsto_ce5d69/a_Login'))
 
-//WebUI.click(findTestObject('Object Repository/LoginWithGoogle/Page_Login to Jobstoday.world - Create Resu_ef8a51/span_Sign in with Google'))
-
-=======
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
 // Get the driver instance
 driver = DriverFactory.getWebDriver()
 
@@ -84,10 +64,7 @@ WebUI.switchToWindowIndex(1)
 Thread.sleep(3000)
 
 a.sendKeys(Keys.TAB).build().perform()
-<<<<<<< HEAD
-//a.sendKeys(Keys.TAB).build().perform()
-=======
->>>>>>> 7cbb682c092ae7519fefaa0774c3924151bc5f2e
+
 a.sendKeys(Keys.ENTER).build().perform()
 
 Thread.sleep(3000)

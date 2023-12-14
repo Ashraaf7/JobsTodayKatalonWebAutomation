@@ -23,6 +23,7 @@ import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Employer/RegisterTCs/registerAsEmployeeUsingEmailTC'), [:], FailureHandling.STOP_ON_FAILURE)
 
+GlobalList.removeFromMyList(GlobalVariable.flagEmail)
 String accountActivated = 'YOUR ACCOUNT WAS ACTIVATED SUCCESSFULLY!'
 
 WebUI.click(findTestObject('Object Repository/ContactJobSeeker/Page_/DashboardButton'))

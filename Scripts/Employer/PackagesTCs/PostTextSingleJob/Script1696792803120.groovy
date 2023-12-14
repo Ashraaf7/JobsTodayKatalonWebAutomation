@@ -14,6 +14,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import groovy.transform.ThreadInterrupt
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -75,6 +77,8 @@ WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_Yes'
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/label_No'))
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/a_Next'))
+Thread.sleep(2000)
+
 
 WebUI.click(findTestObject('Object Repository/PostTextSingleJob/Page_/input_HH-AT-2023-10-0004_privacy'))
 
