@@ -25,10 +25,13 @@ WebUI.click(findTestObject('Object Repository/DeleteJob/myJobsRequests'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete icon'))
 
-//WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete popup button'))
-
 WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/cancel Job'))
-Thread.sleep(7000)
+
+Thread.sleep(3000)
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete icon'))
+
+WebUI.click(findTestObject('Object Repository/DeleteJob/Page_Jobstoday/delete popup button'))
+Thread.sleep(3000)
 
 String txt = WebUI.getUrl()
 
