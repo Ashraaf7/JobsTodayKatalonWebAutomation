@@ -230,6 +230,8 @@ robot.delay(2000)
 robot.keyPress(KeyEvent.VK_ENTER)
 
 robot.keyRelease(KeyEvent.VK_ENTER)
+Thread.sleep(3000)
+
 
 WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/button_Edit'))
 
@@ -262,9 +264,12 @@ WebUI.click(findTestObject('Object Repository/CreateResume/NewResume/Page_/butto
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
-Thread.sleep(7000)
-
-driver.switchTo().alert().accept()
+Thread.sleep(3000)
+if(WebUI.waitForAlert(5, FailureHandling.OPTIONAL))
+	driver.switchTo().alert().accept()
+WebUI.click(findTestObject('Object Repository/CreateResume/Page_/a_My Resume'))
+if(WebUI.waitForAlert(5, FailureHandling.OPTIONAL))
+	driver.switchTo().alert().accept()
 
 Thread.sleep(7000)
 

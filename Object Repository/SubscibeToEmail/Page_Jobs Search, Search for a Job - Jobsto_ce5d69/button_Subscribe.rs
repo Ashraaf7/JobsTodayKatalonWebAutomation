@@ -6,15 +6,15 @@
    <elementGuidId>8aba689f-0b18-4f47-832e-bbeb8d6a208f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.submit--button > button</value>
+         <key>XPATH</key>
+         <value>form > [type='submit']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='New Vacancies in Your Inbox'])[1]/following::button[1]</value>
+         <key>CSS</key>
+         <value>form > [type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ab4a7440-f824-48b8-a67e-8a9975ef4553</webElementGuid>
+      <webElementGuid>a4acdfbf-b7e9-4261-b7a2-e453e2ed934e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Subscribe</value>
-      <webElementGuid>d75d62f6-7613-46b2-9179-2945d125efc9</webElementGuid>
+      <webElementGuid>eeca7d2b-bb44-42c6-9d9f-e372bacc42ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;index--page&quot;]/footer[@class=&quot;foooter&quot;]/div[@class=&quot;footer-wrapper&quot;]/div[@class=&quot;footer-main&quot;]/div[@class=&quot;news-letter&quot;]/div[@class=&quot;news-letter-section&quot;]/form[@class=&quot;subscribe-form-footer2&quot;]/div[@class=&quot;submit--button&quot;]/button[1]</value>
-      <webElementGuid>7b16d0ff-d704-4660-8c72-b7253706cc66</webElementGuid>
+      <webElementGuid>04ad8abb-100f-466b-92ed-ee843406f117</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Vacancies in Your Inbox'])[1]/following::button[1]</value>
-      <webElementGuid>759d9506-6314-49c3-9545-c85c1c1c4a80</webElementGuid>
+      <webElementGuid>6a9de9f4-85ea-42e8-938b-85dd127d7e73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GDPR'])[1]/following::button[1]</value>
-      <webElementGuid>e13de347-6ef4-476b-9760-2a810f8d134a</webElementGuid>
+      <webElementGuid>6575861c-d17a-46b0-91f8-a1c2e53ca8c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Popular Jobs'])[2]/preceding::button[1]</value>
-      <webElementGuid>7b58e1e0-8a97-4dc4-8fcf-27816878560d</webElementGuid>
+      <webElementGuid>f9b3f9fd-2853-4a66-ae22-828417bfe010</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jobs by Industry'])[2]/preceding::button[1]</value>
-      <webElementGuid>a8e5ea50-4baf-446f-a631-779139592d18</webElementGuid>
+      <webElementGuid>68c80906-84a9-4546-9541-d1cc855ac067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Subscribe']/parent::*</value>
-      <webElementGuid>5a3571c4-bd0f-4866-819b-06542126aedb</webElementGuid>
+      <webElementGuid>6839acd0-1447-4215-bab1-1d9bbac31427</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/button</value>
-      <webElementGuid>3a36bbf2-801c-423e-8e7e-9dafedd676fa</webElementGuid>
+      <webElementGuid>bd06c677-3f89-4891-a0d8-c0d9130850d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Subscribe' or . = 'Subscribe')]</value>
-      <webElementGuid>a7318d7b-1a3a-4988-8042-790c5efed660</webElementGuid>
+      <webElementGuid>4994558d-72d4-4b1b-a5d7-e9256e5eaf94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
