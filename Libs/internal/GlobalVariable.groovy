@@ -32,7 +32,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object employeeProductonEmail
+    public static Object CandidateProductonEmail
      
     /**
      * <p></p>
@@ -130,7 +130,7 @@ public class GlobalVariable {
             Production = selectedVariables['Production']
             CandidateStagingEmail = selectedVariables['CandidateStagingEmail']
             Password = selectedVariables['Password']
-            employeeProductonEmail = selectedVariables['employeeProductonEmail']
+            CandidateProductonEmail = selectedVariables['CandidateProductonEmail']
             EmployeeProductionEmail = selectedVariables['EmployeeProductionEmail']
             newPassword = selectedVariables['newPassword']
             UpdatedEmail = selectedVariables['UpdatedEmail']

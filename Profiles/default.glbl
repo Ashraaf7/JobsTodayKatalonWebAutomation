@@ -27,7 +27,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'jobseeker12@gmail.com'</initValue>
-      <name>employeeProductonEmail</name>
+      <name>CandidateProductonEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
