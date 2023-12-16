@@ -116,11 +116,4 @@
       <testCaseId>Test Cases/Candidate/verifyThatEachJobseekerHasDifferentEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>60b01dc3-f15f-498f-a741-765c60f6ebdf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General/DeleteAllAccountsAndJobsPosted</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
