@@ -34,20 +34,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Specify the path to the user data directory (Chrome profile)
-String userProfilePath = "C:\\Users\\paperspace\\AppData\\Local\\Google\\Chrome\\User Data\\Default";
-
-// Create ChromeOptions
-ChromeOptions options = new ChromeOptions();
-
-// Set the Chrome profile path within the Chrome options
-options.addArguments("profile-directory=" + userProfilePath);
-
-WebDriver driver = new ChromeDriver(options);
-
-// Open Chrome browser with custom options
-DriverFactory.changeWebDriver(new ChromeDriver(options))
-
 WebUI.navigateToUrl(GlobalVariable.Staging+"login/")
 
 

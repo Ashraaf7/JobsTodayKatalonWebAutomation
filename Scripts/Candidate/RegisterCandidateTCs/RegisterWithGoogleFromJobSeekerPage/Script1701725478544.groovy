@@ -22,8 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl("https://jobstoday.world/en/registration/premium/s")
+WebUI.navigateToUrl(GlobalVariable.Staging+"registration/premium/s")
 
 
 WebUI.maximizeWindow()
@@ -73,8 +72,7 @@ if(!flag)
 
 WebUI.switchToWindowIndex(0)
 Thread.sleep(3000)
-WebUI.navigateToUrl("https://www.jobstoday.world/en/new-dashboard/overview/")
+WebUI.navigateToUrl(GlobalVariable.Staging+"new-dashboard/overview/")
 
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/new-dashboard/overview/", false)
-
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+"new-dashboard/overview/", false)
 driver.quit()
