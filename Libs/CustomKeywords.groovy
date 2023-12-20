@@ -7,6 +7,17 @@ import java.lang.String
 
 
 
+def static "com.testwithhari.katalon.plugins.Gmail.getEmailsCount"(
+    	String emailID	
+     , 	String password	
+     , 	String folderLableName	) {
+    (new com.testwithhari.katalon.plugins.Gmail()).getEmailsCount(
+        	emailID
+         , 	password
+         , 	folderLableName)
+}
+
+
 def static "com.testwithhari.katalon.plugins.Gmail.deleteAllEMails"(
     	String emailID	
      , 	String password	
@@ -30,17 +41,6 @@ def static "com.testwithhari.katalon.plugins.Gmail.sendEmail"(
          , 	to_emailaddress
          , 	email_subject
          , 	email_body)
-}
-
-
-def static "com.testwithhari.katalon.plugins.Gmail.getEmailsCount"(
-    	String emailID	
-     , 	String password	
-     , 	String folderLableName	) {
-    (new com.testwithhari.katalon.plugins.Gmail()).getEmailsCount(
-        	emailID
-         , 	password
-         , 	folderLableName)
 }
 
 

@@ -1,3 +1,5 @@
+import org.openqa.selenium.WebDriver
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -32,7 +34,22 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('General/ClosingInstance'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.Production+"login/")
+// Specify the path to the user data directory (Chrome profile)
+String userProfilePath = "C:\\Users\\paperspace\\AppData\\Local\\Google\\Chrome\\User Data\\Default";
+
+// Create ChromeOptions
+ChromeOptions options = new ChromeOptions();
+
+// Set the Chrome profile path within the Chrome options
+options.addArguments("profile-directory=" + userProfilePath);
+
+WebDriver driver = new ChromeDriver(options);
+
+// Open Chrome browser with custom options
+DriverFactory.changeWebDriver(new ChromeDriver(options))
+
+WebUI.navigateToUrl(GlobalVariable.Staging+"login/")
+
 
 
 WebUI.maximizeWindow()
@@ -84,8 +101,8 @@ if(!flag)
 
 WebUI.switchToWindowIndex(0)
 Thread.sleep(3000)
-WebUI.navigateToUrl("https://www.jobstoday.world/en/new-dashboard/overview/")
+WebUI.navigateToUrl(GlobalVariable.Staging+"new-dashboard/overview/")
 
-WebUI.verifyMatch(WebUI.getUrl(), "https://www.jobstoday.world/en/new-dashboard/overview/", false)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.Staging+"new-dashboard/overview/", false)
 
 driver.quit()
